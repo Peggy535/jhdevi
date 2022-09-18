@@ -4,11 +4,20 @@
     <section class="h-screen w-screen fixed">
       <video
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
-        src="/videos/landing_page_video.mp4"
+        src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1595960724/Well%20Being/wellbeing_1_xxiym7.webm"
         autoplay
         loop
         muted
-      ></video>
+      >
+        <source
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1595960724/Well%20Being/wellbeing_1_xxiym7.webm"
+          type="video/webm"
+        />
+        <source
+          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1595960724/Well%20Being/wellbeing_1_xxiym7.mp4"
+          type="video/mp4"
+        />
+      </video>
     </section>
     <!-- Landing title -->
     <main class="relative h-auto w-screen z-20 bg-white bg-opacity-80 p-0 m-0">
@@ -51,7 +60,7 @@
           class="grid items-center col-span-1 row-span-1 m-2 p-2 sm:m-4 sm:p-4 md:m-6 md:p-6 lg:m-10 lg:p-10"
         >
           <p
-            class="text-2xl sm:text-4xl md:text-5xl m-1 p-1 sm:m-5 sm:p-5 leading-normal text-left font-DomaineTextlight text-neutral-800 border-l-8 border-l-brand-rose-gold"
+            class="text-2xl sm:text-4xl md:text-5xl m-1 p-1 sm:m-5 sm:p-5 leading-loose text-left font-NeueMontreal text-neutral-800 border-l-8 border-l-brand-rose-gold"
           >
             <span
               class="text-9xl sm:text-13xl md:text-15xl lg:text-18xl font-Domainemedium text-brand-rose-gold"
@@ -72,7 +81,7 @@
           class="grid items-center col-span-1 sm:col-span-2 md:col-start-3 md:col-end-5 row-span-1 rounded-3xl m-2 p-2 sm:mb-20 bg-brand-rose-gold bg-opacity-80 border-8 border-neutral-50 shadow-xl shadow-neutral-400"
         >
           <p
-            class="text-2xl sm:text-2xl m-1 p-1 leading-normal text-left text-neutral-50 font-DomaineTextlight"
+            class="text-2xl sm:text-2xl m-1 p-1 leading-normal text-left text-neutral-50"
           >
             Please click the button below to watch a short video about me and my
             journey so far.
@@ -87,7 +96,7 @@
       <div class="relative h-auto w-screen grid grid-cols-1 grid-rows-1 z-30">
         <span class="grid items-center col-span-1 row-span-1 text-right">
           <NuxtLink to="/about">
-            <p class="m-4 text-xl font-DomaineTextlight">
+            <p class="m-4 text-xl">
               Discover more about JHDevi
             </p>
           </NuxtLink>

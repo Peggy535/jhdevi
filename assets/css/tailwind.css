@@ -42,9 +42,14 @@
   src: url("assets/fonts/domaine-sans-text-bold.woff") format("woff"),
     url("assets/fonts/domaine-sans-text-bold.woff2") format("woff2");
 }
+@font-face {
+  font-family: "NeueMontrealLight";
+  src: url("assets/fonts/PPNeueMontreal-Light.woff") format("woff"),
+    url("assets/fonts/PPNeueMontreal-Light.woff2") format("woff2");
+}
 
 body {
-  font-family: "Domaineregular";
+  font-family: "NeueMontrealLight";
   margin: 0;
   height: 100%;
 }

@@ -38,7 +38,7 @@
       </p>
       <img
         class="object-contain object-center"
-        src="/public/images/journey_path.jpg"
+        src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto/v1596119487/Well%20Being/journey_eaxuxe.jpg"
         alt=""
       />
     </section>
@@ -52,7 +52,7 @@
       </p>
       <img
         class="object-contain object-center"
-        src="/public/images/lady_field_sun_background.jpg"
+        src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto/v1596125701/Well%20Being/lady-field.min_jidrzu.jpg"
         alt=""
       />
     </section>
