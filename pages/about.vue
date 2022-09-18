@@ -38,7 +38,7 @@
       </p>
       <img
         class="object-contain object-center"
-        src="images/journey_path.jpg"
+        src="/public/images/journey_path.jpg"
         alt=""
       />
     </section>
@@ -52,7 +52,7 @@
       </p>
       <img
         class="object-contain object-center"
-        src="images/lady_field_sun_background.jpg"
+        src="/public/images/lady_field_sun_background.jpg"
         alt=""
       />
     </section>
