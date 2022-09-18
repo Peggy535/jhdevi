@@ -23,7 +23,8 @@
     url("assets/fonts/domaine-sans-fine-thin.woff2") format("woff2");
 }
 
-html,
 body {
   font-family: "Domaineregular";
+  margin: 0;
+  height: 100%;
 }
