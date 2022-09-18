@@ -4,7 +4,7 @@
     <section class="h-screen w-screen fixed">
       <video
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
-        src="/images/landing_page_video.mp4"
+        src="/videos/landing_page_video.mp4"
         autoplay
         loop
         muted
@@ -51,10 +51,10 @@
           class="grid items-center col-span-1 row-span-1 m-2 p-2 sm:m-4 sm:p-4 md:m-6 md:p-6 lg:m-10 lg:p-10"
         >
           <p
-            class="text-2xl sm:text-4xl md:text-5xl m-1 p-1 sm:m-5 sm:p-5 leading-relaxed text-left font-DomaineTextlight text-neutral-800 border-l-8 border-l-neutral-800 border-spacing-6"
+            class="text-2xl sm:text-4xl md:text-5xl m-1 p-1 sm:m-5 sm:p-5 leading-normal text-left font-DomaineTextlight text-neutral-800 border-l-8 border-l-brand-rose-gold"
           >
             <span
-              class="text-9xl sm:text-13xl md:text-15xl lg:text-18xl font-Domainemedium"
+              class="text-9xl sm:text-13xl md:text-15xl lg:text-18xl font-Domainemedium text-brand-rose-gold"
               >Hello</span
             >
             and welcome to my website, I hope you find both it and the words
