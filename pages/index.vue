@@ -47,9 +47,11 @@
       <blockquote
         class="relative h-screen w-screen grid grid-cols-1 grid-rows-1 gap-2"
       >
-        <span class="grid items-center col-span-1 row-span-1 m-2 p-2 sm:m-4 sm:p-4 md:m-6 md:p-6 lg:m-10 lg:p-10">
+        <span
+          class="grid items-center col-span-1 row-span-1 m-2 p-2 sm:m-4 sm:p-4 md:m-6 md:p-6 lg:m-10 lg:p-10"
+        >
           <p
-            class="text-2xl sm:text-4xl m-1 p-1 sm:m-5 sm:p-5 leading-relaxed text-left font-Domaineregular text-neutral-800 border-l-8 border-l-neutral-800 border-spacing-6"
+            class="text-2xl sm:text-4xl md:text-5xl m-1 p-1 sm:m-5 sm:p-5 leading-relaxed text-left font-DomaineTextlight text-neutral-800 border-l-8 border-l-neutral-800 border-spacing-6"
           >
             <span
               class="text-9xl sm:text-13xl md:text-15xl lg:text-18xl font-Domainemedium"
@@ -64,13 +66,13 @@
       </blockquote>
       <!-- Personal video -->
       <aside
-        class="relative h-auto w-screen grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 grid-rows-1 gap-2"
+        class="relative h-auto w-screen grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 grid-rows-1 gap-2 my-10"
       >
         <span
           class="grid items-center col-span-1 sm:col-span-2 md:col-start-3 md:col-end-5 row-span-1 rounded-3xl m-2 p-2 sm:mb-20 bg-brand-rose-gold bg-opacity-80 border-8 border-neutral-50 shadow-xl shadow-neutral-400"
         >
           <p
-            class="text-2xl sm:text-2xl m-1 p-1 leading-normal text-left text-neutral-50 font-Domaineregular"
+            class="text-2xl sm:text-2xl m-1 p-1 leading-normal text-left text-neutral-50 font-DomaineTextlight"
           >
             Please click the button below to watch a short video about me and my
             journey so far.
@@ -85,7 +87,9 @@
       <div class="relative h-auto w-screen grid grid-cols-1 grid-rows-1 z-30">
         <span class="grid items-center col-span-1 row-span-1 text-right">
           <NuxtLink to="/about">
-            <p class="m-4 text-xl">Discover more about JHDevi</p>
+            <p class="m-4 text-xl font-DomaineTextlight">
+              Discover more about JHDevi
+            </p>
           </NuxtLink>
         </span>
       </div>
