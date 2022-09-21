@@ -13,6 +13,8 @@ module.exports = {
         Domainelight: ["Domainelight"],
         Domaineregular: ["Domaineregular"],
         Domainemedium: ["Domainemedium"],
+        ObjectSans: ["ObjectSans"],
+        PierSans: ["PierSans"],
       },
       colors: {
         "brand-rose-gold": "#b76e79",

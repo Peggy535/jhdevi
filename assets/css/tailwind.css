@@ -22,10 +22,15 @@
   src: url("assets/fonts/domaine-sans-fine-thin.woff") format("woff"),
     url("assets/fonts/domaine-sans-fine-thin.woff2") format("woff2");
 }
-
-
-body {
-  font-family: "Domainemedium";
-  margin: 0;
-  height: 100%;
+@font-face {
+  font-family: "ObjectSans";
+  src: url("assets/fonts/PPObjectSans-Thin.woff") format("woff"),
+    url("assets/fonts/PPObjectSans-Thin.woff2") format("woff2");
 }
+@font-face {
+  font-family: "PierSans";
+  src: url("assets/fonts/PPPierSans-Light.woff") format("woff"),
+    url("assets/fonts/PPPierSans-Light.woff2") format("woff2");
+}
+
+

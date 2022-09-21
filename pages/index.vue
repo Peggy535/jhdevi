@@ -39,7 +39,7 @@
           class="grid items-center col-span-1 row-span-1 rounded-3xl leading-relaxed m-2 p-2 sm:m-4 sm:p-4 md:m-6 md:p-6 lg:m-10 lg:p-10 bg-brand-rose-gold bg-opacity-80 border-8 border-neutral-50 shadow-lg shadow-neutral-400"
         >
           <h1
-            class="text-6xl sm:text-7xl lg:text-8xl m-1 p-1 sm:m-5 sm:p-5 text-neutral-100"
+            class="text-6xl sm:text-7xl lg:text-8xl m-1 p-1 sm:m-5 sm:p-5 text-neutral-100 font-ObjectSans"
           >
             <span
               class="text-9xl sm:text-13xl md:text-15xl lg:text-18xl font-Domainemedium"
@@ -60,7 +60,7 @@
           class="grid items-center col-span-1 row-span-1 m-2 p-2 sm:m-4 sm:p-4 md:m-6 md:p-6 lg:m-10 lg:p-10"
         >
           <p
-            class="text-2xl sm:text-4xl md:text-5xl m-1 p-1 sm:m-5 sm:p-5 leading-loose text-left font-NeueMontreal text-neutral-800 border-l-8 border-l-brand-rose-gold"
+            class="text-2xl sm:text-4xl md:text-5xl m-1 p-1 sm:m-5 sm:p-5 leading-relaxed text-left font-ObjectSans text-neutral-800 border-l-8 border-l-brand-rose-gold"
           >
             <span
               class="text-9xl sm:text-13xl md:text-15xl lg:text-18xl font-Domainemedium text-brand-rose-gold"
@@ -81,7 +81,7 @@
           class="grid items-center col-span-1 sm:col-span-2 md:col-start-3 md:col-end-5 row-span-1 rounded-3xl m-2 p-2 sm:mb-20 bg-brand-rose-gold bg-opacity-80 border-8 border-neutral-50 shadow-xl shadow-neutral-400"
         >
           <p
-            class="text-2xl sm:text-2xl m-2 p-2 leading-normal text-left text-neutral-50"
+            class="text-2xl sm:text-2xl m-2 p-2 leading-normal text-left text-neutral-50 font-ObjectSans"
           >
             Please click the button below to watch a short video about me and my
             journey so far.
@@ -96,7 +96,7 @@
       <div class="relative h-auto w-screen grid grid-cols-1 grid-rows-1 z-30">
         <span class="grid items-center col-span-1 row-span-1 text-right">
           <NuxtLink to="/about">
-            <p class="m-4 text-xl">Discover more about JHDevi</p>
+            <p class="m-4 text-xl font-ObjectSans">Discover more about JHDevi</p>
           </NuxtLink>
         </span>
       </div>
