@@ -95,7 +95,7 @@
   </section>
   <section class="h-auto w-screen">
     <div class="flex">
-      <h1 class="font-Domainemedium text-7xl text-brand-rose-gold m-1 p-1">
+      <h1 class="font-Domainemedium text-8xl text-brand-rose-gold m-1 p-1">
         JH Services
       </h1>
     </div>
