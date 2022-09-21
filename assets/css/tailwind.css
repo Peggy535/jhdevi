@@ -22,34 +22,10 @@
   src: url("assets/fonts/domaine-sans-fine-thin.woff") format("woff"),
     url("assets/fonts/domaine-sans-fine-thin.woff2") format("woff2");
 }
-@font-face {
-  font-family: "DomaineTextlight";
-  src: url("assets/fonts/domaine-sans-text-light.woff") format("woff"),
-    url("assets/fonts/domaine-sans-text-light.woff2") format("woff2");
-}
-@font-face {
-  font-family: "DomaineTextregular";
-  src: url("assets/fonts/domaine-sans-text-regular.woff") format("woff"),
-    url("assets/fonts/domaine-sans-text-regular.woff2") format("woff2");
-}
-@font-face {
-  font-family: "DomaineTextmedium";
-  src: url("assets/fonts/domaine-sans-text-medium.woff") format("woff"),
-    url("assets/fonts/domaine-sans-text-medium.woff2") format("woff2");
-}
-@font-face {
-  font-family: "DomaineTextbold";
-  src: url("assets/fonts/domaine-sans-text-bold.woff") format("woff"),
-    url("assets/fonts/domaine-sans-text-bold.woff2") format("woff2");
-}
-@font-face {
-  font-family: "NeueMontrealLight";
-  src: url("assets/fonts/PPNeueMontreal-Light.woff") format("woff"),
-    url("assets/fonts/PPNeueMontreal-Light.woff2") format("woff2");
-}
+
 
 body {
-  font-family: "NeueMontrealLight";
+  font-family: "Domainemedium";
   margin: 0;
   height: 100%;
 }

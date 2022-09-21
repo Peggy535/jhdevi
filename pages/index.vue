@@ -23,7 +23,7 @@
     <main class="relative h-auto w-screen z-20 bg-white bg-opacity-80 p-0 m-0">
       <section class="relative h-screen w-screen">
         <div
-          class="flex flex-col absolute text-5xl sm:text-7xl lg:text-8xl xl:text-9xl bottom-0 left-0 m-2 p-2 mb-10 text-brand-rose-gold font-Domainelight"
+          class="flex flex-col absolute text-5xl sm:text-7xl lg:text-8xl 2xl:text-9xl bottom-0 left-0 m-2 p-2 mb-20 text-brand-rose-gold font-Domainelight"
         >
           <h1>Justine Hodgson</h1>
           <h1>Hypnotherapy</h1>
@@ -47,8 +47,8 @@
             >
             are beautiful, unique and deserving of all good things.
           </h1>
-          <cite class="m-1 p-1 sm:m-5 sm:p-5 text-neutral-50"
-            >Justine Hodgson</cite
+          <cite class="m-1 p-1 sm:m-5 sm:p-5 text-neutral-50 font-Domainelight"
+            >- Justine Hodgson</cite
           >
         </span>
       </blockquote>
@@ -81,13 +81,13 @@
           class="grid items-center col-span-1 sm:col-span-2 md:col-start-3 md:col-end-5 row-span-1 rounded-3xl m-2 p-2 sm:mb-20 bg-brand-rose-gold bg-opacity-80 border-8 border-neutral-50 shadow-xl shadow-neutral-400"
         >
           <p
-            class="text-2xl sm:text-2xl m-1 p-1 leading-normal text-left text-neutral-50"
+            class="text-2xl sm:text-2xl m-2 p-2 leading-normal text-left text-neutral-50"
           >
             Please click the button below to watch a short video about me and my
             journey so far.
           </p>
           <button
-            class="inline-block m-3 p-3 text-neutral-50 border border-neutral-200 rounded-3xl"
+            class="inline-block m-2 p-2 text-neutral-50 border border-neutral-200 rounded-3xl font-Domainelight text-2xl"
           >
             Watch video
           </button>
@@ -96,9 +96,7 @@
       <div class="relative h-auto w-screen grid grid-cols-1 grid-rows-1 z-30">
         <span class="grid items-center col-span-1 row-span-1 text-right">
           <NuxtLink to="/about">
-            <p class="m-4 text-xl">
-              Discover more about JHDevi
-            </p>
+            <p class="m-4 text-xl">Discover more about JHDevi</p>
           </NuxtLink>
         </span>
       </div>
