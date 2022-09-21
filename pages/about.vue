@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col h-screen w-screen justify-end">
+  <section class="flex flex-col h-screen w-screen">
     <div class="flex h-auto my-auto text-left">
       <h1
         class="flex text-7xl sm:text-8xl md:text-9xl m-1 p-1 text-brand-rose-gold font-Domainemedium"
@@ -95,92 +95,90 @@
   </section>
   <section class="h-auto w-screen">
     <div class="flex">
-      <h1 class="font-Domainemedium text-6xl m-1 p-1">JH Services</h1>
+      <h1 class="font-Domainemedium text-7xl text-brand-rose-gold m-1 p-1">
+        JH Services
+      </h1>
     </div>
-    <div class="grid grid-cols-1">
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 w-screen h-auto">
       <article
-        class="grid col-span-1 min-h-min m-2 p-2 border-2 border-neutral-200 rounded-2xl shadow-2xl shadow-neutral-600"
+        class="grid col-span-1 min-h-min m-2 p-2 border-2 border-neutral-50 rounded-2xl shadow-2xl shadow-neutral-600"
       >
         <span class="h-80 bg-brand-orange rounded-2xl">
-          <h1 class="font-Domainemedium text-8xl text-neutral-600 m-2 p-2">
-            CBT
-          </h1>
+          <h1 class="font-Domainemedium text-8xl text-white m-2 p-2">CBT</h1>
         </span>
-        <span>
-          <p class="font-ObjectSans my-20 text-xl">
+        <span class="relative h-80">
+          <p class="font-ObjectSans text-xl">
             Cognitive behavioural therapy (CBT) is a talking therapy that can
             help you manage your problems by changing the way you think and
             behave.
           </p>
           <button
-            class="border-2 border-neutral-800 m-2 p-2 rounded-2xl font-ObjectsSans text-2xl"
+            class="absolute bottom-0 border-2 border-stone-500 rounded-3xl font-ObjectsSans text-lg"
           >
-            Learn more
+            <p class="p-1 m-1">Learn more</p>
           </button>
         </span>
       </article>
       <article
-        class="grid col-span-1 min-h-min m-2 p-2 border-2 border-neutral-200 rounded-2xl shadow-2xl shadow-neutral-600"
+        class="grid col-span-1 min-h-min max-h-200 m-2 p-2 border-2 border-neutral-50 rounded-2xl shadow-2xl shadow-neutral-600"
       >
-        <span class="h-80 bg-brand-yellow rounded-2xl">
-          <h1 class="font-Domainemedium text-5xl text-neutral-600 m-2 p-2">
+        <span class="h-80 bg-brand-yellow rounded-xl">
+          <h1 class="font-Domainemedium text-4xl text-white m-2 p-2">
             Hypnotherapy
           </h1>
         </span>
-        <span>
-          <p class="font-ObjectSans my-20 text-xl">
+        <span class="relative h-80">
+          <p class="font-ObjectSans text-xl">
             Curative hypnotherapy is a method of working purely with the
             subconscious mind to understand and correct specific details which
             have played a part in the initial creation of a symptom.
           </p>
           <button
-            class="border-2 border-neutral-800 m-2 p-2 rounded-2xl font-ObjectsSans text-2xl"
+            class="absolute bottom-0 border-2 border-stone-500 rounded-3xl font-ObjectsSans text-lg"
           >
-            Learn more
+            <p class="p-1 m-1">Learn more</p>
           </button>
         </span>
       </article>
       <article
-        class="grid col-span-1 min-h-min m-2 p-2 border-2 border-neutral-200 rounded-2xl shadow-2xl shadow-neutral-900"
+        class="grid col-span-1 min-h-min m-2 p-2 border-2 border-neutral-50 rounded-2xl shadow-2xl shadow-neutral-900"
       >
         <span class="h-80 bg-brand-green rounded-2xl">
-          <h1 class="font-Domainemedium text-8xl text-neutral-600 m-2 p-2">
-            EFT
-          </h1>
+          <h1 class="font-Domainemedium text-8xl text-white m-2 p-2">EFT</h1>
           <p class="font-Domainelight text-lg m-2 p-2 text-neutral-600">
             Emotional Freedom Technique
           </p>
         </span>
-        <span>
-          <p class="font-ObjectSans my-20 text-xl">
-            Cognitive behavioural therapy (CBT) is a talking therapy that can
-            help you manage your problems by changing the way you think and
-            behave.
+        <span class="relative h-80">
+          <p class="font-ObjectSans text-xl">
+            Emotional freedom technique (EFT) is an alternative treatment for
+            physical pain and emotional distress. It’s also referred to as
+            tapping or psychological acupressure.
           </p>
           <button
-            class="border-2 border-neutral-800 m-2 p-2 rounded-2xl font-ObjectsSans text-2xl"
+            class="absolute bottom-0 border-2 border-stone-500 rounded-3xl font-ObjectsSans text-lg"
           >
-            Learn more
+            <p class="p-1 m-1">Learn more</p>
           </button>
         </span>
       </article>
       <article
-        class="grid col-span-1 min-h-min m-2 p-2 border-2 border-neutral-200 rounded-2xl shadow-2xl shadow-neutral-900"
+        class="grid col-span-1 min-h-min m-2 p-2 border-2 border-neutral-50 rounded-2xl shadow-2xl shadow-neutral-900"
       >
         <span class="h-80 bg-brand-blue rounded-2xl">
-          <h1 class="font-Domainemedium text-8xl text-neutral-600 m-2 p-2">
+          <h1 class="font-Domainemedium text-8xl text-white m-2 p-2">
             Yin Yoga
           </h1>
         </span>
-        <span>
-          <p class="font-ObjectSans my-20 text-xl">
+        <span class="relative h-80">
+          <p class="font-ObjectSans text-xl">
             An instant stress relief button! Yin is the most accessible of the
             physical yoga systems and can be practised by anyone.
           </p>
           <button
-            class="border-2 border-neutral-800 m-2 p-2 rounded-2xl font-ObjectsSans text-2xl"
+            class="absolute bottom-0 border-2 border-stone-500 rounded-3xl font-ObjectsSans text-lg"
           >
-            Learn more
+            <p class="p-1 m-1">Learn more</p>
           </button>
         </span>
       </article>

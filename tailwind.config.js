@@ -18,10 +18,10 @@ module.exports = {
       },
       colors: {
         "brand-rose-gold": "#b76e79",
-        "brand-orange": "#d3775a",
-        "brand-yellow": "#edc782",
-        "brand-green": "#b4cb9c",
-        "brand-blue": "#788092",
+        "brand-orange": "#f58654",
+        "brand-yellow": "#f9bf52",
+        "brand-green": "#8ab690",
+        "brand-blue": "#63979a",
       },
       fontSize: {
         "10xl": "10rem",
