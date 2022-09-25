@@ -1,29 +1,23 @@
 <template>
-  <div class="overscroll-none">
+  <div class="overflow-hidden">
     <!-- Video section -->
     <section class="h-screen w-screen fixed">
       <video
         class="absolute top-0 right-0 w-screen h-screen object-center object-cover"
-        src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1595960724/Well%20Being/wellbeing_1_xxiym7.webm"
+        src="https://res.cloudinary.com/peggy-co/video/upload/c_scale,f_auto,q_auto,w_640/v1595960724/Well%20Being/wellbeing_1_xxiym7.mp4"
         autoplay
         loop
         muted
-      >
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1595960724/Well%20Being/wellbeing_1_xxiym7.webm"
-          type="video/webm"
-        />
-        <source
-          src="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1595960724/Well%20Being/wellbeing_1_xxiym7.mp4"
-          type="video/mp4"
-        />
-      </video>
+        playsinline
+        preload="true"
+        poster="https://res.cloudinary.com/peggy-co/video/upload/c_scale,q_auto,w_640/v1595960724/Well%20Being/wellbeing_1_xxiym7.jpg"
+      ></video>
     </section>
     <!-- Landing title -->
-    <main class="relative h-auto w-screen z-20 bg-white bg-opacity-80 p-0 m-0">
+    <main class="relative h-auto w-screen z-20 bg-white bg-opacity-80">
       <section class="relative h-screen w-screen">
         <div
-          class="flex flex-col absolute text-5xl sm:text-7xl lg:text-8xl 2xl:text-9xl bottom-0 left-0 m-2 p-2 mb-20 text-brand-rose-gold font-Domainelight"
+          class="flex flex-col absolute text-5xl sm:text-7xl lg:text-8xl 2xl:text-9xl bottom-0 left-0 m-2 p-2 mb-20 text-brand-rose-gold font-Domainemedium"
         >
           <h1>Justine Hodgson</h1>
           <h1>Hypnotherapy</h1>
@@ -96,7 +90,9 @@
       <div class="relative h-auto w-screen grid grid-cols-1 grid-rows-1 z-30">
         <span class="grid items-center col-span-1 row-span-1 text-right">
           <NuxtLink to="/about">
-            <p class="m-4 text-xl font-ObjectSans">Discover more about JHDevi</p>
+            <p class="m-4 text-xl font-ObjectSans">
+              Discover more about JHDevi
+            </p>
           </NuxtLink>
         </span>
       </div>

@@ -4,33 +4,40 @@
 
 @font-face {
   font-family: "Domainelight";
-  src: url("assets/fonts/domaine-sans-fine-light.woff") format("woff"),
+  src: local(domaine-sans-fine-light), local("Domainelight"),
+    url("assets/fonts/domaine-sans-fine-light.woff") format("woff"),
     url("assets/fonts/domaine-sans-fine-light.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Domainemedium";
-  src: url("assets/fonts/domaine-sans-fine-medium.woff") format("woff"),
+  src: local(domaine-sans-fine-medium), local("Domainemedium"),
+    url("assets/fonts/domaine-sans-fine-medium.woff") format("woff"),
     url("assets/fonts/domaine-sans-fine-medium.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Domaineregular";
-  src: url("assets/fonts/domaine-sans-fine-regular.woff") format("woff"),
+  src: local(domaine-sans-fine-regular), local("Domaineregular"),
+    url("assets/fonts/domaine-sans-fine-regular.woff") format("woff"),
     url("assets/fonts/domaine-sans-fine-regular.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Domainethin";
-  src: url("assets/fonts/domaine-sans-fine-thin.woff") format("woff"),
+  src: local(domaine-sans-fine-thin), local("Domainethin"),
+    url("assets/fonts/domaine-sans-fine-thin.woff") format("woff"),
     url("assets/fonts/domaine-sans-fine-thin.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "ObjectSans";
-  src: url("assets/fonts/PPObjectSans-Thin.woff") format("woff"),
+  src: local(PPObjectSans-Thin), local("ObjectSans"),
+    url("assets/fonts/PPObjectSans-Thin.woff") format("woff"),
     url("assets/fonts/PPObjectSans-Thin.woff2") format("woff2");
-}
-@font-face {
-  font-family: "PierSans";
-  src: url("assets/fonts/PPPierSans-Light.woff") format("woff"),
-    url("assets/fonts/PPPierSans-Light.woff2") format("woff2");
+    font-display: swap;
 }
 
-
+p{
+  font-family: "ObjectSans";
+}
