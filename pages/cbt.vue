@@ -1,5 +1,6 @@
 <template>
-  <div class="overflow-hidden">
+  <div class="overflow-hidden font-ObjectSans">
+    <!-- Background effect 1 -->
     <section
       class="min-h-screen max-h-full min-w-screen max-w-full fixed z-10 blur-sm"
     >
@@ -12,13 +13,12 @@
     <section
       class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60 text-brand-dark-rose"
     >
-    <div class="w-full h-auto mb-10">
-      <h1 class="text-10xl md:text-11xl m-1 p-1">CBT</h1>
-      <h1 class="text-5xl md:text-6xl m-1 p-1">Cognitive</h1>
-      <h1 class="text-5xl md:text-6xl m-1 p-1">Behavioral</h1>
-      <h1 class="text-5xl md:text-6xl m-1 p-1">Therapy</h1>
-    </div>
-      
+      <div class="w-full h-auto my-10 font-Domainemedium">
+        <h1 class="text-10xl md:text-11xl m-1 p-1">CBT</h1>
+        <h1 class="text-3xl md:text-4xl m-1 p-1">
+          Cognitive Behavioral Therapy
+        </h1>
+      </div>
 
       <div
         class="flex h-auto w-full md:w-4/5 mx-auto border-2 border-white bg-brand-dark-rose rounded-2xl shadow-2xl shadow-neutral-300"
@@ -26,10 +26,10 @@
         <p
           class="text-2xl md:text-4xl font-Domaineregular m-2 p-2 text-white leading-snug"
         >
-          <span class="text-7xl">CBT</span> is a therapy that focuses on the
-          particular ways in which an individual thinks, behaves and acts, in
-          the attempt to deal successfully with their behavioural, emotional and
-          social problems and issues.
+          <span class="text-7xl font-Domainemedium">CBT</span> is a therapy that
+          focuses on the particular ways in which an individual thinks, behaves
+          and acts, in the attempt to deal successfully with their behavioural,
+          emotional and social problems and issues.
         </p>
       </div>
 

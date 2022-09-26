@@ -27,7 +27,7 @@ const closeMenu = () => {
 
 <template>
   <div
-    class="fixed z-40 h-screen w-3/4 bg-amber-100 flex flex-col place-content-center invisible menu font-Domainemedium text-brand-rose-gold"
+    class="fixed z-40 h-screen w-3/4 bg-neutral-100 flex flex-col place-content-center invisible menu font-Domainemedium text-brand-rose-gold"
   >
     <span class="absolute top-5 left-5" @click="closeMenu">
       <h1 class="text-xl">Close</h1>
