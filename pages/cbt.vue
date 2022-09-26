@@ -1,36 +1,40 @@
 <template>
-  <div>
+  <div class="overflow-hidden">
     <section
-      class="h-screen w-screen grid grid-cols-1 grid-rows-1 justify-evenly"
+      class="min-h-screen max-h-full min-w-screen max-w-full fixed z-10 blur-sm"
     >
-      <div
-        class="grid cols-span-1 row-span-1 font-Domainemedium m-1 p-1 text-brand-dark-rose"
+      <h1
+        class="text-30xl text-brand-tan font-Domainemedium rotate-90 -translate-y-48 -translate-x-20"
       >
-        <h1 class="text-10xl place-self-start">CBT</h1>
-        <h3 class="text-6xl">Cognitive</h3>
-        <h3 class="text-6xl">Behavioural</h3>
-        <h3 class="text-6xl">Therapy</h3>
-        <blockquote
-          class="bg-brand-dark-rose rounded-2xl m-1 p-1 mt-5 shadow-lg shadow-neutral-300"
-        >
-          <p
-            class="font-ObjectSans text-xl text-white my-5 m-1 p-1 border-l-2 border-l-neutral-50"
-          >
-            CBT is a therapy that focuses on the particular ways in which an
-            individual thinks, behaves and acts, in the attempt to deal
-            successfully with their behavioural, emotional and social problems
-            and issues.
-          </p>
-        </blockquote>
-      </div>
+        CBT
+      </h1>
     </section>
     <section
-      class="h-screen w-screen grid grid-cols-1 grid-rows-1 items-center"
+      class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60 text-brand-dark-rose"
     >
-      <div class="grid col-span-1 row-span-1">
+    <div class="w-full h-auto mb-10">
+      <h1 class="text-10xl md:text-11xl m-1 p-1">CBT</h1>
+      <h1 class="text-5xl md:text-6xl m-1 p-1">Cognitive</h1>
+      <h1 class="text-5xl md:text-6xl m-1 p-1">Behavioral</h1>
+      <h1 class="text-5xl md:text-6xl m-1 p-1">Therapy</h1>
+    </div>
+      
+
+      <div
+        class="flex h-auto w-full md:w-4/5 mx-auto border-2 border-white bg-brand-dark-rose rounded-2xl shadow-2xl shadow-neutral-300"
+      >
         <p
-          class="font-ObjectSans text-xl text-neutral-900 my-5 m-1 p-1 border-l-2 border-l-neutral-50"
+          class="text-2xl md:text-4xl font-Domaineregular m-2 p-2 text-white leading-snug"
         >
+          <span class="text-7xl">CBT</span> is a therapy that focuses on the
+          particular ways in which an individual thinks, behaves and acts, in
+          the attempt to deal successfully with their behavioural, emotional and
+          social problems and issues.
+        </p>
+      </div>
+
+      <div class="w-full md:w-3/4 mx-auto bg-white bg-opacity-80 my-10">
+        <p class="m-2 p-2 text-xl md:text-2xl text-neutral-700">
           The difference between psychotherapy and behavioural therapy is that
           psychotherapy tends to emphasise the importance of the personal
           meaning placed upon things and how the majority of thinking patterns
@@ -39,6 +43,34 @@
           they avoid certain aspects of life and how they engage and interact
           with the world around them. How active or inactive towards being
           involved in participating in life on a healthy level.
+        </p>
+      </div>
+      <div class="w-full">
+        <img
+          class="object-contain object-center"
+          src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto/v1664133357/Well%20Being/pramod-tiwari-IGOerTTo1DI-unsplash_mqcjqw.jpg"
+          alt=""
+        />
+      </div>
+      <div
+        class="w-full sm:w-3/4 mx-auto bg-white bg-opacity-80 my-10 text-xl md:text-2xl text-neutral-700"
+      >
+        <p class="m-2 p-2">
+          The great advantage that ‘CBT’ has over other therapies is that
+          clients undergoing ‘CBT’ treatment are actually learning the
+          educational aspects of the therapy, which is then empowering them to
+          become their own personal therapist and to be more aware of the
+          circumstances, situations, behaviours and people that could cause them
+          to lapse and therefore to be able to avoid these aspects in their
+          lives. I bring together a combination of CBT and Curative Hypnosis to
+          assist a number of my clients and we have experienced amazing results.
+          Especially in stress related disorders.
+        </p>
+        <br />
+        <p class="m-2 p-2">
+          I bring together a combination of CBT and Curative Hypnosis to assist
+          a number of my clients and we have experienced amazing results.
+          Especially in stress related disorders.
         </p>
       </div>
     </section>

@@ -4,3 +4,4 @@ export default defineNuxtPlugin((nuxtApp) => {
     window.scrollTo(0, 0);
   });
 });
+console.log("Hi from scroll plugin");

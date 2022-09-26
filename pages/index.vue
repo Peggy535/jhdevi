@@ -14,10 +14,10 @@
       ></video>
     </section>
     <!-- Landing title -->
-    <main class="relative h-auto w-screen z-20 bg-white bg-opacity-80">
+    <main class="relative h-auto w-screen z-20 bg-amber-50 bg-opacity-80">
       <section class="relative h-screen w-screen">
         <div
-          class="flex flex-col absolute text-5xl sm:text-7xl lg:text-8xl 2xl:text-9xl bottom-0 left-0 m-2 p-2 mb-20 text-brand-rose-gold font-Domainemedium"
+          class="flex flex-col absolute text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl bottom-0 left-0 m-2 p-2 mb-20 text-brand-rose-gold font-Domainemedium"
         >
           <h1>Justine Hodgson</h1>
           <h1>Hypnotherapy</h1>
@@ -99,3 +99,16 @@
     </main>
   </div>
 </template>
+
+<style>
+/* we will explain what these classes do next! */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+</style>

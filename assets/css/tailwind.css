@@ -35,9 +35,5 @@
   src: local(PPObjectSans-Thin), local("ObjectSans"),
     url("assets/fonts/PPObjectSans-Thin.woff") format("woff"),
     url("assets/fonts/PPObjectSans-Thin.woff2") format("woff2");
-    font-display: swap;
-}
-
-p{
-  font-family: "ObjectSans";
+  font-display: swap;
 }

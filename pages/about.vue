@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-ObjectSans">
     <section class="flex flex-col h-screen w-screen">
       <div class="flex flex-col h-auto my-auto text-left">
         <h1
@@ -92,7 +92,9 @@
     </section>
     <section class="h-auto w-screen">
       <div class="flex">
-        <h1 class="font-Domainemedium text-6xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl text-brand-rose-gold m-1 p-1 my-10">
+        <h1
+          class="font-Domainemedium text-6xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl text-brand-rose-gold m-1 p-1 my-10"
+        >
           JH Services
         </h1>
       </div>
