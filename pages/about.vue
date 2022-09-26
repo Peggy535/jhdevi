@@ -57,10 +57,16 @@
     <section
       class="h-screen w-screen flex flex-col justify-evenly lg:grid lg:grid-cols-4 lg:grid-rows-1 lg:h-auto lg:items-center"
     >
-      <img
+      <NuxtImg
+        provider="cloudinary"
         class="object-contain object-center lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2"
-        src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto/v1596119487/Well%20Being/journey_eaxuxe.jpg"
+        src="/journey_eaxuxe.jpg"
         alt=""
+        width="3017"
+        height="1697"
+        loading="lazy"
+        format="webp"
+        sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
       />
       <p
         class="m-2 p-2 sm:m-4 sm:p-4 text-xl md:text-2xl leading-relaxed lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2"
@@ -75,10 +81,16 @@
     <section
       class="h-screen w-screen flex flex-col justify-evenly lg:grid lg:grid-cols-4 lg:grid-rows-1 lg:h-auto lg:items-center"
     >
-      <img
+      <NuxtImg
+        provider="cloudinary"
+        loading="lazy"
+        width="1366"
+        height="768"
+        format="webp"
         class="object-contain object-center lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2"
-        src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto/v1596125701/Well%20Being/lady-field.min_jidrzu.jpg"
+        src="/lady-field.min_jidrzu.jpg"
         alt=""
+        sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
       />
       <p
         class="m-2 p-2 sm:m-4 sm:p-4 text-xl md:text-2xl leading-relaxed lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2"

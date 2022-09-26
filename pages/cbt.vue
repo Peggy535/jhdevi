@@ -1,40 +1,35 @@
 <template>
   <div class="overflow-hidden font-ObjectSans">
-    <!-- Background effect 1 -->
-    <section
-      class="min-h-screen max-h-full min-w-screen max-w-full fixed z-10 blur-sm"
-    >
-      <h1
-        class="text-30xl text-brand-tan font-Domainemedium rotate-90 -translate-y-48 -translate-x-20"
-      >
-        CBT
-      </h1>
-    </section>
     <section
       class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60 text-brand-dark-rose"
     >
       <div class="w-full h-auto my-10 font-Domainemedium">
-        <h1 class="text-10xl md:text-11xl m-1 p-1">CBT</h1>
-        <h1 class="text-3xl md:text-4xl m-1 p-1">
+        <h1 class="text-10xl md:text-11xl lg:text-13xl m-1 p-1">CBT</h1>
+        <h1 class="text-3xl md:text-4xl lg:text-6xl m-1 p-1">
           Cognitive Behavioral Therapy
         </h1>
       </div>
 
       <div
-        class="flex h-auto w-full md:w-4/5 mx-auto border-2 border-white bg-brand-dark-rose rounded-2xl shadow-2xl shadow-neutral-300"
+        class="flex h-auto w-full md:w-4/5 lg:w-2/3 mx-auto border-2 border-white bg-brand-dark-rose rounded-2xl shadow-2xl shadow-neutral-300"
       >
         <p
-          class="text-2xl md:text-4xl font-Domaineregular m-2 p-2 text-white leading-snug"
+          class="text-2xl md:text-4xl lg:text-6xl font-Domaineregular m-2 p-2 text-white leading-snug"
         >
-          <span class="text-7xl font-Domainemedium">CBT</span> is a therapy that
-          focuses on the particular ways in which an individual thinks, behaves
-          and acts, in the attempt to deal successfully with their behavioural,
-          emotional and social problems and issues.
+          <span class="text-7xl md:text-8xl lg:text-9xl font-Domainemedium"
+            >CBT</span
+          >
+          is a therapy that focuses on the particular ways in which an
+          individual thinks, behaves and acts, in the attempt to deal
+          successfully with their behavioural, emotional and social problems and
+          issues.
         </p>
       </div>
 
-      <div class="w-full md:w-3/4 mx-auto bg-white bg-opacity-80 my-10">
-        <p class="m-2 p-2 text-xl md:text-2xl text-neutral-700">
+      <div
+        class="w-full md:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 my-10"
+      >
+        <p class="m-2 p-2 text-xl md:text-2xl lg:text-3xl text-neutral-700">
           The difference between psychotherapy and behavioural therapy is that
           psychotherapy tends to emphasise the importance of the personal
           meaning placed upon things and how the majority of thinking patterns
@@ -46,14 +41,19 @@
         </p>
       </div>
       <div class="w-full">
-        <img
+        <NuxtImg
+          provider="cloudinary"
+          loading="lazy"
+          width="3946"
+          height="2164"
+          sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
           class="object-contain object-center"
-          src="https://res.cloudinary.com/peggy-co/image/upload/f_auto,q_auto/v1664133357/Well%20Being/pramod-tiwari-IGOerTTo1DI-unsplash_mqcjqw.jpg"
+          src="/pramod-tiwari-IGOerTTo1DI-unsplash_mqcjqw.jpg"
           alt=""
         />
       </div>
       <div
-        class="w-full sm:w-3/4 mx-auto bg-white bg-opacity-80 my-10 text-xl md:text-2xl text-neutral-700"
+        class="w-full sm:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 my-10 text-xl md:text-2xl lg:text-3xl text-neutral-700"
       >
         <p class="m-2 p-2">
           The great advantage that ‘CBT’ has over other therapies is that

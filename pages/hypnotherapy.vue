@@ -1,14 +1,9 @@
 <template>
-  <div>
-    <section
-      class="h-screen w-screen grid grid-cols-1 grid-rows-2 justify-center"
-    >
-      <div
-        class="grid cols-span-1 row-span-1 font-Domainemedium m-1 p-1 text-brand-tan"
-      >
-        <h1 class="text-5xl place-self-center">Hypnotherapy</h1>
-      </div>
-      <blockquote
+  <div class="overflow-hidden">
+    <section class="h-screen w-screen flex">
+      <div class="flex"></div>
+
+      <!-- <blockquote
         class="grid col-span-1 row-span-1 bg-brand-tan rounded-2xl m-1 p-1 mt-5 shadow-lg shadow-neutral-300"
       >
         <p
@@ -18,9 +13,9 @@
           problems and challenges of everyday life like anxiety, phobias, fears,
           self esteem or even addiction to name but a few.
         </p>
-      </blockquote>
+      </blockquote> -->
     </section>
-    <section
+    <!-- <section
       class="h-screen w-screen grid grid-cols-1 grid-rows-1 items-center"
     >
       <div class="grid col-span-1 row-span-1">
@@ -36,6 +31,6 @@
           that are given during treatment.
         </p>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
