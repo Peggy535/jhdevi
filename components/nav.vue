@@ -68,10 +68,10 @@ const closeMenu = () => {
         rel="noopener noreferrer"
       >
         <button
-          class="border-2 border-brand-rose-gold rounded-2xl transition delay-50 ease-in-out hover:border-pink-300 duration:300"
+          class="border-2 border-brand-rose-gold rounded-2xl transition delay-50 ease-in-out hover:border-white hover:ring-offset-8 hover:scale-115 duration:300"
         >
           <p
-            class="text-brand-rose-gold p-1 sm:p-2 text-md sm:text-xl md:text-2xl transition delay-50 ease-in-out hover:text-pink-300 duration:200"
+            class="text-brand-rose-gold rounded-2xl font-Domainelight p-1 sm:p-2 text-md sm:text-xl md:text-2xl transition delay-50 ease-in-out hover:text-white hover:bg-brand-rose-gold hover:scale-105 duration:200"
           >
             Book now
           </p>

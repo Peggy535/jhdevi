@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="fill-brand-rose-gold transition delay-50 ease-in-out hover:fill-pink-300 duration:300"
+    class="fill-brand-rose-gold transition delay-50 ease-in-out hover:fill-brand-dark-rose hover:scale-y-125 duration:300"
     version="1.1"
     viewBox="0 0 1200 1200"
     xmlns="http://www.w3.org/2000/svg"
