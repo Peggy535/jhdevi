@@ -1,9 +1,15 @@
+<script setup>
+definePageMeta({
+  layout: "default",
+});
+</script>
+
 <template>
-  <div class="font-ObjectSans">
-    <section class="flex flex-col h-screen w-screen">
-      <div class="flex flex-col h-auto my-auto text-left">
+  <div class="font-domaineregular text-neutral-700">
+    <section class="flex flex-col h-auto w-screen">
+      <div class="flex flex-col h-auto text-left my-20">
         <h1
-          class="flex text-7xl sm:text-9xl lg:text-11xl 2xl:text-12xl m-1 p-1 text-brand-rose-gold font-Domainemedium"
+          class="flex text-7xl sm:text-9xl lg:text-11xl 2xl:text-12xl m-1 p-1 text-brand-rose-gold font-domainebold"
         >
           About JH
         </h1>
@@ -12,10 +18,10 @@
         class="h-auto lg:w-3/4 lg:self-end rounded-3xl m-1 p-1 sm:m-3 sm:p-3 bg-brand-rose-gold text-neutral-50 border-4 border-white shadow-lg shadow-neutral-200"
       >
         <p
-          class="text-xl md:text-2xl leading-relaxed sm:leading-loose m-1 p-1 my-10 border-l-4 border-l-neutral-50 border-spacing-10"
+          class="text-2xl sm:text-3xl m-1 p-1 my-10 border-l-4 border-l-neutral-50 border-spacing-10"
         >
           <span
-            class="text-8xl sm:text-10xl md:text-11xl lg:text-12xl font-Domainemedium"
+            class="text-7xl sm:text-9xl md:text-11xl lg:text-12xl font-domainebold"
             >Having</span
           >
           personally experienced such things as anxiety, trauma and chronic
@@ -43,7 +49,7 @@
         >
       </section>
       <p
-        class="m-2 p-2 sm:m-4 sm:p-4 text-xl md:text-2xl leading-relaxed lg:grid lg:col-span-3 items-center"
+        class="m-2 p-2 sm:m-4 sm:p-4 text-2xl sm:text-3xl md:text-4xl lg:grid lg:col-span-3 items-center"
       >
         By now hopefully, you’ve pressed the play button on both my welcome and
         about me recordings and I’ve saved you valuable time on reading a page
@@ -69,7 +75,7 @@
         sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
       />
       <p
-        class="m-2 p-2 sm:m-4 sm:p-4 text-xl md:text-2xl leading-relaxed lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2"
+        class="m-2 p-2 sm:m-4 sm:p-4 text-2xl sm:text-3xl md:text-4xl lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2"
       >
         At this stage you would have heard my story and know, just as so many
         before me and many to follow, I’ve had my own path to travel and it’s
@@ -93,7 +99,7 @@
         sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
       />
       <p
-        class="m-2 p-2 sm:m-4 sm:p-4 text-xl md:text-2xl leading-relaxed lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2"
+        class="m-2 p-2 sm:m-4 sm:p-4 text-2xl sm:text-3xl md:text-4xl lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2"
       >
         I’m that guide. My desire today and every day hereon, is to make people
         feel less broken, so they can experience more joy and happiness and less
@@ -105,7 +111,7 @@
     <section class="h-auto w-screen">
       <div class="flex">
         <h1
-          class="font-Domainemedium text-6xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl text-brand-rose-gold m-1 p-1 my-10"
+          class="font-domainebold text-6xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl text-brand-rose-gold m-1 p-1 my-10"
         >
           JH Services
         </h1>
@@ -116,18 +122,18 @@
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-dark-rose rounded-2xl">
-            <h1 class="font-Domainemedium text-8xl text-white m-2 p-2">CBT</h1>
+          <span class="h-40 bg-brand-bud-green rounded-2xl">
+            <h1 class="font-domainebold text-6xl text-white m-2 p-2">CBT</h1>
           </span>
-          <span class="relative h-80 m-1 p-1">
-            <p class="font-ObjectSans text-lg">
+          <span class="relative h-60 sm:h-72 m-1 p-1">
+            <p class="text-lg">
               Cognitive behavioural therapy (CBT) is a talking therapy that can
               help you manage your problems by changing the way you think and
               behave.
             </p>
             <NuxtLink to="/cbt">
               <button
-                class="absolute bottom-0 border-2 border-brand-dark-rose text-brand-dark-rose rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-bud-green text-brand-bud-green rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -137,20 +143,20 @@
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-tan rounded-xl">
-            <h1 class="font-Domainemedium text-4xl text-white m-2 p-2">
+          <span class="h-40 bg-brand-larchmere rounded-xl">
+            <h1 class="font-domainebold text-4xl text-white m-2 p-2">
               Hypnotherapy
             </h1>
           </span>
-          <span class="relative h-80 m-1 p-1">
-            <p class="font-ObjectSans text-lg">
+          <span class="relative h-60 sm:h-72 m-1 p-1">
+            <p class="text-lg">
               Curative hypnotherapy is a method of working purely with the
               subconscious mind to understand and correct specific details which
               have played a part in the initial creation of a symptom.
             </p>
             <NuxtLink to="/hypnotherapy">
               <button
-                class="absolute bottom-0 border-2 border-brand-tan text-brand-tan rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-larchmere text-brand-larchmere rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -160,21 +166,21 @@
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-green rounded-2xl">
-            <h1 class="font-Domainemedium text-6xl text-white m-2 p-2">EFT</h1>
-            <p class="font-Domainelight text-lg m-2 p-2 text-white">
+          <span class="h-40 bg-brand-light-purple rounded-2xl">
+            <h1 class="font-domainebold text-6xl text-white m-2 p-2">EFT</h1>
+            <p class="font-domainemedium text-lg m-2 p-2 text-white">
               Emotional Freedom Technique
             </p>
           </span>
-          <span class="relative h-80 m-1 p-1">
-            <p class="font-ObjectSans text-lg">
+          <span class="relative h-60 sm:h-72 m-1 p-1">
+            <p class="text-lg">
               Emotional freedom technique (EFT) is an alternative treatment for
               physical pain and emotional distress. It’s also referred to as
               tapping or psychological acupressure.
             </p>
             <NuxtLink to="/eft">
               <button
-                class="absolute bottom-0 border-2 border-brand-green text-brand-green rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-light-purple text-brand-light-purple rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -184,19 +190,19 @@
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-lime rounded-2xl">
-            <h1 class="font-Domainemedium text-6xl text-white m-2 p-2">
+          <span class="h-40 bg-brand-light-brown rounded-2xl">
+            <h1 class="font-domainebold text-6xl text-white m-2 p-2">
               Yin Yoga
             </h1>
           </span>
-          <span class="relative h-80 m-1 p-1">
-            <p class="font-ObjectSans text-lg">
+          <span class="relative h-60 sm:h-72 m-1 p-1">
+            <p class="text-lg">
               An instant stress relief button! Yin is the most accessible of the
               physical yoga systems and can be practised by anyone.
             </p>
             <NuxtLink to="/yinyoga">
               <button
-                class="absolute bottom-0 border-2 border-brand-lime text-brand-lime rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-light-brown text-brand-light-brown rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>

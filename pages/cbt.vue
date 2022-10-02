@@ -1,3 +1,8 @@
+<script setup>
+definePageMeta({
+  layout: "darkroselayout",
+});
+</script>
 <template>
   <div class="overflow-hidden font-ObjectSans">
     <section
@@ -40,18 +45,7 @@
           involved in participating in life on a healthy level.
         </p>
       </div>
-      <div class="w-full">
-        <NuxtImg
-          provider="cloudinary"
-          loading="lazy"
-          width="3946"
-          height="2164"
-          sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
-          class="object-contain object-center"
-          src="/pramod-tiwari-IGOerTTo1DI-unsplash_mqcjqw.jpg"
-          alt=""
-        />
-      </div>
+
       <div
         class="w-full sm:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 my-10 text-xl md:text-2xl lg:text-3xl text-neutral-700"
       >

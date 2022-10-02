@@ -1,3 +1,9 @@
+<script setup>
+definePageMeta({
+  layout: "tanlayout",
+});
+</script>
+
 <template>
   <div class="overflow-hidden font-ObjectSans">
     <section
@@ -43,7 +49,7 @@
           accessible and open to suggestion.
         </p>
       </div>
-      <div class="w-full">
+      <!-- <div class="w-full">
         <NuxtImg
           provider="cloudinary"
           loading="lazy"
@@ -54,7 +60,7 @@
           src="/pramod-tiwari-IGOerTTo1DI-unsplash_mqcjqw.jpg"
           alt=""
         />
-      </div>
+      </div> -->
       <div
         class="w-full sm:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 my-10 text-xl md:text-2xl lg:text-3xl text-neutral-700"
       >

@@ -3,37 +3,37 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Domainelight";
-  src: local(domaine-sans-fine-light), local("Domainelight"),
-    url("assets/fonts/domaine-sans-fine-light.woff") format("woff"),
-    url("assets/fonts/domaine-sans-fine-light.woff2") format("woff2");
+  font-family: "domainethin";
+  src: local(domainethin), local("domainethin"),
+    url("assets/fonts/domainethin.woff") format("woff"),
+    url("assets/fonts/domainethin.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
-  font-family: "Domainemedium";
-  src: local(domaine-sans-fine-medium), local("Domainemedium"),
-    url("assets/fonts/domaine-sans-fine-medium.woff") format("woff"),
-    url("assets/fonts/domaine-sans-fine-medium.woff2") format("woff2");
+  font-family: "domainelight";
+  src: local(domainelight), local("domainelight"),
+    url("assets/fonts/domainelight.woff") format("woff"),
+    url("assets/fonts/domainelight.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
-  font-family: "Domaineregular";
-  src: local(domaine-sans-fine-regular), local("Domaineregular"),
-    url("assets/fonts/domaine-sans-fine-regular.woff") format("woff"),
-    url("assets/fonts/domaine-sans-fine-regular.woff2") format("woff2");
+  font-family: "domaineregular";
+  src: local(domaineregular), local("domaineregular"),
+    url("assets/fonts/domaineregular.woff") format("woff"),
+    url("assets/fonts/domaineregular.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
-  font-family: "Domainethin";
-  src: local(domaine-sans-fine-thin), local("Domainethin"),
-    url("assets/fonts/domaine-sans-fine-thin.woff") format("woff"),
-    url("assets/fonts/domaine-sans-fine-thin.woff2") format("woff2");
+  font-family: "domainemedium";
+  src: local(domainemedium), local("domainemedium"),
+    url("assets/fonts/domainemedium.woff") format("woff"),
+    url("assets/fonts/domainemedium.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
-  font-family: "ObjectSans";
-  src: local(PPObjectSans-Thin), local("ObjectSans"),
-    url("assets/fonts/PPObjectSans-Thin.woff") format("woff"),
-    url("assets/fonts/PPObjectSans-Thin.woff2") format("woff2");
+  font-family: "domainebold";
+  src: local(domainebold), local("domainebold"),
+    url("assets/fonts/domainebold.woff") format("woff"),
+    url("assets/fonts/domainebold.woff2") format("woff2");
   font-display: swap;
 }

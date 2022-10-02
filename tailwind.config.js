@@ -9,18 +9,18 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Domainethin: ["Domainethin"],
-        Domainelight: ["Domainelight"],
-        Domaineregular: ["Domaineregular"],
-        Domainemedium: ["Domainemedium"],
-        ObjectSans: ["ObjectSans"],
+        domainething: ["domainething"],
+        domainelight: ["domainelight"],
+        domaineregular: ["domaineregular"],
+        domainemedium: ["domainemedium"],
+        domainebold: ["domainebold"],
       },
       colors: {
         "brand-rose-gold": "#b76e79",
-        "brand-dark-rose": "#9a4955",
-        "brand-tan": "#c39274",
-        "brand-green": "#4b7e72",
-        "brand-lime": "#76a663",
+        "brand-bud-green": "#78b76d",
+        "brand-larchmere": "#6db7ac",
+        "brand-light-purple": "#ac6db7",
+        "brand-light-brown": "#b7876d",
       },
       fontSize: {
         "10xl": "10rem",
@@ -41,7 +41,7 @@ module.exports = {
         "400px": "400px",
         "500px": "500px",
         "600px": "600px",
-        "800px": "800px"
+        "800px": "800px",
       },
     },
   },
