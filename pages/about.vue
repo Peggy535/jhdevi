@@ -122,7 +122,7 @@ definePageMeta({
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-bud-green rounded-2xl">
+          <span class="h-40 bg-brand-rose-gold rounded-2xl">
             <h1 class="font-domainebold text-6xl text-white m-2 p-2">CBT</h1>
           </span>
           <span class="relative h-60 sm:h-72 m-1 p-1">
@@ -133,7 +133,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/cbt">
               <button
-                class="absolute bottom-0 border-2 border-brand-bud-green text-brand-bud-green rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-rose-gold text-brand-rose-gold rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -143,7 +143,7 @@ definePageMeta({
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-larchmere rounded-xl">
+          <span class="h-40 bg-brand-rose-gold rounded-xl">
             <h1 class="font-domainebold text-4xl text-white m-2 p-2">
               Hypnotherapy
             </h1>
@@ -156,7 +156,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/hypnotherapy">
               <button
-                class="absolute bottom-0 border-2 border-brand-larchmere text-brand-larchmere rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-rose-gold text-brand-rose-gold rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -166,7 +166,7 @@ definePageMeta({
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-light-purple rounded-2xl">
+          <span class="h-40 bg-brand-rose-gold rounded-2xl">
             <h1 class="font-domainebold text-6xl text-white m-2 p-2">EFT</h1>
             <p class="font-domainemedium text-lg m-2 p-2 text-white">
               Emotional Freedom Technique
@@ -180,7 +180,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/eft">
               <button
-                class="absolute bottom-0 border-2 border-brand-light-purple text-brand-light-purple rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-rose-gold text-brand-rose-gold rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -190,7 +190,7 @@ definePageMeta({
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-light-brown rounded-2xl">
+          <span class="h-40 bg-brand-rose-gold rounded-2xl">
             <h1 class="font-domainebold text-6xl text-white m-2 p-2">
               Yin Yoga
             </h1>
@@ -202,7 +202,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/yinyoga">
               <button
-                class="absolute bottom-0 border-2 border-brand-light-brown text-brand-light-brown rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-rose-gold text-brand-rose-gold rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>

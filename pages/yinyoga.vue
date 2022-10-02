@@ -9,12 +9,12 @@ definePageMeta({
     <section
       class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60"
     >
-      <div class="w-full h-auto my-20 font-domainebold text-brand-light-brown">
+      <div class="w-full h-auto my-20 font-domainebold text-brand-rose-gold">
         <h1 class="text-8xl md:text-11xl lg:text-13xl m-1 p-1">Yin Yoga</h1>
       </div>
 
       <div
-        class="flex h-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto border-2 border-white bg-brand-light-brown rounded-2xl"
+        class="flex h-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto border-2 border-white bg-brand-rose-gold rounded-2xl"
       >
         <p
           class="text-xl sm:text-2xl md:text-3xl lg:text-6xl m-2 p-2 text-white"

@@ -31,53 +31,67 @@ const closeMenu = () => {
   >
     <span class="absolute top-5 left-5" @click="closeMenu">
       <h1
-        class="text-xl text-brand-rose-gold hover:transition hover:duration-500 hover:delay-75 hover:ease-in-out hover:scale-125 hover:text-brand-dark-rose"
+        class="text-xl text-brand-rose-gold hover:transition hover:duration-500 hover:delay-75 hover:ease-in-out hover:scale-110 hover:text-brand-dark-rose"
       >
         Close menu
       </h1>
     </span>
     <div class="flex mx-auto">
-      <ul class="text-4xl sm:text-4xl md:text-5xl lg:text-6xl">
+      <ul class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
         <NuxtLink to="/" @click="closeMenu">
           <li
-            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-125 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
           >
             Home
           </li>
         </NuxtLink>
         <NuxtLink to="/about" @click="closeMenu">
           <li
-            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-125 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
           >
             About & Services
           </li>
         </NuxtLink>
         <NuxtLink to="/cbt" @click="closeMenu">
           <li
-            class="m-2 p-2 text-brand-bud-green transition delay-75 ease-in-out duration-700 hover:scale-125 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-bud-green after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
           >
             CBT
           </li>
         </NuxtLink>
         <NuxtLink to="/hypnotherapy" @click="closeMenu">
           <li
-            class="m-2 p-2 text-brand-larchmere transition delay-75 ease-in-out duration-700 hover:scale-125 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-larchmere after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
           >
             Hypnotherapy
           </li>
         </NuxtLink>
         <NuxtLink to="/eft" @click="closeMenu">
           <li
-            class="m-2 p-2 text-brand-light-purple transition delay-75 ease-in-out duration-700 hover:scale-125 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-light-purple after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
           >
             EFT
           </li>
         </NuxtLink>
         <NuxtLink to="/yinyoga" @click="closeMenu">
           <li
-            class="m-2 p-2 text-brand-light-brown transition delay-75 ease-in-out duration-700 hover:scale-125 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-light-brown after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
           >
             Yin Yoga
+          </li>
+        </NuxtLink>
+        <NuxtLink to="/bookings" @click="closeMenu">
+          <li
+            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+          >
+            Bookings & Contact
+          </li>
+        </NuxtLink>
+        <NuxtLink to="/" @click="closeMenu">
+          <li
+            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+          >
+            Blog
           </li>
         </NuxtLink>
       </ul>
@@ -88,7 +102,7 @@ const closeMenu = () => {
     class="fixed w-full flex flex-row place-content-between items-center z-30 font-domainemedium"
   >
     <MenuIcon
-      class="fill-brand-rose-gold w-16 sm:w-18 md:w-20 transition delay-75 duration-500 hover:fill-brand-dark-rose hover:scale-125"
+      class="fill-brand-rose-gold w-16 sm:w-18 md:w-20 transition delay-75 duration-500 hover:scale-110"
       @click="openMenu"
     />
     <span class="m-1"
@@ -97,7 +111,7 @@ const closeMenu = () => {
           class="border-2 mr-5 border-brand-rose-gold rounded-2xl transition delay-75 ease-in-out hover:border-white hover:ring-offset-8 hover:scale-110 duration:700"
         >
           <p
-            class="text-brand-rose-gold rounded-2xl p-1 sm:p-2 text-md sm:text-xl md:text-2xl transition delay-75 ease-in-out hover:text-white hover:bg-brand-rose-gold hover:scale-110 duration:700"
+            class="text-brand-rose-gold rounded-2xl p-1 sm:p-2 text-md sm:text-xl md:text-2xl transition delay-75 ease-in-out hover:text-white hover:bg-brand-rose-gold hover:scale-110 duration:1000"
           >
             Book now
           </p>

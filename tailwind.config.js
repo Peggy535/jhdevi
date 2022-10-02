@@ -17,10 +17,7 @@ module.exports = {
       },
       colors: {
         "brand-rose-gold": "#b76e79",
-        "brand-bud-green": "#78b76d",
-        "brand-larchmere": "#6db7ac",
-        "brand-light-purple": "#ac6db7",
-        "brand-light-brown": "#b7876d",
+        "brand-mystic-gold": "#af983F",
       },
       fontSize: {
         "10xl": "10rem",

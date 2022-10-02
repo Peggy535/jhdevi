@@ -9,16 +9,16 @@ definePageMeta({
     <section
       class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60"
     >
-      <div class="w-full h-auto my-20 font-domainebold text-brand-larchmere">
+      <div class="w-full h-auto my-20 font-domainebold text-brand-rose-gold">
         <h1
           class="text-5xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl m-1"
         >
-          Hypnotherapy
+          JH Hypnotherapy
         </h1>
       </div>
 
       <div
-        class="flex h-auto w-full sm:w-4/5 lg:w-2/3 mx-auto border-2 border-white bg-brand-larchmere rounded-2xl"
+        class="flex h-auto w-full sm:w-4/5 lg:w-2/3 mx-auto border-2 border-white bg-brand-rose-gold rounded-2xl"
       >
         <p
           class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl m-2 p-2 text-white"
