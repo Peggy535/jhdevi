@@ -1,23 +1,23 @@
 <script setup>
 definePageMeta({
-  layout: "limelayout",
+  layout: "default",
 });
 </script>
 
 <template>
-  <div class="overflow-hidden font-ObjectSans">
+  <div class="overflow-hidden font-domaineregular text-neutral-700">
     <section
-      class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60 text-brand-lime"
+      class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60"
     >
-      <div class="w-full h-auto my-10 font-Domainemedium">
-        <h1 class="text-10xl md:text-11xl lg:text-13xl m-1 p-1">Yin Yoga</h1>
+      <div class="w-full h-auto my-20 font-domainebold text-brand-light-brown">
+        <h1 class="text-8xl md:text-11xl lg:text-13xl m-1 p-1">Yin Yoga</h1>
       </div>
 
       <div
-        class="flex h-auto w-full md:w-4/5 lg:w-2/3 mx-auto border-2 border-white bg-brand-lime rounded-2xl shadow-2xl shadow-neutral-300"
+        class="flex h-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto border-2 border-white bg-brand-light-brown rounded-2xl"
       >
         <p
-          class="text-2xl md:text-4xl lg:text-6xl font-Domaineregular m-2 p-2 text-white leading-relaxed"
+          class="text-xl sm:text-2xl md:text-3xl lg:text-6xl m-2 p-2 text-white"
         >
           That instant stress relief button. Research shows that as you get
           older, if you don’t take quality time to stretch, the body will been
@@ -28,9 +28,9 @@ definePageMeta({
       </div>
 
       <div
-        class="w-full md:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 mt-10"
+        class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 sm:mt-10"
       >
-        <p class="m-2 p-2 text-xl md:text-2xl lg:text-3xl text-neutral-700">
+        <p class="m-2 p-2 text-xl md:text-2xl lg:text-3xl">
           If you suffer from Chronic Fatigue Syndrome, anxiety and stress and
           IBS Yin is accessible for you! It’s also essential for athletes,
           acting as a complimentary practice between other hard core yoga and
@@ -44,9 +44,7 @@ definePageMeta({
           posture, as it is here at this precipice that we enable our bodies to
           begin to safely open.
         </p>
-        <p
-          class="m-2 p-2 text-xl md:text-2xl lg:text-3xl text-neutral-700 mt-10"
-        >
+        <p class="m-2 p-2 text-xl md:text-2xl lg:text-3xl">
           That calm you feel after a yin class is very real. Studies have found
           yin yoga to have a significant impact on lowering stress and anxiety
           and reducing the risk of depression. Plus, it activates your
@@ -64,7 +62,7 @@ definePageMeta({
       </div>
 
       <div
-        class="w-full sm:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 text-xl md:text-2xl lg:text-3xl text-neutral-700 mt-10"
+        class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 text-xl md:text-2xl lg:text-3xl"
       >
         <p class="m-2 p-2">
           The main reason WHY I favour Yin is because it was Yin Yoga that I
@@ -77,7 +75,6 @@ definePageMeta({
           myself to accept the present moment and just stop fighting against the
           unknown of the aftermath of the Covid-19 virus.
         </p>
-        <br />
         <p class="m-2 p-2">
           If you think Yin Yoga can help you or someone you know, just go ahead
           and contact me.

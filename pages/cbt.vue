@@ -1,14 +1,14 @@
 <script setup>
 definePageMeta({
-  layout: "darkroselayout",
+  layout: "default",
 });
 </script>
 <template>
-  <div class="overflow-hidden font-ObjectSans">
+  <div class="overflow-hidden font-domaineregular text-neutral-700">
     <section
-      class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60 text-brand-dark-rose"
+      class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60"
     >
-      <div class="w-full h-auto my-10 font-Domainemedium">
+      <div class="w-full h-auto my-10 font-domainebold text-brand-bud-green">
         <h1 class="text-10xl md:text-11xl lg:text-13xl m-1 p-1">CBT</h1>
         <h1 class="text-3xl md:text-4xl lg:text-6xl m-1 p-1">
           Cognitive Behavioral Therapy
@@ -16,15 +16,12 @@ definePageMeta({
       </div>
 
       <div
-        class="flex h-auto w-full md:w-4/5 lg:w-2/3 mx-auto border-2 border-white bg-brand-dark-rose rounded-2xl shadow-2xl shadow-neutral-300"
+        class="flex h-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto border-2 border-white bg-brand-bud-green rounded-2xl"
       >
         <p
-          class="text-2xl md:text-4xl lg:text-6xl font-Domaineregular m-2 p-2 text-white leading-snug"
+          class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl m-2 p-2 text-white"
         >
-          <span class="text-7xl md:text-8xl lg:text-9xl font-Domainemedium"
-            >CBT</span
-          >
-          is a therapy that focuses on the particular ways in which an
+          CBT is a therapy that focuses on the particular ways in which an
           individual thinks, behaves and acts, in the attempt to deal
           successfully with their behavioural, emotional and social problems and
           issues.
@@ -32,9 +29,9 @@ definePageMeta({
       </div>
 
       <div
-        class="w-full md:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 my-10"
+        class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 sm:mt-10"
       >
-        <p class="m-2 p-2 text-xl md:text-2xl lg:text-3xl text-neutral-700">
+        <p class="m-2 p-2 text-xl md:text-2xl lg:text-3xl">
           The difference between psychotherapy and behavioural therapy is that
           psychotherapy tends to emphasise the importance of the personal
           meaning placed upon things and how the majority of thinking patterns
@@ -47,7 +44,7 @@ definePageMeta({
       </div>
 
       <div
-        class="w-full sm:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 my-10 text-xl md:text-2xl lg:text-3xl text-neutral-700"
+        class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto bg-white bg-opacity-80 text-xl md:text-2xl lg:text-3xl"
       >
         <p class="m-2 p-2">
           The great advantage that ‘CBT’ has over other therapies is that
@@ -60,7 +57,6 @@ definePageMeta({
           assist a number of my clients and we have experienced amazing results.
           Especially in stress related disorders.
         </p>
-        <br />
         <p class="m-2 p-2">
           I bring together a combination of CBT and Curative Hypnosis to assist
           a number of my clients and we have experienced amazing results.
