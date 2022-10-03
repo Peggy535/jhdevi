@@ -35,7 +35,7 @@ export default defineNuxtConfig({
       theme_color: "#b76e79",
     },
     workbox: {
-      enabled: false,
+      enabled: true,
     },
     manifest: {
       name: "Justine Hodgson - JH Devi",
