@@ -6,7 +6,7 @@ definePageMeta({
 </script>
 
 <template>
-  <div class="overflow-hidden font-domaineregular text-neutral-700">
+  <div class="overflow-hidden font-domainelight text-neutral-700">
     <!-- Video section -->
     <section class="h-screen w-screen fixed">
       <video
@@ -38,7 +38,7 @@ definePageMeta({
         <blockquote class="m-1 p-1 xl:w-3/4 2xl:w-1/2">
           <p class="text-2xl sm:text-3xl lg:text-4xl m-1 p-1 md:m-2 md:p-2">
             <span
-              class="text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl text-brand-rose-gold font-domainebold"
+              class="text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl text-brand-rose-gold font-domainelight"
               >Hello</span
             >
             and welcome to my website, I hope you find both it and the words
@@ -54,7 +54,7 @@ definePageMeta({
             class="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl m-1 p-1"
           >
             <span
-              class="font-domainebold text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl"
+              class="font-domainelight text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl"
               >You</span
             >
             are beautiful, unique and deserving of all good things.

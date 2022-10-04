@@ -5,23 +5,23 @@ definePageMeta({
 </script>
 
 <template>
-  <div class="font-domaineregular text-neutral-700">
+  <div class="font-domainelight text-neutral-700">
     <section class="flex flex-col h-auto w-screen">
       <div class="flex flex-col h-auto text-left my-20">
         <h1
-          class="flex text-7xl sm:text-9xl lg:text-11xl 2xl:text-12xl m-1 p-1 text-brand-rose-gold font-domainebold"
+          class="flex text-7xl sm:text-9xl lg:text-11xl 2xl:text-12xl m-1 p-1 text-brand-bronze font-domainelight"
         >
           About JH
         </h1>
       </div>
       <blockquote
-        class="h-auto lg:w-3/4 lg:self-end rounded-3xl m-1 p-1 sm:m-3 sm:p-3 bg-brand-rose-gold text-neutral-50 border-4 border-white shadow-lg shadow-neutral-200"
+        class="h-auto lg:w-3/4 lg:self-end rounded-3xl m-1 p-1 sm:m-3 sm:p-3 bg-brand-bronze text-neutral-50 border-4 border-white shadow-lg shadow-neutral-200"
       >
         <p
           class="text-2xl sm:text-3xl m-1 p-1 my-10 border-l-4 border-l-neutral-50 border-spacing-10"
         >
           <span
-            class="text-7xl sm:text-9xl md:text-11xl lg:text-12xl font-domainebold"
+            class="text-7xl sm:text-9xl md:text-11xl lg:text-12xl font-domainelight"
             >Having</span
           >
           personally experienced such things as anxiety, trauma and chronic
@@ -111,7 +111,7 @@ definePageMeta({
     <section class="h-auto w-screen">
       <div class="flex">
         <h1
-          class="font-domainebold text-6xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl text-brand-rose-gold m-1 p-1 my-10"
+          class="font-domainelight text-6xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl text-brand-bronze m-1 p-1 my-10"
         >
           JH Services
         </h1>
@@ -122,8 +122,8 @@ definePageMeta({
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-rose-gold rounded-2xl">
-            <h1 class="font-domainebold text-6xl text-white m-2 p-2">CBT</h1>
+          <span class="h-40 bg-brand-bronze rounded-2xl">
+            <h1 class="font-domainelight text-6xl text-white m-2 p-2">CBT</h1>
           </span>
           <span class="relative h-60 sm:h-72 m-1 p-1">
             <p class="text-lg">
@@ -133,7 +133,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/cbt">
               <button
-                class="absolute bottom-0 border-2 border-brand-rose-gold text-brand-rose-gold rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -143,8 +143,8 @@ definePageMeta({
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-rose-gold rounded-xl">
-            <h1 class="font-domainebold text-4xl text-white m-2 p-2">
+          <span class="h-40 bg-brand-bronze rounded-xl">
+            <h1 class="font-domainelight text-4xl text-white m-2 p-2">
               Hypnotherapy
             </h1>
           </span>
@@ -156,7 +156,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/hypnotherapy">
               <button
-                class="absolute bottom-0 border-2 border-brand-rose-gold text-brand-rose-gold rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -166,8 +166,8 @@ definePageMeta({
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-rose-gold rounded-2xl">
-            <h1 class="font-domainebold text-6xl text-white m-2 p-2">EFT</h1>
+          <span class="h-40 bg-brand-bronze rounded-2xl">
+            <h1 class="font-domainelight text-6xl text-white m-2 p-2">EFT</h1>
             <p class="font-domainemedium text-lg m-2 p-2 text-white">
               Emotional Freedom Technique
             </p>
@@ -180,7 +180,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/eft">
               <button
-                class="absolute bottom-0 border-2 border-brand-rose-gold text-brand-rose-gold rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -190,8 +190,8 @@ definePageMeta({
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
         >
-          <span class="h-40 bg-brand-rose-gold rounded-2xl">
-            <h1 class="font-domainebold text-6xl text-white m-2 p-2">
+          <span class="h-40 bg-brand-bronze rounded-2xl">
+            <h1 class="font-domainelight text-6xl text-white m-2 p-2">
               Yin Yoga
             </h1>
           </span>
@@ -202,7 +202,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/yinyoga">
               <button
-                class="absolute bottom-0 border-2 border-brand-rose-gold text-brand-rose-gold rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl font-ObjectsSans text-lg"
               >
                 <p class="m-1">Learn more</p>
               </button>

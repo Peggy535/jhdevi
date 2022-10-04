@@ -16,24 +16,3 @@
     url("assets/fonts/domainelight.woff2") format("woff2");
   font-display: swap;
 }
-@font-face {
-  font-family: "domaineregular";
-  src: local(domaineregular), local("domaineregular"),
-    url("assets/fonts/domaineregular.woff") format("woff"),
-    url("assets/fonts/domaineregular.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "domainemedium";
-  src: local(domainemedium), local("domainemedium"),
-    url("assets/fonts/domainemedium.woff") format("woff"),
-    url("assets/fonts/domainemedium.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "domainebold";
-  src: local(domainebold), local("domainebold"),
-    url("assets/fonts/domainebold.woff") format("woff"),
-    url("assets/fonts/domainebold.woff2") format("woff2");
-  font-display: swap;
-}

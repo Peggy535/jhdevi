@@ -1,23 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./assets/**/*.{vue,js,css}",
     "./components/**/*.{vue,js}",
+    "composables/**/*.{js,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+    "./app.vue",
+    "App.{js,ts,vue}",
   ],
+  mode: "jit",
   theme: {
     extend: {
       fontFamily: {
-        domainething: ["domainething"],
+        domainethin: ["domainethin"],
         domainelight: ["domainelight"],
-        domaineregular: ["domaineregular"],
-        domainemedium: ["domainemedium"],
-        domainebold: ["domainebold"],
       },
       colors: {
         "brand-rose-gold": "#b76e79",
-        "brand-mystic-gold": "#af983F",
+        "brand-bronze": "#9C7E41",
       },
       fontSize: {
         "10xl": "10rem",

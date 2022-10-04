@@ -5,11 +5,11 @@ definePageMeta({
 </script>
 
 <template>
-  <div class="overflow-hidden font-domaineregular text-neutral-700">
+  <div class="overflow-hidden font-domainelight text-neutral-700">
     <section
       class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60"
     >
-      <div class="w-full h-auto my-20 font-domainebold text-brand-rose-gold">
+      <div class="w-full h-auto my-20 font-domainelight text-brand-rose-gold">
         <h1
           class="text-5xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl m-1"
         >

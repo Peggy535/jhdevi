@@ -1,5 +1,3 @@
-import { defineNuxtConfig } from "nuxt";
-
 export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
@@ -16,7 +14,9 @@ export default defineNuxtConfig({
   sanity: {
     projectId: "z3tzp1p0",
   },
-  css: ["@/assets/css/tailwind.css"],
+  tailwind: {
+    cssPath: "~/assets/css/tailwind.css",
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
