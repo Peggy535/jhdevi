@@ -27,7 +27,7 @@ const closeMenu = () => {
 
 <template>
   <div
-    class="fixed z-40 h-screen w-full bg-neutral-100 flex flex-col place-content-center invisible menu font-domainemedium"
+    class="fixed z-40 h-screen w-full bg-neutral-100 flex flex-col place-content-center invisible menu font-domainelight"
   >
     <span class="absolute top-5 left-5" @click="closeMenu">
       <h1
@@ -99,7 +99,7 @@ const closeMenu = () => {
   </div>
 
   <div
-    class="fixed w-full flex flex-row place-content-between items-center z-30 font-domainemedium"
+    class="fixed w-full flex flex-row place-content-between items-center z-30 font-domainelight"
   >
     <MenuIcon
       class="fill-brand-rose-gold w-16 sm:w-18 md:w-20 transition delay-75 duration-500 hover:scale-110"
