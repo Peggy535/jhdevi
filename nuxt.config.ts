@@ -1,4 +1,4 @@
-export default defineNuxtConfig({
+export default({
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/image-edge",

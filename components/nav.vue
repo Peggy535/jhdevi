@@ -17,9 +17,8 @@ const openMenu = () => {
 };
 const closeMenu = () => {
   gsap.to(".menu", {
-    xPercent: -100,
-    duration: 1,
-    autoAlpha: 0,
+    xPercent: 200,
+    duration: 1.5,
     ease: "expo.inOut",
   });
 };
@@ -27,7 +26,7 @@ const closeMenu = () => {
 
 <template>
   <div
-    class="fixed z-40 h-screen w-full bg-neutral-100 flex flex-col place-content-center invisible menu font-domainelight"
+    class="fixed z-40 h-screen w-full bg-white flex flex-col place-content-center invisible menu font-domainelight"
   >
     <span class="absolute top-5 left-5" @click="closeMenu">
       <h1

@@ -38,7 +38,7 @@ definePageMeta({
         <blockquote class="m-1 p-1 xl:w-3/4 2xl:w-1/2">
           <p class="text-2xl sm:text-3xl lg:text-4xl m-1 p-1 md:m-2 md:p-2">
             <span
-              class="text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl text-brand-rose-gold font-domainelight"
+              class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl text-brand-rose-gold font-domainelight"
               >Hello</span
             >
             and welcome to my website, I hope you find both it and the words
@@ -54,7 +54,7 @@ definePageMeta({
             class="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl m-1 p-1"
           >
             <span
-              class="font-domainelight text-8xl sm:text-9xl md:text-10xl lg:text-11xl xl:text-12xl"
+              class="font-domainelight text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl"
               >You</span
             >
             are beautiful, unique and deserving of all good things.
@@ -79,15 +79,15 @@ definePageMeta({
         </button>
       </div>
       <div
-        class="relative h-auto w-screen flex flex-row z-30 place-content-end items-center"
+        class="relative h-auto w-screen flex flex-row z-30 place-content-end items-center m-2 p-2"
       >
         <span class="m-1 p-1">
-          <NuxtLink to="/about">
-            <p class="text-xl">JH Services</p>
-          </NuxtLink>
+          <p class="text-3xl text-brand-rose-gold">JH Services</p>
         </span>
         <NuxtLink to="/about">
-          <Arrowright class="inline w-16 fill-brand-rose-gold" />
+          <Arrowright
+            class="inline border border-white rounded-2xl mr-4 w-20 fill-brand-rose-gold hover:fill-white hover:border-brand-rose-gold hover:scale-110 transition duration-700 ease-in-out"
+          />
         </NuxtLink>
       </div>
     </main>

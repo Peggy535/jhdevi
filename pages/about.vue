@@ -15,7 +15,7 @@ definePageMeta({
         </h1>
       </div>
       <blockquote
-        class="h-auto lg:w-3/4 lg:self-end rounded-3xl m-1 p-1 sm:m-3 sm:p-3 bg-brand-bronze text-neutral-50 border-4 border-white shadow-lg shadow-neutral-200"
+        class="h-auto lg:w-3/4 lg:self-end rounded-3xl m-1 p-1 sm:m-3 sm:p-3 bg-brand-bronze text-neutral-50 border-4 border-white shadow-lg shadow-brand-bronze"
       >
         <p
           class="text-2xl sm:text-3xl m-1 p-1 my-10 border-l-4 border-l-neutral-50 border-spacing-10"
@@ -49,7 +49,7 @@ definePageMeta({
         >
       </section>
       <p
-        class="m-2 p-2 sm:m-4 sm:p-4 text-2xl sm:text-3xl md:text-4xl lg:grid lg:col-span-3 items-center"
+        class="m-2 p-2 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:grid lg:col-span-3 items-center"
       >
         By now hopefully, you’ve pressed the play button on both my welcome and
         about me recordings and I’ve saved you valuable time on reading a page
@@ -75,7 +75,7 @@ definePageMeta({
         sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
       />
       <p
-        class="m-2 p-2 sm:m-4 sm:p-4 text-2xl sm:text-3xl md:text-4xl lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2"
+        class="m-2 p-2 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2"
       >
         At this stage you would have heard my story and know, just as so many
         before me and many to follow, I’ve had my own path to travel and it’s
@@ -99,7 +99,7 @@ definePageMeta({
         sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
       />
       <p
-        class="m-2 p-2 sm:m-4 sm:p-4 text-2xl sm:text-3xl md:text-4xl lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2"
+        class="m-2 p-2 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2"
       >
         I’m that guide. My desire today and every day hereon, is to make people
         feel less broken, so they can experience more joy and happiness and less
@@ -120,7 +120,7 @@ definePageMeta({
         class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 w-screen h-auto mb-5"
       >
         <article
-          class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
+          class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-bronze rounded-2xl shadow-2xl shadow-neutral-200"
         >
           <span class="h-40 bg-brand-bronze rounded-2xl">
             <h1 class="font-domainelight text-6xl text-white m-2 p-2">CBT</h1>
@@ -133,7 +133,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/cbt">
               <button
-                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-bronze hover:text-white"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -141,7 +141,7 @@ definePageMeta({
           </span>
         </article>
         <article
-          class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
+          class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-bronze rounded-2xl shadow-2xl shadow-neutral-200"
         >
           <span class="h-40 bg-brand-bronze rounded-xl">
             <h1 class="font-domainelight text-4xl text-white m-2 p-2">
@@ -156,7 +156,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/hypnotherapy">
               <button
-                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-bronze hover:text-white"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -164,7 +164,7 @@ definePageMeta({
           </span>
         </article>
         <article
-          class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
+          class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-bronze rounded-2xl shadow-2xl shadow-neutral-200"
         >
           <span class="h-40 bg-brand-bronze rounded-2xl">
             <h1 class="font-domainelight text-6xl text-white m-2 p-2">EFT</h1>
@@ -180,7 +180,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/eft">
               <button
-                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-bronze hover:text-white"
               >
                 <p class="m-1">Learn more</p>
               </button>
@@ -188,7 +188,7 @@ definePageMeta({
           </span>
         </article>
         <article
-          class="grid col-span-1 min-h-min m-2 p-2 border-2 border-white rounded-2xl shadow-2xl shadow-neutral-200"
+          class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-bronze rounded-2xl shadow-2xl shadow-neutral-200"
         >
           <span class="h-40 bg-brand-bronze rounded-2xl">
             <h1 class="font-domainelight text-6xl text-white m-2 p-2">
@@ -202,7 +202,7 @@ definePageMeta({
             </p>
             <NuxtLink to="/yinyoga">
               <button
-                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl font-ObjectsSans text-lg"
+                class="absolute bottom-0 border-2 border-brand-bronze text-brand-bronze rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-bronze hover:text-white"
               >
                 <p class="m-1">Learn more</p>
               </button>
