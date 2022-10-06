@@ -79,7 +79,7 @@ definePageMeta({
         </button>
       </div>
       <div
-        class="relative h-auto w-screen flex flex-row z-30 place-content-end items-center m-2 p-2"
+        class="relative h-auto w-screen flex flex-row z-30 place-content-end items-center"
       >
         <span class="m-1 p-1">
           <p class="text-3xl text-brand-rose-gold">JH Services</p>

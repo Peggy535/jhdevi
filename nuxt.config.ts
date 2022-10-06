@@ -1,4 +1,4 @@
-export default({
+export default {
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/image-edge",
@@ -44,4 +44,4 @@ export default({
         "One to One CBT, Hypnotherapy, EFT & Yin Yoga therapy online services based in the UK.",
     },
   },
-});
+};
