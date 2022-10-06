@@ -14,9 +14,10 @@ export default {
   sanity: {
     projectId: "z3tzp1p0",
   },
-  tailwind: {
+  css: ["~/assets/css/tailwind.css"],
+  /* tailwind: {
     cssPath: "~/assets/css/tailwind.css",
-  },
+  }, */
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -38,8 +39,8 @@ export default {
       enabled: true,
     },
     manifest: {
-      name: "Justine Hodgson - JH Devi",
-      short_name: "JH Devi",
+      name: "Justine Hodgson Integrated Therapies",
+      short_name: "JH Int. Therapies",
       description:
         "One to One CBT, Hypnotherapy, EFT & Yin Yoga therapy online services based in the UK.",
     },

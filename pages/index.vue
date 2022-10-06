@@ -26,10 +26,10 @@ definePageMeta({
         <div
           class="text-brand-rose-gold text-5xl sm:text-6xl md:text-7xl lg:text-8xl m-2 p-2 mb-20"
         >
-          <h1>Justine Hodgson</h1>
-          <h1>Hypnotherapy</h1>
-          <h1>&</h1>
-          <h1>Wellbeing Expert</h1>
+          <h1>Justine</h1>
+          <h1>Hodgson</h1>
+          <h1>Intergrated</h1>
+          <h1>Therapies</h1>
         </div>
       </section>
 
