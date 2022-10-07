@@ -1,8 +1,10 @@
 <script setup>
-import { onMounted } from "vue";
-
-const query = groq`*[_type == "blogArticle"]{_id, title, publishedDate, summaryDescription, body, "image":articleImage.asset->url, slug, myTags}`;
+const query = groq`*[_type == "blogArticle"]{_id, title, publishedDate, summaryDescription, body, "image":articleImage.asset->url, slug, myTags, minRead}`;
 const { data: blogs } = useSanityQuery(query);
+
+definePageMeta({
+  layout: "goldnav",
+});
 </script>
 
 <template>
@@ -19,11 +21,13 @@ const { data: blogs } = useSanityQuery(query);
         <article
           class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-champagne-gold rounded-2xl shadow-2xl shadow-neutral-200 group"
         >
-          <span class="h-40 bg-brand-champagne-gold rounded-2xl text-white">
+          <span
+            class="h-40 bg-brand-champagne-gold rounded-2xl text-neutral-600"
+          >
             <h1 class="m-1 p-1 text-2xl">{{ blog.title }}</h1>
             <p class="text-xs m-1 p-1">{{ blog.minRead }} min read</p>
           </span>
-          <span class="relative h-60 sm:h-72 m-1 p-1">
+          <span class="relative h-48 sm:h-60 m-1 p-1">
             <p>{{ new Date(blog.publishedDate).toLocaleDateString() }}</p>
             <p class="text-lg">
               {{ blog.summaryDescription }}

@@ -1,9 +1,9 @@
 export default {
   modules: [
-    "@nuxtjs/tailwindcss",
     "@nuxt/image-edge",
-    "@kevinmarrec/nuxt-pwa",
     "@nuxtjs/sanity",
+    "@nuxtjs/tailwindcss",
+    "@kevinmarrec/nuxt-pwa",
   ],
   image: {
     cloudinary: {
@@ -17,12 +17,7 @@ export default {
   tailwind: {
     cssPath: "~/assets/css/tailwind.css",
   },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
+
   build: {
     transpile: ["gsap"],
   },
