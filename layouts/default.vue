@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav />
+    <NavRoseGold />
     <slot></slot>
   </div>
 </template>

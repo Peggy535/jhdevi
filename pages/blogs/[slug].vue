@@ -1,6 +1,4 @@
 <script setup>
-import { assertClassImplements } from "@babel/types";
-
 const route = useRoute();
 const sanity = useSanity();
 

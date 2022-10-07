@@ -19,8 +19,8 @@ module.exports = {
       },
       colors: {
         "brand-rose-gold": "#b76e79",
-        "brand-champagne-gold": "#9C7E41",
-        "brand-champagne-gold":"#d7c69d"
+        "brand-bronze": "#9C7E41",
+        "brand-champagne-gold": "#d7c69d",
       },
       fontSize: {
         "10xl": "10rem",
@@ -45,5 +45,4 @@ module.exports = {
       },
     },
   },
-  plugins: ["@tailwindcss/typography"],
 };
