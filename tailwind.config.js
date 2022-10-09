@@ -19,7 +19,7 @@ module.exports = {
       },
       colors: {
         "brand-rose-gold": "#b76e79",
-        "brand-bronze": "#9C7E41",
+        "brand-green": "#cbd79d",
         "brand-champagne-gold": "#d7c69d",
       },
       fontSize: {
