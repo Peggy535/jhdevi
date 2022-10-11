@@ -1,5 +1,5 @@
 <script setup>
-const query = groq`*[_type == "blogArticle"]{_id, title, publishedDate, summaryDescription, body, "image":articleImage.asset->url, slug, myTags, minRead}`;
+const query = groq`*[_type == "blogArticle"] | order(publishedDate desc) {_id, title, publishedDate, summaryDescription, body, "image":articleImage.asset->url, slug, myTags, minRead}`;
 const { data: blogs } = useSanityQuery(query);
 
 definePageMeta({
@@ -15,17 +15,19 @@ definePageMeta({
       <h1 class="text-7xl m-2 p-2 mt-20">JH Blog</h1>
     </div>
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 w-screen h-auto mb-5 font-domainelight"
+      class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 w-screen h-auto mb-5 font-domainelight px-2 md:px-4"
     >
       <div v-for="blog in blogs" :key="blog._id">
         <article
-          class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-champagne-gold rounded-2xl shadow-2xl shadow-neutral-200 group"
+          class="grid col-span-1 min-h-min border-2 border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
         >
           <span
             class="h-40 bg-brand-champagne-gold rounded-2xl text-neutral-600"
           >
-            <h1 class="m-1 p-1 text-2xl">{{ blog.title }}</h1>
-            <p class="text-xs m-1 p-1">{{ blog.minRead }} min read</p>
+            <h1 class="m-1 p-1 text-2xl md:text-3xl lg:text-4xl">
+              {{ blog.title }}
+            </h1>
+            <p class="text-sm m-1 p-1">{{ blog.minRead }} min read</p>
           </span>
           <span class="relative h-48 sm:h-60 m-1 p-1">
             <p>{{ new Date(blog.publishedDate).toLocaleDateString() }}</p>
