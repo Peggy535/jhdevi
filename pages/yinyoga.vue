@@ -11,14 +11,14 @@ definePageMeta({
         class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60"
       >
         <div class="w-full h-auto my-20 font-domainelight text-brand-rose-gold">
-          <h1 class="text-8xl md:text-11xl lg:text-13xl m-1 p-1">Yin Yoga</h1>
+          <h1 class="text-6xl sm:text-7xl md:text-8xl lg:text-10xl xl:text-11xl m-1 p-1">Yin Yoga</h1>
         </div>
 
         <div
           class="flex h-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto border-2 border-white bg-brand-rose-gold rounded-2xl"
         >
           <p
-            class="text-xl sm:text-2xl md:text-3xl lg:text-6xl m-2 p-2 text-white"
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl m-2 p-2 text-white"
           >
             That instant stress relief button. Research shows that as you get
             older, if you don’t take quality time to stretch, the body will been
