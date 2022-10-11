@@ -33,11 +33,9 @@ definePageMeta({
           <cite class="m-1 p-1 font-Domainelight">- Justine Hodgson</cite>
         </blockquote>
       </section>
-      <section
-        class="h-auto w-screen flex flex-col justify-evenly lg:grid lg:grid-cols-4"
-      >
+      <section class="h-auto w-screen flex flex-col lg:grid lg:grid-cols-4 lg:items-center">
         <section
-          class="m-1 p-1 w-full sm:w-4/5 md:w-1/2 lg:w-full mx-auto my-10 border-4 border-white shadow-2xl shadow-neutral-200 rounded-2xl z-10 lg:grid lg:col-span-1"
+          class="m-1 p-1 w-full sm:w-1/2 lg:w-full mx-auto my-10 border-4 border-white shadow-2xl shadow-neutral-200 rounded-2xl z-10 lg:grid lg:col-span-1"
         >
           <video
             class="z-5"
@@ -51,7 +49,7 @@ definePageMeta({
           >
         </section>
         <p
-          class="m-2 p-2 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:grid lg:col-span-3 items-center"
+          class="m-2 p-2 mb-5 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:grid lg:col-span-3"
         >
           By now hopefully, you’ve pressed the play button on both my welcome
           and about me recordings and I’ve saved you valuable time on reading a
@@ -63,7 +61,7 @@ definePageMeta({
         </p>
       </section>
       <section
-        class="h-screen w-screen flex flex-col justify-evenly lg:grid lg:grid-cols-4 lg:grid-rows-1 lg:h-auto lg:items-center"
+        class="h-auto w-screen flex flex-col lg:grid lg:grid-cols-4 lg:grid-rows-1 lg:h-auto lg:items-center"
       >
         <NuxtImg
           provider="cloudinary"
@@ -77,7 +75,7 @@ definePageMeta({
           sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
         />
         <p
-          class="m-2 p-2 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2"
+          class="m-2 p-2 my-5 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2"
         >
           At this stage you would have heard my story and know, just as so many
           before me and many to follow, I’ve had my own path to travel and it’s
@@ -87,7 +85,7 @@ definePageMeta({
         </p>
       </section>
       <section
-        class="h-screen w-screen flex flex-col justify-evenly lg:grid lg:grid-cols-4 lg:grid-rows-1 lg:h-auto lg:items-center"
+        class="h-auto w-screen flex flex-col justify-evenly lg:grid lg:grid-cols-4 lg:grid-rows-1 lg:h-auto lg:items-center"
       >
         <NuxtImg
           provider="cloudinary"
@@ -101,7 +99,7 @@ definePageMeta({
           sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
         />
         <p
-          class="m-2 p-2 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2"
+          class="m-2 p-2 mt-5 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2"
         >
           I’m that guide. My desire today and every day hereon, is to make
           people feel less broken, so they can experience more joy and happiness
@@ -122,9 +120,9 @@ definePageMeta({
           class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 w-screen h-auto mb-5"
         >
           <article
-            class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-champagne-gold rounded-2xl shadow-2xl shadow-neutral-200"
+            class="grid col-span-1 min-h-min m-3 border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
           >
-            <span class="h-40 bg-brand-champagne-gold rounded-2xl">
+            <span class="h-40 bg-brand-champagne-gold rounded-xl">
               <h1 class="font-domainelight text-6xl text-white m-2 p-2">CBT</h1>
             </span>
             <span class="relative h-60 sm:h-72 m-1 p-1">
@@ -135,7 +133,7 @@ definePageMeta({
               </p>
               <NuxtLink to="/cbt">
                 <button
-                  class="absolute bottom-0 border-2 border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
+                  class="absolute bottom-0 border border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
                 >
                   <p class="m-1">Learn more</p>
                 </button>
@@ -143,7 +141,7 @@ definePageMeta({
             </span>
           </article>
           <article
-            class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-champagne-gold rounded-2xl shadow-2xl shadow-neutral-200"
+            class="grid col-span-1 min-h-min m-3 border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
           >
             <span class="h-40 bg-brand-champagne-gold rounded-xl">
               <h1 class="font-domainelight text-4xl text-white m-2 p-2">
@@ -158,7 +156,7 @@ definePageMeta({
               </p>
               <NuxtLink to="/hypnotherapy">
                 <button
-                  class="absolute bottom-0 border-2 border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
+                  class="absolute bottom-0 border border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
                 >
                   <p class="m-1">Learn more</p>
                 </button>
@@ -166,9 +164,9 @@ definePageMeta({
             </span>
           </article>
           <article
-            class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-champagne-gold rounded-2xl shadow-2xl shadow-neutral-200"
+            class="grid col-span-1 min-h-min m-3 border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
           >
-            <span class="h-40 bg-brand-champagne-gold rounded-2xl">
+            <span class="h-40 bg-brand-champagne-gold rounded-xl">
               <h1 class="font-domainelight text-6xl text-white m-2 p-2">EFT</h1>
               <p class="font-domainemedium text-lg m-2 p-2 text-white">
                 Emotional Freedom Technique
@@ -182,7 +180,7 @@ definePageMeta({
               </p>
               <NuxtLink to="/eft">
                 <button
-                  class="absolute bottom-0 border-2 border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
+                  class="absolute bottom-0 border border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
                 >
                   <p class="m-1">Learn more</p>
                 </button>
@@ -190,9 +188,9 @@ definePageMeta({
             </span>
           </article>
           <article
-            class="grid col-span-1 min-h-min m-2 p-2 border-2 border-brand-champagne-gold rounded-2xl shadow-2xl shadow-neutral-200"
+            class="grid col-span-1 min-h-min m-3 border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
           >
-            <span class="h-40 bg-brand-champagne-gold rounded-2xl">
+            <span class="h-40 bg-brand-champagne-gold rounded-xl">
               <h1 class="font-domainelight text-6xl text-white m-2 p-2">
                 Yin Yoga
               </h1>
@@ -204,7 +202,7 @@ definePageMeta({
               </p>
               <NuxtLink to="/yinyoga">
                 <button
-                  class="absolute bottom-0 border-2 border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
+                  class="absolute bottom-0 border border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
                 >
                   <p class="m-1">Learn more</p>
                 </button>

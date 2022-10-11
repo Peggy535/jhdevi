@@ -25,7 +25,7 @@ definePageMeta({
       <main class="relative h-auto w-screen z-20 bg-white bg-opacity-60">
         <section class="relative flex flex-col h-screen w-screen justify-end">
           <div
-            class="text-brand-rose-gold text-5xl sm:text-6xl md:text-7xl lg:text-8xl m-2 p-2 mb-20"
+            class="text-brand-rose-gold text-6xl sm:text-7xl md:text-8xl xl:text-9xl m-2 p-2 mb-20"
           >
             <h1>Justine</h1>
             <h1>Hodgson</h1>
@@ -41,7 +41,7 @@ definePageMeta({
           <blockquote class="m-1 p-1 xl:w-3/4 2xl:w-1/2">
             <p class="text-2xl sm:text-3xl lg:text-4xl m-1 p-1 md:m-2 md:p-2">
               <span
-                class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl text-brand-rose-gold font-domainelight"
+                class="text-8xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl text-brand-rose-gold font-domainelight"
                 >Hello</span
               >
               and welcome to my website, I hope you find both it and the words
@@ -55,10 +55,10 @@ definePageMeta({
             class="rounded-3xl xl:w-3/4 2xl:w-1/2 bg-brand-rose-gold text-white border-2 border-white m-2 p-2 md:m-3 md:p-3 self-end"
           >
             <h2
-              class="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl m-1 p-1"
+              class="text-white text-3xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl m-1 p-1"
             >
               <span
-                class="font-domainelight text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl"
+                class="font-domainelight text-8xl sm:text-9xl md:text-10xl lg:text-9xl xl:text-10xl"
                 >You</span
               >
               are beautiful, unique and deserving of all good things.

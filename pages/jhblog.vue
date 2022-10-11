@@ -19,10 +19,10 @@ definePageMeta({
     >
       <div v-for="blog in blogs" :key="blog._id">
         <article
-          class="grid col-span-1 min-h-min border-2 border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
+          class="grid col-span-1 min-h-min border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
         >
           <span
-            class="h-40 bg-brand-champagne-gold rounded-2xl text-neutral-600"
+            class="h-40 bg-brand-champagne-gold rounded-xl text-neutral-700"
           >
             <h1 class="m-1 p-1 text-2xl md:text-3xl lg:text-4xl">
               {{ blog.title }}
