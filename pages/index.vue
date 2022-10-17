@@ -7,7 +7,7 @@
 
 <template>
 	<div>
-		<div class="overflow-hidden font-domainelight text-neutral-700">
+		<div class="overflow-hidden font-domaineregular text-neutral-700">
 			<!-- Video section -->
 			<section class="h-screen w-screen fixed">
 				<video
@@ -36,7 +36,7 @@
 				<section class="relative flex flex-col h-screen w-screen justify-evenly">
 					<blockquote class="m-1 p-1 xl:w-3/4 2xl:w-1/2">
 						<p class="text-2xl sm:text-3xl lg:text-4xl m-1 p-1 md:m-2 md:p-2">
-							<span class="text-8xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl text-brand-rose-gold font-domainelight"
+							<span class="text-8xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl text-brand-rose-gold font-domaineregular"
 								>Hello</span
 							>
 							and welcome to my website, I hope you find both it and the words helpful, healing and inspiring. Whatever you are facing
@@ -46,7 +46,7 @@
 					</blockquote>
 					<div class="rounded-3xl xl:w-3/4 2xl:w-1/2 bg-brand-rose-gold text-white border-2 border-white m-2 p-2 md:m-3 md:p-3 self-end">
 						<h2 class="text-white text-3xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl m-1 p-1">
-							<span class="font-domainelight text-8xl sm:text-9xl md:text-10xl lg:text-9xl xl:text-10xl">You</span>
+							<span class="font-domaineregular text-8xl sm:text-9xl md:text-10xl lg:text-9xl xl:text-10xl">You</span>
 							are beautiful, unique and deserving of all good things.
 						</h2>
 						<cite class="m-1 p-1">- Justine Hodgson</cite>

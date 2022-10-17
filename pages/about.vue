@@ -6,11 +6,11 @@ definePageMeta({
 
 <template>
   <div>
-    <div class="font-domainelight text-neutral-700">
+    <div class="font-domaineregular text-neutral-700">
       <section class="flex flex-col h-auto w-screen">
         <div class="flex flex-col h-auto text-left my-20">
           <h1
-            class="flex text-7xl sm:text-9xl lg:text-11xl 2xl:text-12xl m-1 p-1 text-brand-champagne-gold font-domainelight"
+            class="flex text-7xl sm:text-9xl lg:text-11xl 2xl:text-12xl m-1 p-1 text-brand-champagne-gold font-domaineregular"
           >
             About JH
           </h1>
@@ -22,7 +22,7 @@ definePageMeta({
             class="text-2xl sm:text-3xl m-1 p-1 my-10 border-l-4 border-l-neutral-50 border-spacing-10"
           >
             <span
-              class="text-7xl sm:text-9xl md:text-11xl lg:text-12xl font-domainelight"
+              class="text-7xl sm:text-9xl md:text-11xl lg:text-12xl font-domaineregular"
               >Having</span
             >
             personally experienced such things as anxiety, trauma and chronic
@@ -30,7 +30,7 @@ definePageMeta({
             offer today, allows me to truly understand other's issue's, and how
             best to treat them."
           </p>
-          <cite class="m-1 p-1 font-Domainelight">- Justine Hodgson</cite>
+          <cite class="m-1 p-1 font-domaineregular">- Justine Hodgson</cite>
         </blockquote>
       </section>
       <section class="h-auto w-screen flex flex-col lg:grid lg:grid-cols-4 lg:items-center">
@@ -44,7 +44,7 @@ definePageMeta({
             src="https://res.cloudinary.com/peggy-co/video/upload/f_auto,q_auto/v1593601416/12%20Steps%20The%20Curative%20Hypno/welcome_mess_a02ez5.mp4"
           ></video>
           <cite
-            class="text-md lg:text-sm font-Domainelight m-1 p-1 sm;m-2 sm:p-2"
+            class="text-md lg:text-sm font-domaineregular m-1 p-1 sm;m-2 sm:p-2"
             >A personal message from Justine</cite
           >
         </section>
@@ -108,10 +108,10 @@ definePageMeta({
           and reaches far and wide, as far as the imagination can take you!
         </p>
       </section>
-      <section class="h-auto w-screen">
+      <!-- <section class="h-auto w-screen">
         <div class="flex">
           <h1
-            class="font-domainelight text-6xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl text-brand-champagne-gold m-1 p-1 my-10"
+            class="font-domaineregular text-6xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl text-brand-champagne-gold m-1 p-1 my-10"
           >
             JH Services
           </h1>
@@ -123,7 +123,7 @@ definePageMeta({
             class="grid col-span-1 min-h-min m-3 border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
           >
             <span class="h-40 bg-brand-champagne-gold rounded-xl">
-              <h1 class="font-domainelight text-6xl text-white m-2 p-2">CBT</h1>
+              <h1 class="font-domaineregular text-6xl text-white m-2 p-2">CBT</h1>
             </span>
             <span class="relative h-60 sm:h-72 m-1 p-1">
               <p class="text-lg">
@@ -144,7 +144,7 @@ definePageMeta({
             class="grid col-span-1 min-h-min m-3 border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
           >
             <span class="h-40 bg-brand-champagne-gold rounded-xl">
-              <h1 class="font-domainelight text-4xl text-white m-2 p-2">
+              <h1 class="font-domaineregular text-4xl text-white m-2 p-2">
                 Hypnotherapy
               </h1>
             </span>
@@ -167,7 +167,7 @@ definePageMeta({
             class="grid col-span-1 min-h-min m-3 border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
           >
             <span class="h-40 bg-brand-champagne-gold rounded-xl">
-              <h1 class="font-domainelight text-6xl text-white m-2 p-2">EFT</h1>
+              <h1 class="font-domaineregular text-6xl text-white m-2 p-2">EFT</h1>
               <p class="font-domainemedium text-lg m-2 p-2 text-white">
                 Emotional Freedom Technique
               </p>
@@ -191,7 +191,7 @@ definePageMeta({
             class="grid col-span-1 min-h-min m-3 border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
           >
             <span class="h-40 bg-brand-champagne-gold rounded-xl">
-              <h1 class="font-domainelight text-6xl text-white m-2 p-2">
+              <h1 class="font-domaineregular text-6xl text-white m-2 p-2">
                 Yin Yoga
               </h1>
             </span>
@@ -210,7 +210,7 @@ definePageMeta({
             </span>
           </article>
         </div>
-      </section>
+      </section> -->
     </div>
   </div>
 </template>

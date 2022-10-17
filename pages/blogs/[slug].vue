@@ -21,7 +21,7 @@ definePageMeta({
 <template>
   <div>
     <div
-      class="flex flex-col h-auto w-screen overflow-hidden font-domainelight"
+      class="flex flex-col h-auto w-screen overflow-hidden font-domaineregular"
     >
       <div class="flex w-full md:flex-row md:items-center mt-20">
         <h1

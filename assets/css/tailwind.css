@@ -3,16 +3,20 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "domainethin";
-  src: local(domainethin), local("domainethin"),
-    url("assets/fonts/domainethin.woff") format("woff"),
-    url("assets/fonts/domainethin.woff2") format("woff2");
-  font-display: swap;
+	font-family: "domainethin";
+	src: local(domainethin), local("domainethin"), url("assets/fonts/domainethin.woff") format("woff"),
+		url("assets/fonts/domainethin.woff2") format("woff2");
+	font-display: swap;
 }
 @font-face {
-  font-family: "domainelight";
-  src: local(domainelight), local("domainelight"),
-    url("assets/fonts/domainelight.woff") format("woff"),
-    url("assets/fonts/domainelight.woff2") format("woff2");
-  font-display: swap;
+	font-family: "domainelight";
+	src: local(domainelight), local("domainelight"), url("assets/fonts/domainelight.woff") format("woff"),
+		url("assets/fonts/domainelight.woff2") format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "domaineregular";
+	src: local(domaineregular), local("domaineregular"), url("assets/fonts/domaineregular.woff") format("woff"),
+		url("assets/fonts/domaineregular.woff2") format("woff2");
+	font-display: swap;
 }

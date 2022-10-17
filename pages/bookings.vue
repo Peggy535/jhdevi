@@ -5,12 +5,12 @@ definePageMeta({
 </script>
 <template>
   <div>
-    <div class="overflow-hidden font-domainelight text-neutral-700">
+    <div class="overflow-hidden font-domaineregular text-neutral-700">
       <section
         class="relative h-auto w-screen flex flex-col z-20 bg-white bg-opacity-60"
       >
         <div
-          class="w-full h-auto mt-20 mb-10 font-domainelight text-brand-rose-gold"
+          class="w-full h-auto mt-20 mb-10 font-domaineregular text-brand-rose-gold"
         >
           <h1 class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl m-1 p-1">
             JH Online Bookings

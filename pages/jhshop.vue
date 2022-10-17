@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="flex flex-col h-screen w-screen text-brand-rose-gold font-domainelight place-content-end"
+      class="flex flex-col h-screen w-screen text-brand-rose-gold font-domaineregular place-content-end"
     >
       <h1 class="text-6xl m-1 p-1">JH Shop</h1>
       <h3 class="text-3xl m-1 p-1">
@@ -9,7 +9,7 @@
         more.
       </h3>
     </div>
-    <div class="flex flex-col w-screen h-auto font-domainelight">
+    <div class="flex flex-col w-screen h-auto font-domaineregular">
       <div class="flex w-full">
         <article
           class="relative border border-brand-rose-gold rounded-2xl w-full sm:w-2/3 m-2 mx-auto"

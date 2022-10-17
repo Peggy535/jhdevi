@@ -10,12 +10,12 @@ definePageMeta({
 <template>
   <div>
     <div
-      class="flex h-auto w-screen font-domainelight text-brand-champagne-gold"
+      class="flex h-auto w-screen font-domaineregular text-brand-champagne-gold"
     >
       <h1 class="text-7xl m-2 p-2 mt-20">JH Blog</h1>
     </div>
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 w-screen h-auto mb-5 font-domainelight px-2 md:px-4"
+      class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 w-screen h-auto mb-5 font-domaineregular px-2 md:px-4"
     >
       <div v-for="blog in blogs" :key="blog._id">
         <article

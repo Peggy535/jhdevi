@@ -5,9 +5,9 @@
 </script>
 <template>
 	<div>
-		<div class="overflow-hidden font-domainelight text-stone-600">
+		<div class="overflow-hidden font-domaineregular text-stone-600">
 			<section class="relative h-auto w-screen flex flex-col z-20 bg-stone-50">
-				<div class="w-full h-auto my-20 font-domainelight text-brand-rose-gold">
+				<div class="w-full h-auto my-20 font-domaineregular text-brand-rose-gold">
 					<h1 class="text-6xl sm:text-8xl md:text-11xl m-1 p-1">JH Devi</h1>
 					<h1 class="text-3xl sm:text-5xl m-1 p-1">Integrated Therapies</h1>
 				</div>
