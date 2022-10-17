@@ -1,12 +1,16 @@
 <script setup>
+	import Mandala2 from "~~/components/icons/Mandala2.vue";
 	definePageMeta({
 		layout: "default",
 	});
 </script>
 <template>
 	<div>
-		<div class="overflow-hidden font-domaineregular text-stone-600">
-			<section class="relative h-auto w-screen flex flex-col z-20 bg-stone-50">
+		<section class="h-screen w-screen fixed z-10">
+			<Mandala2 class=" fill-brand-rose-gold opacity-20" style="width:150%" />
+		</section>
+		<div class="relative overflow-hidden font-domaineregular text-stone-600 z-20">
+			<section class="relative h-auto w-screen flex flex-col z-20">
 				<div class="w-full h-auto my-20 font-domaineregular text-brand-rose-gold">
 					<h1 class="text-6xl sm:text-8xl md:text-11xl m-1 p-1">JH Devi</h1>
 					<h1 class="text-3xl sm:text-5xl m-1 p-1">Integrated Therapies</h1>
@@ -20,9 +24,7 @@
 				</div>
 
 				<div class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto sm:mt-10">
-					<p class="m-2 p-2 text-xl md:text-2xl">
-						DEVI is an all embracing Mother Goddess. Heavenly Divine, anything of Excellence.
-					</p>
+					<p class="m-2 p-2 text-xl md:text-2xl">DEVI is an all embracing Mother Goddess. Heavenly Divine, anything of Excellence.</p>
 					<p class="m-2 p-2 text-xl md:text-2xl">
 						A piece of DEVI is within us all, you just need to clear the ruble, the burdens you've collected and bring your magick closer
 						to the surface in order to shine brighter and lighter.
@@ -38,7 +40,7 @@
 					</p>
 				</div>
 			</section>
-			<section class="h-auto w-screen flex flex-col z-20 bg-stone-50">
+			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col w-full items-center">
 					<div class="w-full sm:w-4/5 mx-auto bg-brand-rose-gold rounded-2xl py-5">
 						<h1 class="m-1 p-1 text-5xl sm:text-6xl lg:text-8xl text-white">Hypnotherapy</h1>
@@ -62,7 +64,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="h-auto w-screen flex flex-col z-20 bg-stone-50">
+			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col w-full items-center p-1">
 					<div class="w-full sm:w-4/5 mx-auto bg-brand-green rounded-2xl py-5">
 						<h1 class="text-5xl sm:text-6xl lg:text-8xl m-1 p-1 text-stone-500">EFT</h1>
@@ -97,7 +99,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="h-auto w-screen flex flex-col z-20 bg-stone-50">
+			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col w-full p-1 items-center">
 					<div class="w-full sm:w-4/5 mx-auto bg-brand-champagne-gold rounded-2xl py-5">
 						<h1 class="text-5xl sm:text-6xl lg:text-8xl text-stone-500 m-1 p-1">CBT</h1>
