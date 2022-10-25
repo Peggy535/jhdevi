@@ -20,8 +20,14 @@ module.exports = {
 			},
 			colors: {
 				"brand-rose-gold": "#b76e79",
-				"brand-green": "#cbd79d",
+				"brand-rose-light": "#d09fa7",
+				"brand-rose-dark":"#a4515d",
 				"brand-champagne-gold": "#d7c69d",
+				"brand-champagne-light":"#ede6d4",
+				"brand-champagne-dark":"#cab37d",
+				"brand-grey": "#474954",
+				"brand-grey-light":"#676a79",
+				"brand-grey-dark": "#2f3037",
 			},
 			fontSize: {
 				"10xl": "10rem",
