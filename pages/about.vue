@@ -7,45 +7,50 @@
 
 <template>
 	<div>
-		<section class="h-screen w-screen fixed z-10 overflow-auto">
-			<Mandala1 class="fill-brand-champagne-gold h-screen opacity-30" style="width: 200%;" />
+		<section class="h-screen w-screen fixed z-10 overflow-hidden">
+			<Mandala1 class="fill-brand-champagne-gold h-screen opacity-20" style="width: 200%" />
 		</section>
-		<div class="relative font-domaineregular text-neutral-700 z-20">
-			<section class="flex flex-col h-auto w-screen">
+		<div class="relative font-domaineregular text-brand-grey-light z-20 overflow-hidden">
+			<section class="flex flex-col h-screen w-screen">
 				<div class="flex flex-col h-auto text-left my-20">
 					<h1 class="flex text-7xl sm:text-9xl lg:text-11xl 2xl:text-12xl m-1 p-1 text-brand-champagne-gold font-domaineregular">
 						About JH
 					</h1>
 				</div>
 				<blockquote
-					class="h-auto lg:w-3/4 lg:self-end rounded-3xl m-1 p-1 sm:m-3 sm:p-3 bg-brand-champagne-gold text-neutral-50 border-4 border-white shadow-lg shadow-brand-champagne-gold"
+					class="h-auto lg:w-3/4 lg:self-end rounded-2xl m-1 p-1 sm:m-3 sm:p-3 bg-brand-champagne-gold border border-brand-champagne-light border-spacing-4"
 				>
-					<p class="text-2xl sm:text-3xl m-1 p-1 my-10 border-l-4 border-l-neutral-50 border-spacing-10">
-						<span class="text-7xl sm:text-9xl md:text-11xl lg:text-12xl font-domaineregular">Having</span>
-						personally experienced such things as anxiety, trauma and chronic fatigue syndrome, and having recovered through the same
-						therapies I offer today, allows me to truly understand other's issue's, and how best to treat them."
-					</p>
+					<div class="border-l border-l-white p-3 my-4">
+						<h1 class="float-left text-white text-9xl sm:text-10xl">H</h1>
+						<p class="text-3xl sm:text-4xl m-1 p-1">
+							aving personally experienced such things as anxiety, trauma and chronic fatigue syndrome, and having recovered through the
+							same therapies I offer today, allows me to truly understand other's issue's, and how best to treat them."
+						</p>
+					</div>
+
 					<cite class="m-1 p-1 font-domaineregular">- Justine Hodgson</cite>
 				</blockquote>
 			</section>
-			<section class="h-auto w-screen flex flex-col lg:grid lg:grid-cols-4 lg:items-center z-20">
-				<section
-					class="m-1 p-1 w-full sm:w-1/2 lg:w-full mx-auto my-10 border-4 border-white shadow-2xl shadow-neutral-200 rounded-2xl z-10 lg:grid lg:col-span-1"
-				>
+
+			<section class="h-auto w-full flex flex-col z-20 my-10">
+				<section class="w-full sm:w-1/2 lg:w-full mx-auto rounded-2xl z-10 bg-brand-champagne p-1">
 					<video
-						class="z-5"
+						class="rounded-2xl"
 						controls
 						playsinline
-						src="https://res.cloudinary.com/peggy-co/video/upload/f_auto,q_auto/v1593601416/12%20Steps%20The%20Curative%20Hypno/welcome_mess_a02ez5.mp4"
+						src="https://res.cloudinary.com/peggy-co/video/upload/q_auto,vc_vp9/v1593601416/12%20Steps%20The%20Curative%20Hypno/welcome_mess_a02ez5.webm"
 					></video>
-					<cite class="text-md lg:text-sm font-domaineregular m-1 p-1 sm;m-2 sm:p-2">A personal message from Justine</cite>
+					<cite class="text-md lg:text-sm font-domaineregular m-1 p-1 sm:m-2 sm:p-2">A personal message from Justine</cite>
 				</section>
-				<p class="m-2 p-2 mb-5 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:grid lg:col-span-3">
-					By now hopefully, you’ve pressed the play button on both my welcome and about me recordings and I’ve saved you valuable time on
-					reading a page full of words without much connection. As a hypnotherapist, it’s important you get a feel for my voice and
-					personality if we are going to do some work together. I’m also a strong believer in being as real on paper as I am in person,
-					hopefully this all resonates and feels authentic for every visitor to my site.
-				</p>
+				<div class="p-1">
+					<h1 class="float-left text-brand-champagne-gold text-9xl sm:text-10xl">B</h1>
+					<p class="m-1 p-1 sm:m-2 sm:p-2 text-xl sm:text-2xl lg:grid lg:col-span-3">
+						y now hopefully, you’ve pressed the play button on both my welcome and about me recordings and I’ve saved you valuable time on
+						reading a page full of words without much connection. As a hypnotherapist, it’s important you get a feel for my voice and
+						personality if we are going to do some work together. I’m also a strong believer in being as real on paper as I am in person,
+						hopefully this all resonates and feels authentic for every visitor to my site.
+					</p>
+				</div>
 			</section>
 			<section class="h-auto w-screen flex flex-col lg:grid lg:grid-cols-4 lg:grid-rows-1 lg:h-auto lg:items-center">
 				<NuxtImg
@@ -59,7 +64,7 @@
 					format="webp"
 					sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
 				/>
-				<p class="m-2 p-2 my-5 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2">
+				<p class="m-1 p-1 sm:m-2 sm:p-2 my-5 sm:my-10 text-xl sm:text-2xl lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2">
 					At this stage you would have heard my story and know, just as so many before me and many to follow, I’ve had my own path to travel
 					and it’s not always been straight forward but it has led me to where I am today and it continues to get better and convince me
 					that, miracles actually do happen, every single day.
@@ -77,7 +82,7 @@
 					alt=""
 					sizes="xs:100vw sm:80vw md:80vw lg:50vw xl:50vw xxl:50vw"
 				/>
-				<p class="m-2 p-2 mt-5 sm:m-4 sm:p-4 text-xl sm:text-2xl lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2">
+				<p class="m-1 p-1 sm:m-2 sm:p-2 my-5 sm:my-10 text-xl sm:text-2xl lg:col-start-3 lg:col-end-5 lg:row-start-1 lg:row-end-2">
 					I’m that guide. My desire today and every day hereon, is to make people feel less broken, so they can experience more joy and
 					happiness and less stress in their lives. This in turn can only benefit those around them, and there we have it, a beautiful
 					ripple effect begins and reaches far and wide, as far as the imagination can take you!

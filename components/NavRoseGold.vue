@@ -38,13 +38,6 @@
 						Home
 					</li>
 				</NuxtLink>
-				<NuxtLink to="/about" @click="closeMenu">
-					<li
-						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
-					>
-						About & Services
-					</li>
-				</NuxtLink>
 				<NuxtLink to="/integrated-therapies" @click="closeMenu">
 					<li
 						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
@@ -52,34 +45,7 @@
 						JH Integrated Therapies
 					</li>
 				</NuxtLink>
-				<!-- <NuxtLink to="/cbt" @click="closeMenu">
-          <li
-            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
-          >
-            CBT
-          </li>
-        </NuxtLink>
-        <NuxtLink to="/hypnotherapy" @click="closeMenu">
-          <li
-            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
-          >
-            Hypnotherapy
-          </li>
-        </NuxtLink>
-        <NuxtLink to="/eft" @click="closeMenu">
-          <li
-            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
-          >
-            EFT
-          </li>
-        </NuxtLink>
-        <NuxtLink to="/yinyoga" @click="closeMenu">
-          <li
-            class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
-          >
-            Yin Yoga
-          </li>
-        </NuxtLink> -->
+				
 				<NuxtLink to="/bookings" @click="closeMenu">
 					<li
 						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
