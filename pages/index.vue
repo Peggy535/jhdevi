@@ -24,7 +24,7 @@
 			<!-- Landing title -->
 			<main class="relative h-auto w-screen z-20 bg-rose-200 bg-opacity-60">
 				<section class="relative flex flex-col h-screen w-screen justify-end">
-					<div class="text-white text-5xl sm:text-5xl md:text-6xl xl:text-7xl m-2 p-2 mb-20">
+					<div class="text-white text-5xl sm:text-6xl md:text-7xl xl:text-7xl m-2 p-2 mb-20">
 						<h1>Justine</h1>
 						<h1>Hodgson</h1>
 						<h1>Integrated</h1>
@@ -34,27 +34,33 @@
 
 				<!-- Personal message -->
 				<section class="relative flex flex-col h-auto w-screen justify-evenly">
-					<blockquote class="m-2 p-2 xl:w-3/4 2xl:w-1/2 bg-rose-50 rounded-xl border-2 border-brand-rose-dark">
+					<blockquote class="m-2 p-2 w-full sm:w-4/5 sm:mx-auto bg-rose-50 rounded-xl border-2 border-brand-rose-dark">
 						<span class="float-left text-9xl sm:text-10xl md:text-11xl lg:text-9xl xl:text-10xl text-brand-rose-gold font-domaineregular"
 							>H</span
 						>
-						<p class="text-2xl sm:text-3xl lg:text-4xl m-1 p-1 md:m-2 md:p-2 text-brand-grey-light">
+						<p class="text-2xl sm:text-3xl sm:leading-snug lg:text-4xl m-1 p-1 md:m-2 md:p-2 text-brand-grey-light">
 							ello and welcome to my website, I hope you find both it and the words helpful, healing and inspiring. Whatever you are
 							facing at this time in your life, no matter what it is, please be assured there is a reason and that there is help for you
 							if you wish to receive it.
 						</p>
-						<div class="my-10">
+						<div class="w-full h-fit">
+							<IconsQuoteDivider class="w-4/5 fill-brand-rose-light mx-auto"/>
+						</div>
+						<div class="">
 							<span
-								class="float-left text-brand-rose-gold font-domaineregular text-9xl sm:text-9xl md:text-10xl lg:text-9xl xl:text-10xl"
+								class="float-left text-brand-rose-gold font-domaineregular text-9xl sm:text-10xl md:text-11xl lg:text-9xl xl:text-10xl"
 								>Y</span
 							>
-							<h2 class="text-brand-grey-light text-6xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl m-1 p-1">
+							<h2 class="text-brand-grey-light text-6xl sm:text-7xl md:text-8xl lg:text-6xl xl:text-7xl m-1 p-1">
 								ou are beautiful, unique and deserving of all good things.
 							</h2>
 							<cite class="m-3 p-3 text-brand-rose-gold">- Justine Hodgson</cite>
 						</div>
+						<div class="w-full h-fit">
+							<IconsQuoteDivider2 class="w-4/5 fill-brand-rose-light mx-auto"/>
+						</div>
 						<video
-							class="w-4/5 object-center object-cover mx-auto my-14 rounded-2xl border-2 border-brand-rose-dark"
+							class="w-4/5 object-center object-cover mx-auto my-8 rounded-2xl border-2 border-brand-rose-dark"
 							src="https://res.cloudinary.com/peggy-co/video/upload/b_rgb:b76e79,co_rgb:b76e79,q_auto,vc_vp9/v1666692181/Well%20Being/slow_promo_DEVI_kphuws.webm"
 							playsinline
 							controls
