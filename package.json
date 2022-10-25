@@ -18,5 +18,8 @@
   },
   "dependencies": {
     "@nuxtjs/sanity": "^1.3.0"
+  },
+  "resolutions": {
+    "@types/node": "18.8.0"
   }
 }
