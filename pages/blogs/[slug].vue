@@ -25,7 +25,7 @@ definePageMeta({
     >
       <div class="flex w-full md:flex-row md:items-center mt-20">
         <h1
-          class="w-full md:w-2/3 text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl m-5 p-5 xl:p-10 bg-brand-champagne-gold rounded-2xl text-neutral-700"
+          class="w-full md:w-2/3 text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl m-5 p-5 xl:p-10 bg-brand-champagne-gold rounded-2xl text-brand-grey-light"
         >
           {{ article.indBlogArticle[0].title }}
         </h1>
@@ -48,7 +48,7 @@ definePageMeta({
       <div class="flex flex-row">
         <div class="flex flex-col">
           <div
-            class="w-fit m-3 p-3 bg-brand-champagne-gold rounded-2xl text-neutral-700"
+            class="w-fit m-3 p-3 bg-brand-champagne-gold rounded-2xl text-brand-grey-light"
           >
             <p>
               Date:
@@ -77,7 +77,7 @@ definePageMeta({
       </div>
 
       <div
-        class="flex text-neutral-700 w-full flex-col m-2 p-2 prose md:prose-lg lg:prose-2xl prose-p:text-xl prose-li:text-xl prose-h1:text-6xl prose-h2:text-5xl prose-h3:text-4xl prose-h4:text-3xl prose-h5:text-2xl mx-auto border-l border-l-brand-champagne-gold"
+        class="flex text-brand-grey-light w-full flex-col m-2 p-2 prose md:prose-lg lg:prose-2xl prose-p:text-xl md:prose-p:text-2xl prose-li:text-xl prose-h1:text-6xl prose-h2:text-5xl prose-h3:text-4xl prose-h4:text-3xl prose-h5:text-2xl mx-auto border-l border-l-brand-champagne-gold"
       >
         <SanityContent :blocks="article.indBlogArticle[0].body" />
       </div>

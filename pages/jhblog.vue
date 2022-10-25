@@ -14,22 +14,22 @@
 			<Mandala3 class="fill-brand-champagne-gold opacity-30" style="width: 150%" />
 		</section>
 		<div class="relative flex h-auto w-screen font-domaineregular text-brand-champagne-gold z-20">
-			<h1 class="text-7xl m-2 p-2 mt-20">JH Blog</h1>
+			<h1 class="text-8xl m-2 p-2 mt-20">JH Blog</h1>
 		</div>
 		<div
-			class="relative grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 lg:gap-14 xl:gap-16 w-screen h-auto mb-5 font-domaineregular px-2 md:px-4 z-20"
+			class="relative grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 lg:gap-14 xl:gap-16 w-screen h-auto mb-5 font-domaineregular px-2 md:px-4 z-20 text-brand-grey-light"
 		>
 			<div v-for="blog in blogs" :key="blog._id">
 				<article
 					class="grid col-span-1 min-h-min border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
 				>
-					<span class="h-40 bg-brand-champagne-gold rounded-xl text-neutral-700">
+					<span class="h-40 bg-brand-champagne-gold rounded-xl ">
 						<h1 class="m-1 p-1 text-2xl md:text-3xl lg:text-4xl">
 							{{ blog.title }}
 						</h1>
 						<p class="text-sm m-1 p-1">{{ blog.minRead }} min read</p>
 					</span>
-					<span class="relative h-48 sm:h-60 rounded-2xl bg-stone-50">
+					<span class="relative h-48 sm:h-60 rounded-2xl bg-stone-50 m-1 p-1">
 						<p>{{ new Date(blog.publishedDate).toLocaleDateString() }}</p>
 						<p class="text-lg">
 							{{ blog.summaryDescription }}
