@@ -32,8 +32,8 @@
 				</section>
 
 				<!-- Personal message -->
-				<section class="relative flex flex-col h-auto w-screen justify-evenly">
-					<blockquote class="m-2 p-2 w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5 bg-rose-50 rounded-xl border-2 border-brand-rose-dark">
+				<section class="relative flex flex-col h-auto w-screen justify-evenly p-1">
+					<blockquote class=" w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5 bg-rose-50 rounded-xl border-2 border-brand-rose-dark">
 						<span
 							class="float-left text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl text-brand-rose-gold font-domaineregular"
 							>H</span
