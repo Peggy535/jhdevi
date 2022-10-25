@@ -24,9 +24,8 @@
 			<!-- Landing title -->
 			<main class="relative h-auto w-screen z-20 bg-rose-200 bg-opacity-60">
 				<section class="relative flex flex-col h-screen w-screen justify-end">
-					<div class="text-white text-5xl sm:text-6xl md:text-7xl xl:text-8xl m-2 p-2 mb-20">
-						<h1>Justine</h1>
-						<h1>Hodgson</h1>
+					<div class="text-white text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-2 p-2 mb-20">
+						<h1>JH Devi</h1>
 						<h1>Integrated</h1>
 						<h1>Therapies</h1>
 					</div>
@@ -70,9 +69,9 @@
 						></video>
 						<div class="relative h-auto w-fit flex flex-row z-30 items-center float-right border border-brand-rose-gold rounded-2xl">
 							<span class="m-1 p-1">
-								<p class="text-xl text-brand-grey-light">JH Services</p>
+								<p class="text-xl text-brand-grey-light">Next Page</p>
 							</span>
-							<NuxtLink to="/about">
+							<NuxtLink to="/integrated-therapies">
 								<Arrowright
 									class="inline mr-4 w-8 fill-brand-rose-gold hover:fill-white hover:border-brand-rose-gold hover:scale-110 transition duration-700 ease-in-out"
 								/>

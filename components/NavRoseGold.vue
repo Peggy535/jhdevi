@@ -24,7 +24,7 @@
 	<div class="fixed z-40 h-screen w-full bg-white flex flex-col place-content-center invisible menu font-domaineregular">
 		<span class="absolute top-5 left-5" @click="closeMenu">
 			<h1
-				class="text-xl text-brand-rose-gold hover:transition hover:duration-500 hover:delay-75 hover:ease-in-out hover:scale-110 hover:text-brand-dark-rose"
+				class="text-xl text-brand-rose-gold transition duration-500 delay-75 ease-in-out hover:scale-125 hover:text-brand-champagne-gold"
 			>
 				Close menu
 			</h1>
@@ -33,38 +33,45 @@
 			<ul class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
 				<NuxtLink to="/" @click="closeMenu">
 					<li
-						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 hover:text-brand-champagne-gold after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-champagne-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
 					>
 						Home
 					</li>
 				</NuxtLink>
 				<NuxtLink to="/integrated-therapies" @click="closeMenu">
 					<li
-						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 hover:text-brand-champagne-gold after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-champagne-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
 					>
 						JH Integrated Therapies
 					</li>
 				</NuxtLink>
-				
+
 				<NuxtLink to="/bookings" @click="closeMenu">
 					<li
-						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 hover:text-brand-champagne-gold after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-champagne-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
 					>
 						Bookings & Contact
 					</li>
 				</NuxtLink>
 				<NuxtLink to="/jhblog" @click="closeMenu">
 					<li
-						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 hover:text-brand-champagne-gold after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-champagne-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
 					>
 						Blog
 					</li>
 				</NuxtLink>
 				<NuxtLink to="/jhshop" @click="closeMenu">
 					<li
-						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 hover:text-brand-champagne-gold after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-champagne-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
 					>
 						JH Shop
+					</li>
+				</NuxtLink>
+				<NuxtLink to="/jhevents" @click="closeMenu">
+					<li
+						class="m-2 p-2 text-brand-rose-gold transition delay-75 ease-in-out duration-700 hover:scale-110 hover:text-brand-champagne-gold after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-light after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+					>
+						JH Events
 					</li>
 				</NuxtLink>
 			</ul>
