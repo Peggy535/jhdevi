@@ -1,0 +1,10 @@
+.snipcart * {
+	font-family: domaineregular;
+	background-color: "#b76e79";
+	font-weight: bold;
+	z-index: 200;
+}
+
+.snipcart-cart__footer-buttons {
+	background-color: #b76e79;
+}

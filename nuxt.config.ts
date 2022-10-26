@@ -11,7 +11,7 @@ export default {
 	tailwind: {
 		cssPath: "@/assets/css/tailwind.css",
 	},
-
+	css: ["@/assets/css/styles.css"],
 	build: {
 		transpile: ["gsap"],
 	},
