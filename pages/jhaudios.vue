@@ -1,42 +1,11 @@
-<template>
-	<div>
-		<div class="flex flex-col h-screen w-screen text-brand-rose-gold font-domaineregular place-content-end">
-			<h1 class="text-8xl m-1 p-1">JH Audios</h1>
-			<h2 class="text-3xl m-1 p-1 mb-10">Buy an individual audio track to help you with a specific issue.</h2>
-		</div>
-		<div class="flex flex-col w-screen h-auto font-domaineregular p-2">
-			<div class="flex w-full">
-				<article class="relative border border-brand-rose-gold rounded-2xl w-full sm:w-2/3 m-2 mx-auto">
-					<div class="h-32 bg-brand-rose-gold rounded-xl text-white p-2">
-						<h1 class="text-4xl md:text-3xl lg:text-4xl m-1 p-1">Stop-Smoking</h1>
-						<h1 class="text-lg m-1 p-1">A Hypnotherapy audio to banish smoking from your life.</h1>
-					</div>
-					<div class="relative m-1 p-1 text-brand-rose-gold">
-						<p class="h-48 text-lg">
-							A 20 min Hypnotherapy audio track designed to be listened to daily. Listen to my voice and work with me everyday to stop
-							you smoking.
-						</p>
-						<p class="text-4xl">£19.95</p>
-						<button
-							class="snipcart-add-item absolute bottom-0 right-0 border border-brand-rose-gold rounded-3xl text-lg p-2"
-							data-item-id="stop-smoking-audio"
-							data-item-price="19.95"
-							data-item-url="/jhaudios"
-							data-item-description="A 20 min Hypnotherapy audio track designed to be listened to daily. Listen to my voice and work with me everyday to stop
-							you smoking."
-							data-item-image="/public/icon.png"
-							data-item-name="Stop Smoking Audio"
-                            data-item-file-guid="4fd872a2-17e4-4db2-8ff9-b02269ff2b8a"
-						>
-							<p class="text-sm m-1 p-1">Buy now</p>
-						</button>
-					</div>
-				</article>
-			</div>
-		</div>
-	</div>
-</template>
 <script setup>
+	const query = groq`*[_type == "audioStore"] | order(_id) {_id, title, subTitle, summaryDescription,price, snipcartGuid, "image":audioImage.asset->url, productId }`;
+	const { data: audios } = useSanityQuery(query);
+	refreshNuxtData();
+
+	definePageMeta({
+		layout: "goldnav",
+	});
 	useHead({
 		meta: {
 			link: [
@@ -118,3 +87,42 @@
 		})();
 	});
 </script>
+
+<template>
+	<div>
+		<div class="flex flex-col h-screen w-screen text-brand-rose-gold font-domaineregular place-content-end">
+			<h1 class="text-8xl m-1 p-1">JH Audios</h1>
+			<h2 class="text-3xl m-1 p-1 mb-10">Buy an individual audio track to help you with a specific issue.</h2>
+		</div>
+		<div class="flex flex-col w-screen h-auto font-domaineregular p-2">
+			<div class="flex w-full">
+				<div v-for="audio in audios" :key="audio._id">
+					<article class="relative border border-brand-rose-gold rounded-2xl w-full sm:w-2/3 m-2 mx-auto">
+						<div class="h-32 bg-brand-rose-gold rounded-xl text-white p-2">
+							<h1 class="text-4xl md:text-3xl lg:text-4xl m-1 p-1">{{ audio.title }}</h1>
+							<h1 class="text-lg m-1 p-1">{{ audio.subTitle }}</h1>
+						</div>
+						<div class="relative m-1 p-1 text-brand-rose-gold">
+							<p class="h-48 text-lg">
+								{{ audio.summaryDescription }}
+							</p>
+							<p class="text-4xl">£{{ audio.price }}</p>
+							<button
+								class="snipcart-add-item absolute bottom-0 right-0 border border-brand-rose-gold rounded-3xl text-lg p-2"
+								data-item-id="{{ audio.productId }}"
+								data-item-price="{{ audio.price }}"
+								data-item-url="/jhaudios"
+								data-item-description="{{ audio.summaryDescription }}"
+								data-item-image="{{ audio.image }}"
+								data-item-name="{{audio.subTitle}}"
+								data-item-file-guid="{{ audio.snipcartGuid }}"
+							>
+								<p class="text-sm m-1 p-1">Buy now</p>
+							</button>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
