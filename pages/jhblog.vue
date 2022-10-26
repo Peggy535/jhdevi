@@ -1,7 +1,7 @@
 <script setup>
-	import Mandala3 from "~/components/icons/Mandala3.vue";
 	const query = groq`*[_type == "blogArticle"] | order(publishedDate desc) {_id, title, publishedDate, summaryDescription, body, "image":articleImage.asset->url, slug, myTags, minRead}`;
 	const { data: blogs } = useSanityQuery(query);
+	refreshNuxtData();
 
 	definePageMeta({
 		layout: "goldnav",
@@ -11,7 +11,7 @@
 <template>
 	<div>
 		<section class="h-screen w-screen fixed z-10">
-			<Mandala3 class="fill-brand-champagne-gold opacity-30" style="width: 150%" />
+			<IconsMandala3 class="fill-brand-champagne-gold opacity-30" style="width: 150%" />
 		</section>
 		<div class="relative flex h-auto w-screen font-domaineregular text-brand-champagne-gold z-20">
 			<h1 class="text-8xl m-2 p-2 mt-20">JH Blog</h1>
@@ -23,7 +23,7 @@
 				<article
 					class="grid col-span-1 min-h-min border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105"
 				>
-					<span class="h-40 bg-brand-champagne-gold rounded-xl ">
+					<span class="h-40 bg-brand-champagne-gold rounded-xl">
 						<h1 class="m-1 p-1 text-2xl md:text-3xl lg:text-4xl">
 							{{ blog.title }}
 						</h1>
