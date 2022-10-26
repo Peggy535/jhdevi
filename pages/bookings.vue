@@ -13,8 +13,8 @@
 
 				<div class="flex h-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto border-2 border-white bg-brand-rose-gold rounded-2xl">
 					<p class="text-4xl m-2 p-2 text-white">
-						Take a step forwards today, booking your choosen therapy online, take a free consultation, send me an email. It's never been
-						so easy.
+						Take a step forwards today, booking your choosen therapy online, take a consultation, send me an email. It's never been so
+						easy.
 					</p>
 				</div>
 
@@ -51,10 +51,7 @@
 						Your email has been sent to enquiries@sugarloafantigua.com. We will be in touch very shortly.
 					</h1>
 				</div>
-				<div
-					:class="{ [`hidden`]: submitting || submitted }"
-					class="w-full text-lg lg:text-lg transition duration-700 ease-in-out mx-auto"
-				>
+				<div :class="{ [`hidden`]: submitting || submitted }" class="w-full text-lg lg:text-lg transition duration-700 ease-in-out mx-auto">
 					<form class="form w-5/6 mx-auto" ref="form" @submit.prevent="submitHandler">
 						<div class="form-group">
 							<input
