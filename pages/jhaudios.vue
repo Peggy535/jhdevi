@@ -110,7 +110,7 @@
 							<button
 								class="snipcart-add-item absolute bottom-0 right-0 border border-brand-rose-gold rounded-3xl text-lg p-2"
 								:data-item-id="audio.productId"
-								:data-item-price="audio.price"
+								:data-item-price=audio.price
 								:data-item-url="/jhaudios"
 								:data-item-description="audio.summaryDescription"
 								:data-item-image="audio.image"
