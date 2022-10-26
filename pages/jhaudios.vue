@@ -109,13 +109,13 @@
 							<p class="text-4xl">£{{ audio.price }}</p>
 							<button
 								class="snipcart-add-item absolute bottom-0 right-0 border border-brand-rose-gold rounded-3xl text-lg p-2"
-								:data-item-id="audio.productId"
-								:data-item-price=audio.price
-								:data-item-url="/jhaudios"
-								:data-item-description="audio.summaryDescription"
-								:data-item-image="audio.image"
-								:data-item-name="audio.subTitle"
-								:data-item-file-guid="audio.snipcartGuid"
+								:data-item-id="`${audio.productId}`"
+								:data-item-price="audio.price"
+								data-item-url="/jhaudios"
+								:data-item-description="`${audio.summaryDescription}`"
+								:data-item-image="`${audio.image}`"
+								:data-item-name="`${audio.subTitle}`"
+								:data-item-file-guid="`${audio.snipcartGuid}`"
 							>
 								<p class="text-sm m-1 p-1">Buy now</p>
 							</button>
