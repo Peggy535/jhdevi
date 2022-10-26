@@ -18,7 +18,7 @@
 
 				<div class="flex flex-col h-auto mx-auto bg-brand-rose-gold rounded-2xl w-full sm:w-4/5">
 					<div class="m-2 p-2 border-l border-l-white my-8">
-						<h1 class="text-9xl sm:text-10xl float-left text-white m-1 p-1">A</h1>
+						<h1 class="text-9xl sm:text-10xl md:text-11xl float-left text-white m-1 p-1">A</h1>
 						<p class="text-3xl sm:text-4xl md:text-5xl m-2 p-2 text-white">
 							platform created by JH to assist in opening up your very own unique gateway to understanding your true self. Your souls
 							fingerprint, it's very own navigation system buried deep within your energetic systems.

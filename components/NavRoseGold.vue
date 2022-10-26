@@ -79,14 +79,14 @@
 	</div>
 
 	<div class="fixed w-full flex flex-row place-content-between items-center z-30 font-domaineregular">
-		<MenuIcon class="fill-white w-16 sm:w-18 md:w-20 transition delay-75 duration-500 hover:scale-110" @click="openMenu" />
+		<MenuIcon class="fill-brand-rose-gold w-16 sm:w-18 md:w-20 transition delay-75 duration-500 hover:scale-110" @click="openMenu" />
 		<span class="m-1"
 			><NuxtLink to="/bookings">
 				<button
-					class="border-2 mr-5 border-white rounded-2xl transition delay-75 ease-in-out hover:border-white hover:ring-offset-8 hover:scale-110 duration:700"
+					class="border-2 mr-5 border-brand-rose-gold rounded-2xl transition delay-75 ease-in-out hover:border-white hover:ring-offset-8 hover:scale-110 duration:700"
 				>
 					<p
-						class="text-white rounded-2xl p-1 sm:p-2 text-md sm:text-xl md:text-2xl transition delay-75 ease-in-out hover:text-white hover:bg-brand-rose-gold hover:scale-110 duration:1000"
+						class="text-brand-rose-gold rounded-2xl p-1 sm:p-2 text-md sm:text-xl md:text-2xl transition delay-75 ease-in-out hover:text-white hover:bg-brand-rose-gold hover:scale-110 duration:1000"
 					>
 						Book now
 					</p>
