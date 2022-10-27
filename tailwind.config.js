@@ -30,6 +30,7 @@ module.exports = {
 				"brand-grey-light": "#676a79",
 				"brand-grey-dark": "#2f3037",
 				"brand-light-cream": "#f6f4f1",
+				"brand-mint": "#A1C298",
 			},
 			fontSize: {
 				"10xl": "10rem",
