@@ -13,11 +13,11 @@
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala3 class="fill-brand-champagne-gold opacity-30" style="width: 150%" />
 		</section>
-		<div class="relative flex h-auto w-screen font-domaineregular text-brand-champagne-gold z-20">
+		<div class="relative flex h-auto w-screen font-domainemedium text-brand-champagne-gold z-20">
 			<h1 class="text-8xl m-2 p-2 mt-20">JH Blog</h1>
 		</div>
 		<div
-			class="relative grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 lg:gap-14 xl:gap-16 w-screen h-auto mb-5 font-domaineregular px-2 md:px-4 z-20 text-brand-grey-light"
+			class="relative grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 lg:gap-14 xl:gap-16 w-screen h-auto mb-5 font-domainemedium px-2 md:px-4 z-20 text-brand-grey"
 		>
 			<div v-for="blog in blogs" :key="blog._id">
 				<article
@@ -36,7 +36,7 @@
 						</p>
 						<NuxtLink :to="`/blogs/${blog.slug.current}`">
 							<button
-								class="absolute bottom-2 left-2 border-2 border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
+								class="absolute bottom-2 left-2 border-2 border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-brand-light-cream"
 							>
 								<p class="m-1">Read now</p>
 							</button>

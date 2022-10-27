@@ -90,11 +90,11 @@
 
 <template>
 	<div>
-		<div class="flex flex-col h-screen w-screen text-brand-rose-gold font-domaineregular place-content-end">
+		<div class="flex flex-col h-screen w-screen text-brand-rose-gold font-domainemedium place-content-end">
 			<h1 class="text-8xl m-1 p-1">JH Audios</h1>
 			<h2 class="text-3xl m-1 p-1 mb-10">Buy an individual audio track to help you with a specific issue.</h2>
 		</div>
-		<div class="flex flex-col w-screen h-auto font-domaineregular p-2">
+		<div class="flex flex-col w-screen h-auto font-domainemedium p-2">
 			<div class="flex w-full">
 				<div v-for="audio in audios" :key="audio._id">
 					<article class="relative border border-brand-rose-gold rounded-2xl w-full sm:w-2/3 m-2 mx-auto">

@@ -1,4 +1,5 @@
 export default {
+	ssr:false,
 	modules: ["@nuxt/image-edge", "@nuxtjs/sanity", "@nuxtjs/tailwindcss", "@kevinmarrec/nuxt-pwa"],
 	image: {
 		cloudinary: {
@@ -22,14 +23,19 @@ export default {
 		meta: {
 			name: "JH Devi",
 			theme_color: "#b76e79",
+			mobileApp: true,
 		},
 		workbox: {
 			enabled: true,
 		},
 		manifest: {
-			name: "Justine Hodgson Integrated Therapies",
-			short_name: "JH Therapies",
-			description: "One to One CBT, Hypnotherapy, EFT & Yin Yoga therapy online services based in the UK.",
+			name: "JH Devi Integrated Therapies",
+			short_name: "JH Devi",
+			description: "One to One CBT, Hypnotherapy, EFT therapy online services based in the UK.",
+			background_color:"#f6f4f1",
+			display: 'standalone',
+			orientation: "portrait",
+			lang: 'en-gb',
 		},
 	},
 };

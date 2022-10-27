@@ -7,7 +7,7 @@
 
 <template>
 	<div>
-		<div class="overflow-hidden font-domaineregular">
+		<div class="overflow-hidden font-domainemedium">
 			<!-- Video section -->
 			<section class="h-screen w-screen fixed">
 				<video
@@ -24,7 +24,7 @@
 			<!-- Landing title -->
 			<main class="relative h-auto w-screen z-20 bg-rose-200 bg-opacity-60">
 				<section class="relative flex flex-col h-screen w-screen justify-end">
-					<div class="text-white text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-2 p-2 mb-20">
+					<div class="text-brand-light-cream text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-2 p-2 mb-20">
 						<h1>JH Devi</h1>
 						<h1>Integrated</h1>
 						<h1>Therapies</h1>
@@ -33,9 +33,9 @@
 
 				<!-- Personal message -->
 				<section class="relative flex flex-col h-auto w-screen justify-evenly p-1">
-					<blockquote class=" w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5 bg-rose-50 rounded-xl border-2 border-brand-rose-dark">
+					<blockquote class="w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5 bg-rose-50 rounded-xl border-2 border-brand-rose-dark">
 						<span
-							class="float-left text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl text-brand-rose-gold font-domaineregular"
+							class="float-left text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl text-brand-rose-gold font-domainemedium"
 							>H</span
 						>
 						<p class="text-2xl sm:text-3xl sm:leading-snug lg:text-4xl m-1 p-1 md:m-2 md:p-2 text-brand-grey-light lg:leading-normal">
@@ -48,7 +48,7 @@
 						</div>
 						<div class="">
 							<span
-								class="float-left text-brand-rose-gold font-domaineregular text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl"
+								class="float-left text-brand-rose-gold font-domainemedium text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl"
 								>Y</span
 							>
 							<h2 class="text-brand-grey-light text-6xl sm:text-7xl md:text-8xl lg:text-9xl m-1 p-1">
@@ -73,7 +73,7 @@
 							</span>
 							<NuxtLink to="/integrated-therapies">
 								<Arrowright
-									class="inline mr-4 w-8 fill-brand-rose-gold hover:fill-white hover:border-brand-rose-gold hover:scale-110 transition duration-700 ease-in-out"
+									class="inline mr-4 w-8 fill-brand-rose-gold hover:fill-brand-light-cream hover:border-brand-rose-gold hover:scale-110 transition duration-700 ease-in-out"
 								/>
 							</NuxtLink>
 						</div>

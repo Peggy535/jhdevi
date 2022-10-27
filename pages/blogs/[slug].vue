@@ -23,7 +23,7 @@
 
 <template>
 	<div>
-		<div class="flex flex-col h-auto w-screen overflow-hidden font-domaineregular">
+		<div class="flex flex-col h-auto w-screen overflow-hidden font-domainemedium">
 			<div class="flex w-full md:flex-row md:items-center mt-20">
 				<h1
 					class="w-full md:w-2/3 text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl m-5 p-5 xl:p-10 bg-brand-champagne-gold rounded-2xl text-brand-grey-light"

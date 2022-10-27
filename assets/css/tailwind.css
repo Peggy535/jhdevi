@@ -20,3 +20,9 @@
 		url("assets/fonts/domaineregular.woff2") format("woff2");
 	font-display: swap;
 }
+@font-face {
+	font-family: "domainemedium";
+	src: local(domainemedium), local("domainemedium"), url("assets/fonts/domainemedium.woff") format("woff"),
+		url("assets/fonts/domainemedium.woff2") format("woff2");
+	font-display: swap;
+}
