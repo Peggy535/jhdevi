@@ -23,9 +23,7 @@
 <template>
 	<div class="fixed z-40 h-screen w-full bg-white flex flex-col place-content-center invisible menu font-domaineregular">
 		<span class="absolute top-5 left-5" @click="closeMenu">
-			<h1
-				class="text-xl text-brand-rose-gold transition duration-500 delay-75 ease-in-out hover:scale-125 hover:text-brand-champagne-gold"
-			>
+			<h1 class="text-xl text-brand-rose-gold transition duration-500 delay-75 ease-in-out hover:scale-125 hover:text-brand-champagne-gold">
 				Close menu
 			</h1>
 		</span>
