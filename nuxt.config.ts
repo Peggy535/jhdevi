@@ -1,4 +1,5 @@
 export default {
+	ssr: false,
 	modules: ["@nuxt/image-edge", "@nuxtjs/sanity", "@nuxtjs/tailwindcss", "@kevinmarrec/nuxt-pwa"],
 	image: {
 		cloudinary: {
@@ -30,7 +31,7 @@ export default {
 		manifest: {
 			name: "JH Devi Integrated Therapies",
 			short_name: "JH Devi",
-			description: "One to One CBT, Hypnotherapy, EFT therapy online services based in the UK.",
+			description: "An integrated approach to online-therapy using CBT, Hypnotherapy, EFT. Based within the UK.",
 			background_color: "#f6f4f1",
 			display: "standalone",
 			orientation: "portrait",
