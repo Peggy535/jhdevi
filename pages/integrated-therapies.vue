@@ -9,7 +9,7 @@
 		<section class="h-screen w-screen fixed z-20">
 			<Mandala2 class="fill-brand-rose-gold opacity-10" style="width: 150%" />
 		</section>
-		<div class="relative overflow-hidden font-domainemedium text-brand-grey z-25">
+		<div class="relative overflow-hidden font-domainemedium text-brand-grey z-10 bg-brand-light-cream">
 			<section class="relative h-auto w-screen flex flex-col p-1">
 				<div class="w-full h-auto my-20 text-brand-rose-gold">
 					<h1 class="text-9xl sm:text-8xl md:text-10xl m-1 p-1">JH Devi</h1>

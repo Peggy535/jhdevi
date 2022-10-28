@@ -33,7 +33,7 @@
 
 				<!-- Personal message -->
 				<section class="relative flex flex-col h-auto w-screen justify-evenly p-1">
-					<blockquote class="w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5 bg-rose-50 rounded-xl border-2 border-brand-rose-dark">
+					<blockquote class="w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5 bg-brand-light-cream rounded-xl border-2 border-brand-rose-dark">
 						<span
 							class="float-left text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl text-brand-rose-gold font-domainemedium"
 							>H</span
@@ -67,13 +67,14 @@
 							preload="true"
 							poster="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1666692181/Well%20Being/slow_promo_DEVI_kphuws.jpg"
 						></video>
-						<div class="relative h-auto w-fit flex flex-row z-30 items-center float-right border border-brand-rose-gold rounded-2xl">
-							<span class="m-1 p-1">
-								<p class="text-xl text-brand-grey-light">Next Page</p>
-							</span>
+						<div class="relative h-auto w-fit flex flex-row z-30 items-center float-right border border-brand-rose-gold rounded-2xl m-1 p-1">
 							<NuxtLink to="/integrated-therapies">
+								<span class="m-1 p-1 inline-block">
+									<p class="text-xl text-brand-grey-light">Discover more about JH Intergrated Therapies</p>
+								</span>
+
 								<Arrowright
-									class="inline mr-4 w-8 fill-brand-rose-gold hover:fill-brand-light-cream hover:border-brand-rose-gold hover:scale-110 transition duration-700 ease-in-out"
+									class="inline-block mr-4 w-10 fill-brand-rose-gold hover:fill-brand-light-cream hover:border-brand-rose-gold hover:scale-110 transition duration-700 ease-in-out"
 								/>
 							</NuxtLink>
 						</div>

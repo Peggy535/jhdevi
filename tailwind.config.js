@@ -29,7 +29,7 @@ module.exports = {
 				"brand-grey": "#474954",
 				"brand-grey-light": "#676a79",
 				"brand-grey-dark": "#2f3037",
-				"brand-light-cream": "#f6f4f1",
+				"brand-light-cream": "#fcfcf0",
 				"brand-mint": "#A1C298",
 			},
 			fontSize: {
