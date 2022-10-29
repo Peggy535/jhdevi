@@ -40,13 +40,13 @@
 <template>
 	<div>
 		<div class="overflow-hidden font-domainemedium text-brand-grey-light">
-			<section class="relative h-auto w-screen flex flex-col z-20 bg-brand-light-cream bg-opacity-60 px-2">
+			<section class="relative h-auto w-screen flex flex-col z-20 bg-rose-50 bg-opacity-60 px-2">
 				<div class="w-full h-auto mt-20 mb-10 font-domainemedium text-brand-rose-gold">
 					<h1 class="text-7xl sm:text-7xl md:text-8xl lg:text-9xl m-1 p-1">JH Bookings</h1>
 				</div>
 
 				<div class="flex h-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto bg-brand-rose-gold rounded-2xl my-5 sm:my-8 md:my-10">
-					<p class="text-4xl md:text-5xl m-2 p-2 sm:m-4 sm:p-4 text-brand-light-cream">
+					<p class="text-4xl md:text-5xl m-2 p-2 sm:m-4 sm:p-4 text-white">
 						Take a step forwards today toward your choosen therapy online, take a consultation, send me an email. It's never been so easy.
 					</p>
 				</div>
@@ -54,7 +54,7 @@
 				<div class="flex flex-col md:flex-row w-full h-auto">
 					<article class="w-full sm:w-2/3 md:w-1/2 border border-brand-rose-gold rounded-2xl m-1 mx-auto md:m-2 xl:m-10">
 						<div class="h-40 bg-brand-rose-gold rounded-xl">
-							<h1 class="font-domainebold text-5xl lg:text-6xl text-brand-light-cream p-1">Consultation & first session</h1>
+							<h1 class="font-domainebold text-5xl lg:text-6xl text-white p-1">Consultation & first session</h1>
 						</div>
 						<span class="relative h-52 text-brand-grey-light">
 							<p class="text-lg lg:text-xl xl:text-2xl m-1 p-1">
@@ -66,8 +66,8 @@
 					</article>
 					<article class="w-full sm:w-2/3 md:w-1/2 border border-brand-rose-gold rounded-2xl m-1 mx-auto md:m-2 xl:m-10">
 						<div class="h-40 bg-brand-rose-gold rounded-xl">
-							<h1 class="text-5xl lg:text-6xl text-brand-light-cream p-1">Individual session</h1>
-							<h2 class="m-1 p-1 text-brand-light-cream text-2xl">CBT, Hypnotherapy or EFT</h2>
+							<h1 class="text-5xl lg:text-6xl text-white p-1">Individual session</h1>
+							<h2 class="m-1 p-1 text-white text-2xl">CBT, Hypnotherapy or EFT</h2>
 						</div>
 						<span class="relative h-52">
 							<p class="text-lg lg:text-xl xl:text-2xl m-1 p-1">For those who wish to book on-going Intergrated Therapy sessions.</p>
@@ -77,7 +77,7 @@
 					</article>
 				</div>
 			</section>
-			<section class="flex flex-col w-screen h-auto bg-brand-light-cream">
+			<section class="flex flex-col w-screen h-auto bg-rose-50">
 				<div v-if="submitting" class="w-full h-full text-brand-rose-gold items-center mx-auto text-center" :class="{ [`hidden`]: submitted }">
 					<h1 text="p-1 m-1 sm:m-2 sm:p-2 text-2xl lg:text-3xl xl:text-4xl">Submitting your email</h1>
 				</div>
@@ -94,7 +94,7 @@
 
 						<div class="form-group">
 							<input
-								class="border border-brand-rose-gold rounded-2xl bg-brand-light-cream text-brand-rose-gold pointer-events-auto m-2 p-2 w-full mx-auto"
+								class="border border-brand-rose-gold rounded-2xl bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 w-full mx-auto"
 								name="from_name"
 								placeholder="name"
 								type="text"
@@ -105,7 +105,7 @@
 						</div>
 						<div class="form-group">
 							<input
-								class="border border-brand-rose-gold rounded-2xl bg-brand-light-cream text-brand-rose-gold pointer-events-auto m-2 p-2 w-full mx-auto"
+								class="border border-brand-rose-gold rounded-2xl bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 w-full mx-auto"
 								name="user_email"
 								placeholder="email address"
 								type="email"
@@ -117,7 +117,7 @@
 
 						<div class="form-group">
 							<textarea
-								class="border border-brand-rose-gold rounded-2xl bg-brand-light-cream text-brand-rose-gold pointer-events-auto m-2 p-2 text-area w-full mx-auto"
+								class="border border-brand-rose-gold rounded-2xl bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 text-area w-full mx-auto"
 								name="message"
 								placeholder="message"
 								type="text"

@@ -9,7 +9,7 @@
 		<section class="h-screen w-screen fixed z-20">
 			<Mandala2 class="fill-brand-rose-gold opacity-10" style="width: 150%" />
 		</section>
-		<div class="relative overflow-hidden font-domainemedium text-brand-grey z-10 bg-brand-light-cream">
+		<div class="relative overflow-hidden font-domainemedium text-brand-grey z-10 bg-rose-50">
 			<section class="relative h-auto w-screen flex flex-col p-1">
 				<div class="w-full h-auto my-20 text-brand-rose-gold">
 					<h1 class="text-9xl sm:text-8xl md:text-10xl m-1 p-1">JH Devi</h1>
@@ -17,9 +17,9 @@
 				</div>
 
 				<div class="flex flex-col h-auto mx-auto bg-brand-rose-gold rounded-2xl w-full sm:w-4/5">
-					<div class="m-2 p-2 border-l border-l-brand-light-cream my-8">
-						<h1 class="text-9xl sm:text-10xl md:text-11xl float-left text-brand-light-cream m-1 p-1">A</h1>
-						<p class="text-3xl sm:text-4xl md:text-5xl m-2 p-2 text-brand-light-cream">
+					<div class="m-2 p-2 border-l border-l-white my-8">
+						<h1 class="text-9xl sm:text-10xl md:text-11xl float-left text-white m-1 p-1">A</h1>
+						<p class="text-3xl sm:text-4xl md:text-5xl m-2 p-2 text-white">
 							platform created by JH to assist in opening up your very own unique gateway to understanding your true self. Your souls
 							fingerprint, it's very own navigation system buried deep within your energetic systems.
 						</p>
@@ -45,11 +45,11 @@
 			</section>
 			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col p-1 w-full items-center">
-					<div class="w-full mx-auto bg-brand-rose-gold rounded-2xl py-5 md:py-8">
-						<h1 class="m-1 p-1 text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-brand-light-cream">Hypnotherapy</h1>
+					<div class="w-full bg-brand-rose-gold rounded-2xl py-5 md:py-8">
+						<h1 class="m-1 p-1 text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-white">Hypnotherapy</h1>
 					</div>
 					<div class="flex flex-col m-1 p-1 w-full sm:w-4/5 sm:mx-auto lg:w-2/3 mt-10 sm:mt-14 md:mt-18">
-						<p class="m-2 p-4 bg-brand-rose-gold rounded-2xl text-brand-light-cream text-3xl sm:text-4xl md:text-5xl">
+						<p class="m-2 p-4 bg-brand-rose-gold rounded-2xl text-white text-3xl sm:text-4xl md:text-5xl">
 							Hypnotherapy is a natural therapy that can help you to cope with the problems and challenges of everyday life like
 							anxiety, phobias, fears, self esteem or even addiction to name but a few.
 						</p>
@@ -70,11 +70,11 @@
 			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col w-full items-center p-1">
 					<div class="w-full mx-auto bg-brand-rose-gold rounded-2xl py-5 md:py-8">
-						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl m-1 p-1 text-brand-light-cream font-medium">EFT</h1>
-						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-brand-light-cream">Emotional Freedom Technique</h2>
+						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl m-1 p-1 text-white font-medium">EFT</h1>
+						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-white">Emotional Freedom Technique</h2>
 					</div>
 					<div class="flex flex-col w-full sm:w-4/5 mx-auto text-md m-1 p-1 lg:w-2/3 mt-10 sm:mt-14 md:mt-18">
-						<p class="m-2 p-4 bg-brand-rose-gold text-brand-light-cream text-3xl sm:text-4xl md:text-5xl rounded-2xl">
+						<p class="m-2 p-4 bg-brand-rose-gold text-white text-3xl sm:text-4xl md:text-5xl rounded-2xl">
 							At the cutting edge in the field of energy psychology is EFT (Emotional Freedom Techniques), which utilises the meridian
 							system an is therefore often known as meridian therapy or meridian psychotherapy.
 						</p>
@@ -105,11 +105,11 @@
 			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col w-full p-1 items-center">
 					<div class="w-full mx-auto bg-brand-rose-gold rounded-2xl py-5 md:py-8">
-						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-brand-light-cream font-medium m-1 p-1">CBT</h1>
-						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-brand-light-cream">Cognitive Behavioral Therapy</h2>
+						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-white font-medium m-1 p-1">CBT</h1>
+						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-white">Cognitive Behavioral Therapy</h2>
 					</div>
 					<div class="flex flex-col w-full sm:w-4/5 mx-auto text-md m-1 p-1 lg:w-2/3 mt-10 sm:mt-14 md:mt-18">
-						<p class="m-2 p-4 bg-brand-rose-gold text-brand-light-cream text-3xl sm:text-4xl md:text-5xl rounded-2xl">
+						<p class="m-2 p-4 bg-brand-rose-gold text-white text-3xl sm:text-4xl md:text-5xl rounded-2xl">
 							CBT is a therapy that focuses on the particular ways in which an individual thinks, behaves and acts, in the attempt to
 							deal successfully with their behavioural, emotional and social problems and issues.
 						</p>

@@ -1,13 +1,13 @@
 <template>
 	<div>
-		<div class="flex flex-col h-screen w-screen text-brand-rose-gold font-domainemedium place-content-end bg-brand-light-cream">
+		<div class="flex flex-col h-screen w-screen text-brand-rose-gold font-domainemedium place-content-end bg-white">
 			<h1 class="text-8xl m-1 p-1">JH Shop</h1>
 			<h2 class="text-3xl m-1 p-1 mb-10">Discover the 12 Steps to you program, individual therapy audios and more.</h2>
 		</div>
-		<div class="flex flex-col md:flex-row md:flex-wrap md:flex-shrink w-screen h-auto font-domainemedium p-2 bg-brand-light-cream">
+		<div class="flex flex-col md:flex-row md:flex-wrap md:flex-shrink w-screen h-auto font-domainemedium p-2 bg-white">
 			<div class="flex w-full md:w-1/2 md:p-2 lg:w-1/3">
 				<article class="relative border border-brand-champagne-gold rounded-2xl w-full sm:w-2/3 md:w-full m-2 mx-auto">
-					<div class="h-32 bg-brand-champagne-gold rounded-xl text-brand-light-cream p-2">
+					<div class="h-32 bg-brand-champagne-gold rounded-xl text-white p-2">
 						<h1 class="text-4xl md:text-3xl lg:text-4xl xl:text-5xl m-1 p-1">Hypnosis Audios</h1>
 						<h1 class="text-lg m-1 p-1">Individual audio's & videos to taregt specific issues</h1>
 					</div>
@@ -23,7 +23,7 @@
 			</div>
 			<div class="flex w-full md:w-1/2 md:p-2 lg:w-1/3">
 				<article class="relative border border-brand-rose-gold rounded-2xl w-full sm:w-2/3 md:w-full m-2 mx-auto">
-					<div class="h-32 bg-brand-rose-gold rounded-xl text-brand-light-cream p-2">
+					<div class="h-32 bg-brand-rose-gold rounded-xl text-white p-2">
 						<h1 class="text-4xl md:text-3xl lg:text-4xl xl:text-5xl">The 12-Step program</h1>
 					</div>
 					<div class="relative m-1 p-1 text-brand-rose-gold h-48">
@@ -38,7 +38,7 @@
 			</div>
 			<div class="flex w-full md:w-1/2 md:p-2 lg:w-1/3">
 				<article class="relative border border-brand-sage rounded-2xl w-full sm:w-2/3 md:w-full m-2 mx-auto">
-					<div class="h-32 bg-brand-sage rounded-xl text-brand-light-cream p-2">
+					<div class="h-32 bg-brand-sage rounded-xl text-white p-2">
 						<h1 class="text-4xl md:text-3xl lg:text-4xl xl:text-5xl">JH Events</h1>
 					</div>
 					<div class="relative m-1 p-1 text-brand-sage h-48">
