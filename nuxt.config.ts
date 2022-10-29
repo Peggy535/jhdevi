@@ -1,5 +1,5 @@
 export default {
-	modules: ["@nuxt/image-edge", "@nuxtjs/sanity", "@nuxtjs/tailwindcss", "@kevinmarrec/nuxt-pwa"],
+	modules: ["@nuxt/image-edge", "@nuxtjs/sanity", "@nuxtjs/tailwindcss", "@kevinmarrec/nuxt-pwa", "@unlighthouse/nuxt"],
 	image: {
 		cloudinary: {
 			baseURL: "https://res.cloudinary.com/peggy-co/image/upload/v1596638480/Well%20Being",
@@ -43,6 +43,15 @@ export default {
 			EMAILJS_PUBLIC_KEY: process.env.EMAILJS_PUBLIC_KEY,
 			EMAILJS_SERVICE_ID: process.env.EMAILJS_SERVICE_ID,
 			GTM_ID: process.env.GTM_ID,
+		},
+	},
+	unlighthouse: {
+		scanner: {
+			// simulate a desktop device
+			device: "desktop",
+		},
+		lighthouseOptions: {
+			onlyCategories: ["performance", "best-practices", "accessibility", "seo", "pwa"],
 		},
 	},
 };
