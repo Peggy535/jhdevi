@@ -26,3 +26,9 @@
 		url("assets/fonts/domainemedium.woff2") format("woff2");
 	font-display: swap;
 }
+@font-face {
+	font-family: "domainesemibold";
+	src: local(domainesemibold), local("domainesemibold"), url("assets/fonts/domainesemibold.woff") format("woff"),
+		url("assets/fonts/domainesemibold.woff2") format("woff2");
+	font-display: swap;
+}

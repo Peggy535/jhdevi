@@ -9,11 +9,12 @@
 		<section class="h-screen w-screen fixed z-20">
 			<Mandala2 class="fill-brand-rose-gold opacity-10" style="width: 150%" />
 		</section>
-		<div class="relative overflow-hidden font-domainemedium text-brand-grey z-10 bg-rose-50">
+		<div class="relative overflow-hidden font-domainemedium text-brand-grey z-10 ">
 			<section class="relative h-auto w-screen flex flex-col p-1">
 				<div class="w-full h-auto my-20 text-brand-rose-gold">
-					<h1 class="text-9xl sm:text-8xl md:text-10xl m-1 p-1">JH Devi</h1>
-					<h1 class="text-3xl sm:text-5xl m-1 p-1">Integrated Therapies</h1>
+					<h1 class="text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-1 p-1">JH Devi</h1>
+					<h1 class="text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-1 p-1">Integrated</h1>
+					<h1 class="text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-1 p-1">Therapies</h1>
 				</div>
 
 				<div class="flex flex-col h-auto mx-auto bg-brand-rose-gold rounded-2xl w-full sm:w-4/5">

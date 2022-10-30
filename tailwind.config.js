@@ -18,6 +18,7 @@ module.exports = {
 				domainelight: ["domainelight"],
 				domaineregular: ["domaineregular"],
 				domainemedium: ["domainemedium"],
+				domainesemibold: ["domainesemibold"],
 			},
 			colors: {
 				"brand-rose-gold": "#b76e79",
