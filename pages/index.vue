@@ -32,8 +32,8 @@
 				</section>
 
 				<!-- Personal message -->
-				<section class="relative flex flex-col h-auto w-screen justify-evenly p-1">
-					<blockquote class="w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5  rounded-xl border-2 border-brand-rose-dark">
+				<section class="relative flex flex-col h-auto w-screen justify-evenly items-center p-1">
+					<blockquote class="w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5  rounded-xl border-2 border-brand-rose-dark bg-rose-50">
 						<span
 							class="float-left text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl text-brand-rose-gold font-domainemedium"
 							>H</span
@@ -54,7 +54,7 @@
 							<h2 class="text-brand-grey-light text-6xl sm:text-7xl md:text-8xl lg:text-9xl m-1 p-1">
 								ou are beautiful, unique and deserving of all good things.
 							</h2>
-							<cite class="m-3 p-3 text-brand-rose-gold">- Justine Hodgson</cite>
+							<cite class="m-1 p-1 text-brand-rose-gold">- Justine Hodgson</cite>
 						</div>
 						<div class="w-full h-fit">
 							<IconsQuoteDivider2 class="w-4/5 fill-brand-rose-light mx-auto" />
@@ -70,7 +70,7 @@
 						<div class="relative h-auto w-fit flex flex-row z-30 items-center float-right border border-brand-rose-gold rounded-2xl m-1 p-1">
 							<NuxtLink to="/integrated-therapies">
 								<span class="m-1 p-1 inline-block">
-									<p class="text-xl text-brand-grey-light">Discover more about JH Intergrated Therapies</p>
+									<p class="text-sm text-brand-grey-light">JH Intergrated Therapies</p>
 								</span>
 
 								<Arrowright

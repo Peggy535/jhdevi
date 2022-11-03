@@ -1,5 +1,6 @@
 <script setup>
 	import Mandala2 from "~~/components/icons/Mandala2.vue";
+	import Arrowright from "~/components/icons/arrowright.vue";
 	definePageMeta({
 		layout: "default",
 	});
@@ -7,16 +8,17 @@
 <template>
 	<div>
 		<section class="h-screen w-screen fixed z-20">
-			<Mandala2 class="fill-brand-rose-gold opacity-10" style="width: 150%" />
+			<Mandala2 class="fill-brand-rose-gold opacity-20" style="width: 150%" />
 		</section>
-		<div class="relative overflow-hidden font-domainemedium text-brand-grey z-10 ">
-			<section class="relative h-auto w-screen flex flex-col p-1">
-				<div class="w-full h-auto my-20 text-brand-rose-gold">
-					<h1 class="text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-1 p-1">JH Devi</h1>
-					<h1 class="text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-1 p-1">Integrated</h1>
-					<h1 class="text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-1 p-1">Therapies</h1>
+		<div class="relative overflow-hidden font-domainemedium text-brand-grey z-10">
+			<section class="relative flex flex-col h-screen w-screen justify-end">
+				<div class="text-brand-rose-gold text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-2 p-2 mb-20">
+					<h1>JH Devi</h1>
+					<h1>Integrated</h1>
+					<h1>Therapies</h1>
 				</div>
-
+			</section>
+			<section class="relative h-auto w-screen flex flex-col p-1">
 				<div class="flex flex-col h-auto mx-auto bg-brand-rose-gold rounded-2xl w-full sm:w-4/5">
 					<div class="m-2 p-2 border-l border-l-white my-8">
 						<h1 class="text-9xl sm:text-10xl md:text-11xl float-left text-white m-1 p-1">A</h1>
@@ -136,6 +138,17 @@
 					</div>
 				</div>
 			</section>
+			<div class="relative h-auto w-fit flex flex-row z-30 items-center float-right border border-brand-rose-gold rounded-2xl m-1 p-1">
+				<NuxtLink to="/bookings">
+					<span class="m-1 p-1 inline-block">
+						<p class="text-sm text-brand-grey-light">Bookings & Contact</p>
+					</span>
+
+					<Arrowright
+						class="inline-block mr-4 w-10 fill-brand-rose-gold hover:fill-brand-rose-dark hover:border-brand-rose-gold hover:scale-110 transition duration-700 ease-in-out"
+					/>
+				</NuxtLink>
+			</div>
 		</div>
 	</div>
 </template>
