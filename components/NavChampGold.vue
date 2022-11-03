@@ -59,20 +59,14 @@
 						Blog
 					</li>
 				</NuxtLink>
-				<NuxtLink to="/jhshop" @click="closeMenu">
+				<!-- <NuxtLink to="/jhshop" @click="closeMenu">
 					<li
 						class="m-2 p-2 text-brand-champagne-gold transition delay-75 ease-in-out duration-700 hover:text-brand-rose-gold hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
 					>
 						JH Shop
 					</li>
-				</NuxtLink>
-				<NuxtLink to="/jhevents" @click="closeMenu">
-					<li
-						class="m-2 p-2 text-brand-champagne-gold transition delay-75 ease-in-out duration-700 hover:text-brand-rose-gold hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:bg-brand-rose-gold after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
-					>
-						JH Events
-					</li>
-				</NuxtLink>
+				</NuxtLink> -->
+
 			</ul>
 		</div>
 	</div>

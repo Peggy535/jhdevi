@@ -13,7 +13,7 @@
 				groq`{"indBlogArticle": *[_type == "blogArticle" && slug.current == "${route.params.slug}"]{title, publishedDate, minRead, "blogImage":articleImage.asset->url, slug, body, myTags}}`
 			),
 		{ initialCache: false }
-	).then(refreshNuxtData());
+	);
 	refresh();
 
 	definePageMeta({
@@ -66,7 +66,7 @@
 			</div>
 
 			<div
-				class="flex mt-10 text-brand-grey-light w-5/6 sm:w-4/5 p-2 flex-col overflow-hidden prose prose-md sm:prose-lg md:prose-xl lg:prose-2xl lg:prose-h4:text-4xl prose-p:text-md prose-li:text-md prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl prose-h5:text-lg mx-auto border-l border-l-brand-champagne-gold"
+				class="flex mt-10 text-brand-grey-light w-5/6 sm:w-4/5 p-2 flex-col overflow-hidden prose prose-md sm:prose-lg md:prose-xl lg:prose-h4:text-4xl prose-p:text-md prose-li:text-md prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl prose-h5:text-lg mx-auto border-l border-l-brand-champagne-gold"
 			>
 				<SanityContent :blocks="article.indBlogArticle[0].body" />
 			</div>
