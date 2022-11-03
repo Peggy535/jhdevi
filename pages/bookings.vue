@@ -41,8 +41,10 @@
 	<div>
 		<div class="overflow-hidden font-domainemedium text-brand-grey-light">
 			<section class="relative h-auto w-screen flex flex-col z-20 bg-opacity-60 px-2">
-				<div class="w-full h-auto mt-20 mb-10 font-domainemedium text-brand-rose-gold">
-					<h1 class="text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-1 p-1">JH Bookings</h1>
+				<div class="w-full h-screen flex flex-col justify-end">
+					<div class="mb-10 font-domainemedium text-brand-rose-gold">
+						<h1 class="text-7xl sm:text-8xl lg:text-9xl xl:text-10xl m-1 p-1">JH Bookings</h1>
+					</div>
 				</div>
 
 				<div class="flex h-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto bg-brand-rose-gold rounded-2xl my-5 sm:my-8 md:my-10">
@@ -54,7 +56,7 @@
 				<div class="flex flex-col md:flex-row w-full h-auto">
 					<article class="w-full sm:w-2/3 md:w-1/2 border border-brand-rose-gold rounded-2xl m-1 mx-auto md:m-2 xl:m-10">
 						<div class="h-40 bg-brand-rose-gold rounded-xl">
-							<h1 class="font-domainebold text-5xl text-white p-2 ">Consultation & first session</h1>
+							<h1 class="font-domainebold text-5xl text-white p-2">Consultation & first session</h1>
 						</div>
 						<span class="relative h-58 text-brand-grey-light">
 							<p class="text-lg lg:text-xl xl:text-2xl m-2 p-2">
