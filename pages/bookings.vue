@@ -40,13 +40,13 @@
 <template>
 	<div>
 		<section class="h-screen w-screen fixed z-20">
-			<IconsPentagram class="fill-brand-rose-gold opacity-20" style="width: 150%" />
+			<IconsPentagram class="fill-brand-rose-gold opacity-20 absolute -top-52" style="width: 125%" />
 		</section>
-		<div class="relative overflow-hidden font-objectSans text-brand-grey-light z-30">
+		<div class="relative overflow-hidden font-objectSans text-brand-grey-light">
 			<section class="relative h-auto w-screen flex flex-col bg-opacity-60 px-2">
 				<div class="w-full h-screen flex flex-col justify-end">
 					<div class="mb-20 font-domainemedium text-brand-rose-gold">
-						<h1 class="text-7xl sm:text-8xl lg:text-9xl xl:text-10xl m-1 p-1">JH Bookings</h1>
+						<h1 class="text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl m-1 p-1">JH Bookings</h1>
 					</div>
 				</div>
 

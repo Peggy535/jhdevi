@@ -21,10 +21,10 @@
 </script>
 
 <template>
-	<div class="fixed z-40 h-screen w-full bg-white flex flex-col place-content-center invisible menu font-domaineregular">
+	<div class="fixed z-40 h-screen w-full bg-white flex flex-col place-content-center invisible menu font-domainemedium">
 		<span class="absolute top-5 left-5" @click="closeMenu">
 			<h1 class="text-xl text-brand-rose-gold transition duration-500 delay-75 ease-in-out hover:scale-125 hover:text-brand-champagne-gold">
-				Close menu
+				Close
 			</h1>
 		</span>
 		<div class="flex mx-auto">
@@ -69,7 +69,7 @@
 		</div>
 	</div>
 
-	<div class="fixed w-full flex flex-row place-content-between items-center z-30 font-domaineregular">
+	<div class="fixed w-full flex flex-row place-content-between items-center z-30 font-domainemedium">
 		<MenuIcon class="fill-brand-rose-gold w-16 sm:w-18 md:w-20 transition delay-75 duration-500 hover:scale-110" @click="openMenu" />
 		<span class="m-1"
 			><NuxtLink to="/bookings">

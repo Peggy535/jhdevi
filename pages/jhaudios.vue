@@ -97,15 +97,16 @@
 		<div class="relative flex flex-col h-screen w-screen text-brand-champagne-dark font-domainemedium place-content-end">
 			<h1 class="text-8xl md:text-9xl lg:text-10xl m-1 p-1">JH Audios</h1>
 			<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl m-1 p-1 mb-10">
-				Buy an individual audio track to help you with a specific issue, choose one of my revolutionary programs or join me and others for a tapping circle!
+				Buy an individual audio track to help you with a specific issue, choose one of my revolutionary programs or join me and others for a
+				tapping circle!
 			</h2>
 		</div>
-		<div class="relative flex flex-col lg:flex-row w-screen h-auto font-domainemedium p-2 z-20">
+		<div class="relative flex flex-col lg:flex-row w-screen h-auto font-objectSans p-2 z-20">
 			<div v-for="audio in audios" :key="audio._id">
 				<div class="p-4">
 					<article class="relative border border-brand-champagne-light rounded-2xl w-full sm:w-2/3 lg:w-full mx-auto bg-white">
 						<div class="h-42 bg-brand-champagne-dark rounded-xl text-brand-grey-light p-2">
-							<h1 class="text-4xl sm:text-3xl lg:text-4xl m-1 p-1">{{ audio.title }}</h1>
+							<h1 class="text-4xl sm:text-3xl lg:text-4xl m-1 p-1 font-domainemedium">{{ audio.title }}</h1>
 							<h1 class="text-lg m-1 p-1">{{ audio.subTitle }}</h1>
 						</div>
 						<div class="relative m-1 p-1 text-brand-grey-light">
