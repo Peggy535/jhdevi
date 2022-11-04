@@ -1,6 +1,4 @@
 <script setup>
-	import Mandala2 from "~~/components/icons/Mandala2.vue";
-	import Arrowright from "~~/components/icons/Arrowright.vue";
 	definePageMeta({
 		layout: "default",
 	});
@@ -8,7 +6,7 @@
 <template>
 	<div>
 		<section class="h-screen w-screen fixed z-20">
-			<Mandala2 class="fill-brand-rose-gold opacity-20" style="width: 150%" />
+			<IconsMandala2 class="fill-brand-rose-gold opacity-20" style="width: 150%" />
 		</section>
 		<div class="relative overflow-hidden font-objectSans text-brand-grey">
 			<section class="relative flex flex-col h-screen w-screen justify-end">

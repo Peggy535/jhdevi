@@ -1,5 +1,4 @@
 <script setup>
-	import Arrowright from "~~/components/icons/Arrowright.vue";
 	definePageMeta({
 		layout: "default",
 	});
