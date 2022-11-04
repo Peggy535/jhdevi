@@ -24,7 +24,7 @@
 					class="grid col-span-1 min-h-min border border-brand-champagne-gold rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-brand-champagne-gold group hover:scale-105 bg-white"
 				>
 					<span class="h-52 sm:h-56 md:h-48 bg-brand-champagne-gold rounded-xl font-domaineextrabold">
-						<h1 class="m-1 p-1 text-4xl sm:text-3xl lg:text-4xl xl:text-3xl">
+						<h1 class="m-1 p-1 text-3xl lg:text-4xl xl:text-3xl">
 							{{ blog.title }}
 						</h1>
 						<p class="text-sm lg:text-md m-1 p-1">{{ blog.minRead }} min read</p>

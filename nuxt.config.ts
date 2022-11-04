@@ -1,5 +1,4 @@
 export default {
-	ssr:false,
 	modules: ["@nuxt/image-edge", "@nuxtjs/sanity", "@nuxtjs/tailwindcss", "@kevinmarrec/nuxt-pwa"],
 	image: {
 		cloudinary: {
