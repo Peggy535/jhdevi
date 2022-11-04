@@ -23,10 +23,10 @@
 
 <template>
 	<div>
-		<div class="flex flex-col h-auto w-screen overflow-hidden font-domainemedium">
+		<div class="flex flex-col h-auto w-screen overflow-hidden font-objectSans">
 			<div class="flex w-full md:flex-row md:items-center mt-20">
 				<h1
-					class="w-full md:w-2/3 text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl m-2 p-4 xl:p-10 bg-brand-champagne-gold rounded-2xl text-brand-grey-light"
+					class="w-full md:w-2/3 text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl m-2 p-4 xl:p-10 bg-brand-champagne-gold rounded-2xl text-brand-grey font-domainemedium"
 				>
 					{{ article.indBlogArticle[0].title }}
 				</h1>
@@ -48,7 +48,7 @@
 
 			<div class="flex flex-row">
 				<div class="flex flex-col">
-					<div class="w-fit m-3 p-3 bg-brand-champagne-gold rounded-2xl text-brand-grey-light">
+					<div class="w-fit m-3 p-3 bg-brand-champagne-gold rounded-2xl text-brand-grey">
 						<p>
 							Date:
 							{{ new Date(article.indBlogArticle[0].publishedDate).toLocaleDateString() }}

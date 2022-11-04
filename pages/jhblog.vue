@@ -17,7 +17,7 @@
 			<h1 class="text-7xl sm:text-8xl md:text-9xl xl:text-10xl m-1 p-1 my-20">JH Blog</h1>
 		</div>
 		<div
-			class="relative grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 lg:gap-20 xl:gap-16 w-screen h-auto mb-5 font-domainesemibold px-2 md:px-4 lg:px-8 z-20 text-brand-grey-light "
+			class="relative grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 lg:gap-20 xl:gap-16 w-screen h-auto mb-5 font-objectSans px-2 md:px-4 lg:px-8 z-20 text-brand-grey-light"
 		>
 			<div v-for="blog in blogs" :key="blog._id">
 				<article

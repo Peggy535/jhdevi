@@ -39,24 +39,27 @@
 </script>
 <template>
 	<div>
-		<div class="overflow-hidden font-domainemedium text-brand-grey-light">
-			<section class="relative h-auto w-screen flex flex-col z-20 bg-opacity-60 px-2">
+		<section class="h-screen w-screen fixed z-20">
+			<IconsPentagram class="fill-brand-rose-gold opacity-20" style="width: 150%" />
+		</section>
+		<div class="relative overflow-hidden font-objectSans text-brand-grey-light z-30">
+			<section class="relative h-auto w-screen flex flex-col bg-opacity-60 px-2">
 				<div class="w-full h-screen flex flex-col justify-end">
-					<div class="mb-10 font-domainemedium text-brand-rose-gold">
+					<div class="mb-20 font-domainemedium text-brand-rose-gold">
 						<h1 class="text-7xl sm:text-8xl lg:text-9xl xl:text-10xl m-1 p-1">JH Bookings</h1>
 					</div>
 				</div>
 
 				<div class="flex h-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto bg-brand-rose-gold rounded-2xl my-5 sm:my-8 md:my-10">
-					<p class="text-4xl md:text-5xl m-2 p-2 sm:m-4 sm:p-4 text-white">
+					<p class="text-4xl md:text-5xl m-2 p-2 sm:m-4 sm:p-4 text-white font-domainemedium">
 						Take a step forwards today toward your choosen therapy online, take a consultation, send me an email. It's never been so easy.
 					</p>
 				</div>
 
-				<div class="flex flex-col md:flex-row w-full h-auto">
-					<article class="w-full sm:w-2/3 md:w-1/2 border border-brand-rose-gold rounded-2xl m-1 mx-auto md:m-2 xl:m-10">
+				<div class="relative flex flex-col md:flex-row w-full h-auto">
+					<article class="w-full sm:w-2/3 md:w-1/2 border border-brand-rose-gold rounded-2xl m-1 mx-auto md:m-2 xl:m-10 bg-white">
 						<div class="h-40 bg-brand-rose-gold rounded-xl">
-							<h1 class="font-domainebold text-5xl text-white p-2">Consultation & first session</h1>
+							<h1 class="font-domainemedium text-5xl text-white p-2">Consultation & first session</h1>
 						</div>
 						<span class="relative h-58 text-brand-grey-light">
 							<p class="text-lg lg:text-xl xl:text-2xl m-2 p-2">
@@ -66,8 +69,8 @@
 							<p class="m-2 p-2 text-lg lg:text-xl xl:text-2xl">To book, please use the form below.</p>
 						</span>
 					</article>
-					<article class="w-full sm:w-2/3 md:w-1/2 border border-brand-rose-gold rounded-2xl m-1 mx-auto md:m-2 xl:m-10">
-						<div class="h-40 bg-brand-rose-gold rounded-xl">
+					<article class="w-full sm:w-2/3 md:w-1/2 border border-brand-rose-gold rounded-2xl m-1 mx-auto md:m-2 xl:m-10 bg-white">
+						<div class="h-40 bg-brand-rose-gold rounded-xl font-domainemedium">
 							<h1 class="text-5xl text-white p-2">Individual session</h1>
 							<h2 class="m-1 p-1 text-white text-2xl">CBT, Hypnotherapy or EFT</h2>
 						</div>
@@ -94,12 +97,12 @@
 				>
 					<form class="form w-5/6 sm:w-2/3 lg:w-1/2 mx-auto" ref="form" @submit.prevent="submitHandler">
 						<div class="w-full">
-							<h1 class="text-6xl xl:text-7xl text-brand-rose-light m-1 p-1 text-center">Email JH Devi</h1>
+							<h1 class="text-6xl xl:text-7xl text-brand-rose-light m-1 p-1 text-center font-domainemedium">Email JH Devi</h1>
 						</div>
 
 						<div class="form-group">
 							<input
-								class="border border-brand-rose-gold rounded-2xl bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 w-full mx-auto"
+								class="border border-brand-rose-gold rounded-2xl font-domainemedium bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 w-full mx-auto"
 								name="from_name"
 								placeholder="name"
 								type="text"
@@ -110,7 +113,7 @@
 						</div>
 						<div class="form-group">
 							<input
-								class="border border-brand-rose-gold rounded-2xl bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 w-full mx-auto"
+								class="border border-brand-rose-gold rounded-2xl font-domainemedium bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 w-full mx-auto"
 								name="user_email"
 								placeholder="email address"
 								type="email"
@@ -122,7 +125,7 @@
 
 						<div class="form-group">
 							<textarea
-								class="border border-brand-rose-gold rounded-2xl bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 text-area w-full mx-auto"
+								class="border border-brand-rose-gold rounded-2xl font-domainemedium bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 text-area w-full mx-auto"
 								name="message"
 								placeholder="message"
 								type="text"
@@ -134,7 +137,7 @@
 						</div>
 						<div class="form-group">
 							<input
-								class="submit text-brand-rose-gold m-1 p-1 border border-brand-rose-gold rounded-2xl transition duration-500 delay-75 ease-in-out hover:border-brand-rose-dark hover:text-brand-rose-dark hover:bg-rose-dark hover:scale-125"
+								class="submit text-brand-rose-gold m-1 p-1 font-domainemedium border border-brand-rose-gold rounded-2xl transition duration-500 delay-75 ease-in-out hover:border-brand-rose-dark hover:text-brand-rose-dark hover:bg-rose-dark hover:scale-125 bg-white"
 								type="submit"
 								name="send"
 								value="Send email"
@@ -143,6 +146,21 @@
 					</form>
 				</div>
 			</section>
+			<div
+				class="relative h-auto w-fit flex flex-row z-30 items-center float-right border border-brand-rose-gold rounded-2xl m-1 p-1 bg-white mb-10"
+			>
+				<NuxtLink to="/jhblog">
+					<span class="m-1 p-1 inline-block">
+						<p class="text-sm text-brand-rose-gold transition duration-700 ease-in-out hover:text-brand-rose-dark hover:scale-110">
+							JH Blog
+						</p>
+					</span>
+
+					<IconsArrowright
+						class="inline-block mr-4 w-10 fill-brand-rose-gold hover:fill-brand-rose-dark hover:border-brand-rose-gold hover:scale-150 transition duration-700 ease-in-out"
+					/>
+				</NuxtLink>
+			</div>
 		</div>
 	</div>
 </template>

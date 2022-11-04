@@ -1,6 +1,6 @@
 <script setup>
 	import Mandala2 from "~~/components/icons/Mandala2.vue";
-	import Arrowright from "~/components/icons/arrowright.vue";
+	import Arrowright from "~~/components/icons/Arrowright.vue";
 	definePageMeta({
 		layout: "default",
 	});
@@ -10,9 +10,9 @@
 		<section class="h-screen w-screen fixed z-20">
 			<Mandala2 class="fill-brand-rose-gold opacity-20" style="width: 150%" />
 		</section>
-		<div class="relative overflow-hidden font-domainemedium text-brand-grey z-10">
+		<div class="relative overflow-hidden font-objectSans text-brand-grey">
 			<section class="relative flex flex-col h-screen w-screen justify-end">
-				<div class="text-brand-rose-gold text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-2 p-2 mb-20">
+				<div class="text-brand-rose-gold text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-2 p-2 mb-20 font-domainemedium">
 					<h1>JH Devi</h1>
 					<h1>Integrated</h1>
 					<h1>Therapies</h1>
@@ -21,7 +21,7 @@
 			<section class="relative h-auto w-screen flex flex-col p-1">
 				<div class="flex flex-col h-auto mx-auto bg-brand-rose-gold rounded-2xl w-full sm:w-4/5">
 					<div class="m-2 p-2 border-l border-l-white my-8">
-						<h1 class="text-9xl sm:text-10xl md:text-11xl float-left text-white m-1 p-1">A</h1>
+						<h1 class="text-9xl sm:text-10xl md:text-11xl float-left text-white font-domainemedium m-1 p-1">A</h1>
 						<p class="text-3xl sm:text-4xl md:text-5xl m-2 p-2 text-white">
 							platform created by JH to assist in opening up your very own unique gateway to understanding your true self. Your souls
 							fingerprint, it's very own navigation system buried deep within your energetic systems.
@@ -49,7 +49,7 @@
 			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col p-1 w-full items-center">
 					<div class="w-full bg-brand-rose-gold rounded-2xl py-5 md:py-8">
-						<h1 class="m-1 p-1 text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-white">Hypnotherapy</h1>
+						<h1 class="m-1 p-1 text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-white font-domainemedium">Hypnotherapy</h1>
 					</div>
 					<div class="flex flex-col m-1 p-1 w-full sm:w-4/5 sm:mx-auto lg:w-2/3 mt-10 sm:mt-14 md:mt-18">
 						<p class="m-2 p-4 bg-brand-rose-gold rounded-2xl text-white text-3xl sm:text-4xl md:text-5xl">
@@ -73,8 +73,8 @@
 			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col w-full items-center p-1">
 					<div class="w-full mx-auto bg-brand-rose-gold rounded-2xl py-5 md:py-8">
-						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl m-1 p-1 text-white font-medium">EFT</h1>
-						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-white">Emotional Freedom Technique</h2>
+						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl m-1 p-1 text-white font-domainesemibold">EFT</h1>
+						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-white font-domainemedium">Emotional Freedom Technique</h2>
 					</div>
 					<div class="flex flex-col w-full sm:w-4/5 mx-auto text-md m-1 p-1 lg:w-2/3 mt-10 sm:mt-14 md:mt-18">
 						<p class="m-2 p-4 bg-brand-rose-gold text-white text-3xl sm:text-4xl md:text-5xl rounded-2xl">
@@ -108,8 +108,10 @@
 			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col w-full p-1 items-center">
 					<div class="w-full mx-auto bg-brand-rose-gold rounded-2xl py-5 md:py-8">
-						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-white font-medium m-1 p-1">CBT</h1>
-						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-white">Cognitive Behavioral Therapy</h2>
+						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-white font-medium m-1 p-1 font-domainemedium">
+							CBT
+						</h1>
+						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-white font-domainemedium">Cognitive Behavioral Therapy</h2>
 					</div>
 					<div class="flex flex-col w-full sm:w-4/5 mx-auto text-md m-1 p-1 lg:w-2/3 mt-10 sm:mt-14 md:mt-18">
 						<p class="m-2 p-4 bg-brand-rose-gold text-white text-3xl sm:text-4xl md:text-5xl rounded-2xl">
@@ -138,14 +140,18 @@
 					</div>
 				</div>
 			</section>
-			<div class="relative h-auto w-fit flex flex-row z-30 items-center float-right border border-brand-rose-gold rounded-2xl m-1 p-1">
+			<div
+				class="relative h-auto w-fit flex flex-row z-30 items-center float-right border border-brand-rose-gold rounded-2xl m-1 p-1 bg-white mb-10"
+			>
 				<NuxtLink to="/bookings">
 					<span class="m-1 p-1 inline-block">
-						<p class="text-sm text-brand-grey-light">Bookings & Contact</p>
+						<p class="text-sm text-brand-rose-gold transition duration-700 ease-in-out hover:text-brand-rose-dark hover:scale-110">
+							Bookings & Contact
+						</p>
 					</span>
 
-					<Arrowright
-						class="inline-block mr-4 w-10 fill-brand-rose-gold hover:fill-brand-rose-dark hover:border-brand-rose-gold hover:scale-110 transition duration-700 ease-in-out"
+					<IconsArrowright
+						class="inline-block mr-4 w-10 fill-brand-rose-gold hover:fill-brand-rose-dark hover:border-brand-rose-gold hover:scale-150 transition duration-700 ease-in-out"
 					/>
 				</NuxtLink>
 			</div>

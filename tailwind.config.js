@@ -14,9 +14,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				domainethin: ["domainethin"],
-				domainelight: ["domainelight"],
-				domaineregular: ["domaineregular"],
+				helvetica: ["helvetica"],
+				objectSans: ["objectSans"],
 				domainemedium: ["domainemedium"],
 				domainesemibold: ["domainesemibold"],
 			},
