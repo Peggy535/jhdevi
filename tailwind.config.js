@@ -18,6 +18,8 @@ module.exports = {
 				objectSans: ["objectSans"],
 				domainemedium: ["domainemedium"],
 				domainesemibold: ["domainesemibold"],
+				domainebold: ["domainebold"],
+				domaineextrabold: ["domaineextrabold"],
 			},
 			colors: {
 				"brand-rose-gold": "#b76e79",

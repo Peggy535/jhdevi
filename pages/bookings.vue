@@ -39,10 +39,10 @@
 </script>
 <template>
 	<div>
-		<section class="h-screen w-screen fixed z-20">
+		<section class="h-screen w-screen fixed z-10">
 			<IconsPentagram class="fill-brand-rose-gold opacity-20 absolute -top-52" style="width: 125%" />
 		</section>
-		<div class="relative overflow-hidden font-objectSans text-brand-grey-light">
+		<div class="relative overflow-hidden font-objectSans text-brand-grey-light z-20">
 			<section class="relative h-auto w-screen flex flex-col bg-opacity-60 px-2">
 				<div class="w-full h-screen flex flex-col justify-end">
 					<div class="mb-20 font-domainemedium text-brand-rose-gold">
@@ -95,12 +95,12 @@
 					:class="{ [`hidden`]: submitting || submitted }"
 					class="w-full text-lg lg:text-lg transition duration-700 ease-in-out mx-auto mb-10"
 				>
-					<form class="form w-5/6 sm:w-2/3 lg:w-1/2 mx-auto" ref="form" @submit.prevent="submitHandler">
+					<form class="relative form w-5/6 sm:w-2/3 lg:w-1/2 mx-auto bg-white rounded-2xl p-5 border-2 border-brand-rose-light" ref="form" @submit.prevent="submitHandler">
 						<div class="w-full">
 							<h1 class="text-6xl xl:text-7xl text-brand-rose-light m-1 p-1 text-center font-domainemedium">Email JH Devi</h1>
 						</div>
 
-						<div class="form-group">
+						<div class="form-group bg-white">
 							<input
 								class="border border-brand-rose-gold rounded-2xl font-domainemedium bg-rose-50 text-brand-rose-gold pointer-events-auto m-2 p-2 w-full mx-auto"
 								name="from_name"

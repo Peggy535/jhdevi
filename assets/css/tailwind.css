@@ -15,6 +15,18 @@
 	font-display: swap;
 }
 @font-face {
+	font-family: "domainebold";
+	src: local(domainebold), local("domainebold"), url("assets/fonts/domainebold.woff") format("woff"),
+		url("assets/fonts/domainebold.woff2") format("woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: "domaineextrabold";
+	src: local(domaineextrabold), local("domaineextrabold"), url("assets/fonts/domaineextrabold.woff") format("woff"),
+		url("assets/fonts/domaineextrabold.woff2") format("woff2");
+	font-display: swap;
+}
+@font-face {
 	font-family: "helvetica";
 	src: local(helvetica), local("helvetica"), url("assets/fonts/helvetica.woff") format("woff"), url("assets/fonts/helvetica.woff2") format("woff2");
 	font-display: swap;

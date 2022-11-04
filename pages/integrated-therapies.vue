@@ -5,10 +5,10 @@
 </script>
 <template>
 	<div>
-		<section class="h-screen w-screen fixed z-20">
+		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala2 class="fill-brand-rose-gold opacity-20" style="width: 150%" />
 		</section>
-		<div class="relative overflow-hidden font-objectSans text-brand-grey">
+		<div class="relative overflow-hidden font-objectSans text-brand-grey z-20">
 			<section class="relative flex flex-col h-screen w-screen justify-end">
 				<div class="text-brand-rose-gold text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-2 p-2 mb-20 font-domainemedium">
 					<h1>JH Devi</h1>
@@ -17,10 +17,10 @@
 				</div>
 			</section>
 			<section class="relative h-auto w-screen flex flex-col p-1">
-				<div class="flex flex-col h-auto mx-auto bg-brand-rose-gold rounded-2xl w-full sm:w-4/5">
+				<div class="relative flex flex-col h-auto mx-auto bg-brand-rose-gold rounded-2xl w-full sm:w-4/5">
 					<div class="m-2 p-2 border-l border-l-white my-8">
 						<h1 class="text-9xl sm:text-10xl md:text-11xl float-left text-white font-domainemedium m-1 p-1">A</h1>
-						<p class="text-3xl sm:text-4xl md:text-5xl m-2 p-2 text-white">
+						<p class="text-3xl sm:text-4xl md:text-5xl m-1 p-1 text-white">
 							platform created by JH to assist in opening up your very own unique gateway to understanding your true self. Your souls
 							fingerprint, it's very own navigation system buried deep within your energetic systems.
 						</p>
@@ -44,10 +44,10 @@
 					</p>
 				</div>
 			</section>
-			<section class="h-auto w-screen flex flex-col z-20">
+			<section class="h-auto w-screen flex flex-col z-30">
 				<div class="flex flex-col p-1 w-full items-center">
 					<div class="w-full bg-brand-rose-gold rounded-2xl py-5 md:py-8">
-						<h1 class="m-1 p-1 text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-white font-domainemedium">Hypnotherapy</h1>
+						<h1 class="m-1 p-1 text-5xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl text-white font-domainemedium">Hypnotherapy</h1>
 					</div>
 					<div class="flex flex-col m-1 p-1 w-full sm:w-4/5 sm:mx-auto lg:w-2/3 mt-10 sm:mt-14 md:mt-18">
 						<p class="m-2 p-4 bg-brand-rose-gold rounded-2xl text-white text-3xl sm:text-4xl md:text-5xl">
@@ -71,8 +71,10 @@
 			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col w-full items-center p-1">
 					<div class="w-full mx-auto bg-brand-rose-gold rounded-2xl py-5 md:py-8">
-						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl m-1 p-1 text-white font-domainesemibold">EFT</h1>
-						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-white font-domainemedium">Emotional Freedom Technique</h2>
+						<h1 class="text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl m-1 p-1 text-white font-domaineextrabold">EFT</h1>
+						<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl m-1 p-1 text-white font-domainebold">
+							Emotional Freedom Technique
+						</h2>
 					</div>
 					<div class="flex flex-col w-full sm:w-4/5 mx-auto text-md m-1 p-1 lg:w-2/3 mt-10 sm:mt-14 md:mt-18">
 						<p class="m-2 p-4 bg-brand-rose-gold text-white text-3xl sm:text-4xl md:text-5xl rounded-2xl">
@@ -106,10 +108,12 @@
 			<section class="h-auto w-screen flex flex-col z-20">
 				<div class="flex flex-col w-full p-1 items-center">
 					<div class="w-full mx-auto bg-brand-rose-gold rounded-2xl py-5 md:py-8">
-						<h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-9xl text-white font-medium m-1 p-1 font-domainemedium">
+						<h1 class="text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl text-white font-medium m-1 p-1 font-domaineextrabold">
 							CBT
 						</h1>
-						<h2 class="text-lg sm:text-xl md:text-2xl m-1 p-1 text-white font-domainemedium">Cognitive Behavioral Therapy</h2>
+						<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl m-1 p-1 text-white font-domainebold">
+							Cognitive Behavioral Therapy
+						</h2>
 					</div>
 					<div class="flex flex-col w-full sm:w-4/5 mx-auto text-md m-1 p-1 lg:w-2/3 mt-10 sm:mt-14 md:mt-18">
 						<p class="m-2 p-4 bg-brand-rose-gold text-white text-3xl sm:text-4xl md:text-5xl rounded-2xl">

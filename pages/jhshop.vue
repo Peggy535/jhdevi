@@ -3,13 +3,13 @@
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala4 class="fill-brand-rose-gold opacity-20" style="width: 150%" />
 		</section>
-		<div class="relative flex flex-col h-screen w-screen text-brand-rose-gold font-domainemedium place-content-end z-30">
+		<div class="relative flex flex-col h-screen w-screen text-brand-rose-gold font-domainemedium place-content-end z-20">
 			<h1 class="text-8xl md:text-9xl lg:text-10xl m-1 p-1">JH Shop</h1>
 			<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl m-1 p-1 mb-20">
 				Discover individual hypnotherapy Audios, life-changing programs and events to help you on your journey.
 			</h2>
 		</div>
-		<div class="relative flex flex-col md:flex-row md:flex-wrap md:flex-shrink w-screen h-auto font-objectSans p-2 z-30 my-10">
+		<div class="relative flex flex-col md:flex-row md:flex-wrap md:flex-shrink w-screen h-auto font-objectSans p-2 z-20 my-10">
 			<div class="flex w-full md:w-1/2 md:p-2 lg:w-1/3">
 				<article class="relative border border-brand-champagne-gold rounded-2xl w-full sm:w-2/3 md:w-full m-2 mx-auto bg-white">
 					<div class="h-32 bg-brand-champagne-dark rounded-xl text-white p-2">
