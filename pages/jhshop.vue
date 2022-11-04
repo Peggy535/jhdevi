@@ -33,7 +33,7 @@
 					<div class="relative m-1 p-1 text-brand-grey h-48">
 						<p>Programs that are individually tailored, affordable & can tranform your life no matter what your goals are.</p>
 						<p class="text-md mt-6">The 12 Steps to a new you Program - Spring 2023.</p>
-						<NuxtLink to="/jhshop">
+						<NuxtLink to="/jhprograms">
 							<button class="absolute bottom-0 right-0 border border-brand-rose-gold rounded-3xl text-lg p-2">
 								<p class="text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl">Discover more</p>
 							</button>
