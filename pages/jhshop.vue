@@ -3,9 +3,9 @@
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala4 class="fill-brand-rose-gold opacity-20" style="width: 150%" />
 		</section>
-		<div class="relative flex flex-col h-screen w-screen text-brand-rose-gold font-domainemedium place-content-end z-20">
-			<h1 class="text-8xl md:text-9xl lg:text-10xl m-1 p-1">JH Shop</h1>
-			<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl m-1 p-1 mb-20">
+		<div class="relative flex flex-col h-screen w-screen text-brand-rose-gold place-content-end z-20">
+			<h1 class="font-domainemedium text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 p-1">JH Shop</h1>
+			<h2 class="font-objectSans text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl m-1 p-1 mb-20">
 				Discover individual hypnotherapy Audios, life-changing programs and events to help you on your journey.
 			</h2>
 		</div>

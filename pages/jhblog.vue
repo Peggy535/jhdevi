@@ -14,7 +14,7 @@
 			<IconsMandala3 class="fill-brand-champagne-gold opacity-80" style="width: 150%" />
 		</section>
 		<div class="relative flex h-auto w-screen font-domainemedium text-brand-champagne-gold z-20">
-			<h1 class="text-8xl sm:text-9xl md:text-10xl xl:text-11xl m-1 p-1 my-48">JH Blog</h1>
+			<h1 class="text-8xl sm:text-9xl md:text-10xl xl:text-11xl 2xl:text-12xl m-1 p-1 my-48">JH Blog</h1>
 		</div>
 		<div
 			class="relative grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 lg:gap-20 xl:gap-16 w-screen h-auto mb-5 font-objectSans px-2 md:px-4 lg:px-8 z-20 text-brand-grey"

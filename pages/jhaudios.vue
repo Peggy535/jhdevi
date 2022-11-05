@@ -94,9 +94,9 @@
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala5 class="fill-brand-champagne-gold opacity-20" style="width: 150%" />
 		</section>
-		<div class="relative flex flex-col h-screen w-screen text-brand-champagne-dark font-domainemedium place-content-end">
-			<h1 class="text-8xl md:text-9xl lg:text-10xl m-1 p-1">JH Audios</h1>
-			<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl m-1 p-1 mb-10">
+		<div class="relative flex flex-col h-screen w-screen text-brand-champagne-dark place-content-end">
+			<h1 class="font-domainemedium text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 p-1">JH Audios</h1>
+			<h2 class="font-objectSans text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl m-1 p-1 mb-10">
 				Buy an individual audio track to help you with a specific issue, choose one of my revolutionary programs or join me and others for a
 				tapping circle!
 			</h2>

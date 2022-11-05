@@ -46,7 +46,7 @@
 			<section class="relative h-auto w-screen flex flex-col bg-opacity-60 px-2">
 				<div class="w-full h-screen flex flex-col justify-end">
 					<div class="mb-20 font-domainemedium text-brand-rose-gold">
-						<h1 class="text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl m-1 p-1">JH Bookings</h1>
+						<h1 class="text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 p-1">JH Bookings</h1>
 					</div>
 				</div>
 
@@ -95,7 +95,11 @@
 					:class="{ [`hidden`]: submitting || submitted }"
 					class="w-full text-lg lg:text-lg transition duration-700 ease-in-out mx-auto mb-10"
 				>
-					<form class="relative form w-5/6 sm:w-2/3 lg:w-1/2 mx-auto bg-white rounded-2xl p-5 border-2 border-brand-rose-light" ref="form" @submit.prevent="submitHandler">
+					<form
+						class="relative form w-5/6 sm:w-2/3 lg:w-1/2 mx-auto bg-white rounded-2xl p-5 border-2 border-brand-rose-light"
+						ref="form"
+						@submit.prevent="submitHandler"
+					>
 						<div class="w-full">
 							<h1 class="text-6xl xl:text-7xl text-brand-rose-light m-1 p-1 text-center font-domainemedium">Email JH Devi</h1>
 						</div>
