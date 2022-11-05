@@ -21,7 +21,7 @@
 		window.SnipcartSettings = {
 			publicApiKey: "ODU1YjNjZTQtM2QyMS00MTViLWIzNGQtNzVmZTgxMWQ3ZDk2NjM4MDE0MjQwMzQ0NDA3NDg2",
 			loadStrategy: "on-user-interaction",
-			version: "3.4.0",
+			version: "3.4.1",
 			modalStyle: "side",
 		};
 
@@ -37,10 +37,7 @@
 			var f =
 					window.SnipcartSettings.version.includes("v3.0.0-ci") ||
 					(window.SnipcartSettings.version != "3.0" &&
-						window.SnipcartSettings.version.localeCompare("3.4.0", void 0, {
-							numeric: !0,
-							sensitivity: "base",
-						}) === -1),
+						window.SnipcartSettings.version.localeCompare("3.4.1", void 0, { numeric: !0, sensitivity: "base" }) === -1),
 				m = ["focus", "mouseover", "touchmove", "scroll", "keydown"];
 			window.LoadSnipcart = o;
 			document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", r) : r();
@@ -113,7 +110,6 @@
 							class="snipcart-add-item inline-block border border-brand-rose-dark text-brand-grey m-2 p-2 rounded-2xl md:text-xl"
 							:data-item-id="`${program.productId}`"
 							:data-item-price="program.price"
-							data-item-url="/jhprograms"
 							:data-item-description="`${program.summaryDescription}`"
 							:data-item-image="`${program.image}`"
 							:data-item-name="`${program.subTitle}`"

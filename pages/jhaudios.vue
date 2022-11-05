@@ -21,7 +21,7 @@
 		window.SnipcartSettings = {
 			publicApiKey: "ODU1YjNjZTQtM2QyMS00MTViLWIzNGQtNzVmZTgxMWQ3ZDk2NjM4MDE0MjQwMzQ0NDA3NDg2",
 			loadStrategy: "on-user-interaction",
-			version: "3.4.0",
+			version: "3.4.1",
 			modalStyle: "side",
 		};
 
@@ -37,10 +37,7 @@
 			var f =
 					window.SnipcartSettings.version.includes("v3.0.0-ci") ||
 					(window.SnipcartSettings.version != "3.0" &&
-						window.SnipcartSettings.version.localeCompare("3.4.0", void 0, {
-							numeric: !0,
-							sensitivity: "base",
-						}) === -1),
+						window.SnipcartSettings.version.localeCompare("3.4.1", void 0, { numeric: !0, sensitivity: "base" }) === -1),
 				m = ["focus", "mouseover", "touchmove", "scroll", "keydown"];
 			window.LoadSnipcart = o;
 			document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", r) : r();
@@ -120,6 +117,7 @@
 									:data-item-id="`${audio.productId}`"
 									:data-item-price="audio.price"
 									:data-item-description="`${audio.summaryDescription}`"
+									data-item-url="/jhaudios"
 									:data-item-image="`${audio.image}`"
 									:data-item-name="`${audio.subTitle}`"
 									:data-item-file-guid="`${audio.snipcartGuid}`"
