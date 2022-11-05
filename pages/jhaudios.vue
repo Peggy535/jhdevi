@@ -104,7 +104,7 @@
 		<div class="relative flex flex-col lg:flex-row w-screen h-auto font-objectSans p-2 z-20">
 			<div v-for="audio in audios" :key="audio._id">
 				<div class="p-4">
-					<article class="relative border border-brand-champagne-dark rounded-2xl w-full sm:w-2/3 lg:w-full mx-auto bg-white">
+					<article class="relative border border-brand-champagne-dark rounded-2xl w-full sm:w-2/3 lg:w-1/2 mx-auto bg-white">
 						<div class="h-42 bg-brand-champagne-dark rounded-xl text-brand-grey p-2">
 							<h1 class="text-4xl sm:text-3xl lg:text-4xl m-1 p-1 font-domainemedium">{{ audio.title }}</h1>
 							<h1 class="text-lg m-1 p-1">{{ audio.subTitle }}</h1>
@@ -119,7 +119,6 @@
 									class="snipcart-add-item inline-block border border-brand-champagne-dark rounded-3xl text-lg p-1"
 									:data-item-id="`${audio.productId}`"
 									:data-item-price="audio.price"
-									data-item-url="/jhaudios"
 									:data-item-description="`${audio.summaryDescription}`"
 									:data-item-image="`${audio.image}`"
 									:data-item-name="`${audio.subTitle}`"
