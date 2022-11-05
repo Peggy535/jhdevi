@@ -104,19 +104,19 @@
 		<div class="relative flex flex-col lg:flex-row w-screen h-auto font-objectSans p-2 z-20">
 			<div v-for="audio in audios" :key="audio._id">
 				<div class="p-4">
-					<article class="relative border border-brand-champagne-light rounded-2xl w-full sm:w-2/3 lg:w-full mx-auto bg-white">
-						<div class="h-42 bg-brand-champagne-dark rounded-xl text-brand-grey-light p-2">
+					<article class="relative border border-brand-champagne-dark rounded-2xl w-full sm:w-2/3 lg:w-full mx-auto bg-white">
+						<div class="h-42 bg-brand-champagne-dark rounded-xl text-brand-grey p-2">
 							<h1 class="text-4xl sm:text-3xl lg:text-4xl m-1 p-1 font-domainemedium">{{ audio.title }}</h1>
 							<h1 class="text-lg m-1 p-1">{{ audio.subTitle }}</h1>
 						</div>
-						<div class="relative m-1 p-1 text-brand-grey-light">
+						<div class="relative m-1 p-1 text-brand-grey">
 							<p class="h-auto text-md">
 								{{ audio.summaryDescription }}
 							</p>
 							<div class="flex flex-row items-center justify-between mt-4">
 								<p class="text-3xl inline-block m-1 p-1">£{{ audio.price }}</p>
 								<button
-									class="snipcart-add-item inline-block border border-brand-champagne-gold rounded-3xl text-lg p-1"
+									class="snipcart-add-item inline-block border border-brand-champagne-dark rounded-3xl text-lg p-1"
 									:data-item-id="`${audio.productId}`"
 									:data-item-price="audio.price"
 									data-item-url="/jhaudios"
@@ -131,7 +131,7 @@
 						</div>
 						<div>
 							<IconsAudioInfo class="w-10 fill-brand-grey" />
-							<ul class="list-inside list-disc text-brand-grey-light text-xs p-2 m-1">
+							<ul class="list-inside list-disc text-brand-grey text-xs p-2 m-1">
 								<li>Purchase amount: £{{ audio.price }}</li>
 								<li>File type to download: {{ audio.fileFormat }}</li>
 								<li>Length of audio recording: {{ audio.playingTime }} mins</li>

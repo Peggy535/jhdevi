@@ -42,7 +42,7 @@
 		<section class="h-screen w-screen fixed z-10">
 			<IconsPentagram class="fill-brand-rose-gold opacity-20 absolute -top-52" style="width: 125%" />
 		</section>
-		<div class="relative overflow-hidden font-objectSans text-brand-grey-light z-20">
+		<div class="relative overflow-hidden font-objectSans text-brand-grey z-20">
 			<section class="relative h-auto w-screen flex flex-col bg-opacity-60 px-2">
 				<div class="w-full h-screen flex flex-col justify-end">
 					<div class="mb-20 font-domainemedium text-brand-rose-gold">
@@ -61,7 +61,7 @@
 						<div class="h-40 bg-brand-rose-gold rounded-xl">
 							<h1 class="font-domainemedium text-5xl text-white p-2">Consultation & first session</h1>
 						</div>
-						<span class="relative h-58 text-brand-grey-light">
+						<span class="relative h-58 text-brand-grey">
 							<p class="text-lg lg:text-xl xl:text-2xl m-2 p-2">
 								If you are new to JH Devi book your first consulation & therapy session.
 							</p>

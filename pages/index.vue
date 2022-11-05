@@ -37,7 +37,7 @@
 							class="float-left text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl text-brand-rose-gold font-domainemedium"
 							>H</span
 						>
-						<p class="text-2xl sm:text-3xl sm:leading-snug lg:text-4xl m-1 p-1 md:m-2 md:p-2 text-brand-grey-light lg:leading-normal">
+						<p class="text-2xl sm:text-3xl sm:leading-snug lg:text-4xl m-1 p-1 md:m-2 md:p-2 text-brand-grey lg:leading-normal">
 							ello and welcome to my website, I hope you find both it and the words helpful, healing and inspiring. Whatever you are
 							facing at this time in your life, no matter what it is, please be assured there is a reason and that there is help for you
 							if you wish to receive it.
@@ -50,7 +50,7 @@
 								class="float-left text-brand-rose-gold font-domainemedium text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl"
 								>Y</span
 							>
-							<h2 class="text-brand-grey-light font-domainemedium text-6xl sm:text-7xl md:text-8xl lg:text-9xl m-1 p-1">
+							<h2 class="text-brand-grey font-domainemedium text-6xl sm:text-7xl md:text-8xl lg:text-9xl m-1 p-1">
 								ou are beautiful, unique and deserving of all good things.
 							</h2>
 							<cite class="m-1 p-1 text-brand-rose-gold font-domainemedium">- Justine Hodgson</cite>
@@ -71,7 +71,7 @@
 						>
 							<NuxtLink to="/integrated-therapies">
 								<span class="m-1 p-1 inline-block">
-									<p class="text-sm text-brand-grey-light">JH Intergrated Therapies</p>
+									<p class="text-sm text-brand-grey">JH Intergrated Therapies</p>
 								</span>
 
 								<IconsArrowright

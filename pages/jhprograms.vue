@@ -92,26 +92,28 @@
 <template>
 	<div>
 		<section class="h-screen w-screen fixed z-10">
-			<IconsMandala6 class="fill-brand-sage opacity-20" style="width: 200%" />
+			<IconsMandala6 class="fill-brand-rose-dark opacity-20" style="width: 200%" />
 		</section>
-		<div class="relative flex flex-col h-screen w-screen text-brand-sage font-domainemedium place-content-end z-20">
+		<div class="relative flex flex-col h-screen w-screen text-brand-rose-dark font-domainemedium place-content-end z-20">
 			<h1 class="text-7xl sm:text-8xl md:text-9xl m-1 p-1 mb-20">JH Programs</h1>
 		</div>
 		<div class="relative flex flex-col h-auto w-screen font-objectSans z-20">
 			<div v-for="program in programs" :key="program._id">
-				<section class="w-full sm:w-5/6 sm:mx-auto h-auto rounded-2xl bg-brand-sage p-1">
-					<div class="my-4">
-						<h1 class="font-domainebold text-white text-7xl">{{ program.title }}</h1>
+				<section class="w-full sm:w-5/6 sm:mx-auto lg:w-2/3 h-auto rounded-2xl bg-brand-rose-dark p-1">
+					<div class="my-4 m-2 p-2">
+						<h1 class="font-domainebold text-white text-7xl md:text-8xl">{{ program.title }}</h1>
 					</div>
-					<div class="m-1 p-1 bg-white rounded-2xl my-6">
-						<h2 class="text-lg m-1 p-1 text-brand-grey">{{ program.summaryDescription }}</h2>
+					<div class="m-2 p-2 bg-white rounded-2xl my-6">
+						<h2 class="text-lg xl:text-xl m-1 p-1 text-brand-grey">{{ program.summaryDescription }}</h2>
 					</div>
-					<div class="m-1 p-1 bg-white rounded-2xl flex flex-row items-center justify-between mt-16">
-						<p class="text-4xl inline-block text-brand-grey">£{{ program.price }}</p>
-						<button class="inline-block border border-brand-sage text-brand-grey m-2 p-2 rounded-2xl">Buy now</button>
+					<IconsDivider1 class="w-1/2 mx-auto fill-white" />
+					<div class="m-1 p-1 bg-white rounded-2xl flex flex-row items-center justify-between">
+						<p class="text-4xl md:text-5xl inline-block text-brand-grey m-2 p-2">£{{ program.price }}</p>
+						<button class="inline-block border border-brand-rose-dark text-brand-grey m-2 p-2 rounded-2xl md:text-xl">Buy now</button>
 					</div>
-					<h2 class="text-6xl m-1 p-1 text-white font-domainebold mt-16">Program Description:</h2>
-					<div class="prose m-1 p-1 bg-white rounded-2xl py-6 text-brand-grey">
+					<IconsDivider1 class="w-1/2 mx-auto fill-white" />
+					<h2 class="text-7xl md:text-8xl m-2 p-2 text-white font-domainebold mt-6">Program Description</h2>
+					<div class="prose mx-auto m-2 p-2 bg-white rounded-2xl py-6 text-brand-grey">
 						<SanityContent :blocks="program.body" />
 					</div>
 				</section>
