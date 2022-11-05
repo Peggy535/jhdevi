@@ -109,7 +109,18 @@
 					<IconsDivider1 class="w-1/2 mx-auto fill-white" />
 					<div class="m-1 p-1 bg-white rounded-2xl flex flex-row items-center justify-between">
 						<p class="text-4xl md:text-5xl inline-block text-brand-grey m-2 p-2">£{{ program.price }}</p>
-						<button class="inline-block border border-brand-rose-dark text-brand-grey m-2 p-2 rounded-2xl md:text-xl">Buy now</button>
+						<button
+							class="snipcart-add-item inline-block border border-brand-rose-dark text-brand-grey m-2 p-2 rounded-2xl md:text-xl"
+							:data-item-id="`${program.productId}`"
+							:data-item-price="program.price"
+							data-item-url="/jhprograms"
+							:data-item-description="`${program.summaryDescription}`"
+							:data-item-image="`${program.image}`"
+							:data-item-name="`${program.subTitle}`"
+							:data-item-file-guid="`${program.snipcartGuid}`"
+						>
+							Buy now
+						</button>
 					</div>
 					<IconsDivider1 class="w-1/2 mx-auto fill-white" />
 					<h2 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl m-2 p-2 text-white font-domainebold mt-6">Program Description</h2>
