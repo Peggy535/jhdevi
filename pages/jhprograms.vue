@@ -13,8 +13,8 @@
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala7 class="fill-brand-rose-dark opacity-20" style="width: 200%" />
 		</section>
-		<div class="relative flex flex-col h-screen w-screen text-brand-rose-dark place-content-end">
-			<h1 class="font-domainemedium text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 p-1">JH Programs</h1>
+		<div class="relative flex flex-col h-screen w-screen overflow-hidden text-brand-rose-dark place-content-end">
+			<h1 class="font-domainemedium text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 p-1">JH Programs</h1>
 			<h2 class="font-objectSans text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl m-1 p-1 mb-10">
 				Buy an individual program track to help you with a specific issue, choose one of my revolutionary programs or join me and others for a
 				tapping circle!
@@ -27,7 +27,9 @@
 				<div class="grid col-span-1">
 					<article class="flex flex-col border border-brand-rose-dark rounded-2xl w-full mx-auto bg-white">
 						<div class="h-42 bg-brand-rose-dark rounded-xl text-white p-2">
-							<h1 class="text-4xl sm:text-3xl lg:text-4xl m-1 p-1 font-domaineextrabold">{{ program.title }}</h1>
+							<h1 class="text-4xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl m-1 p-1 font-domaineextrabold">
+								{{ program.title }}
+							</h1>
 						</div>
 						<div class="relative m-1 p-1 text-brand-grey">
 							<p class="h-auto text-sm">

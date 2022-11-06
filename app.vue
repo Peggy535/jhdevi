@@ -1,5 +1,5 @@
 <script setup>
-useHead({
+	useHead({
 		meta: {
 			link: [
 				{ rel: "preconnect", href: "https://app.snipcart.com" },
