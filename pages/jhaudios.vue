@@ -27,11 +27,11 @@
 				<div class="grid col-span-1">
 					<article class="flex flex-col border border-brand-champagne-dark rounded-2xl w-full mx-auto bg-white">
 						<div class="h-42 bg-brand-champagne-dark rounded-xl text-brand-grey p-2">
-							<h1 class="text-4xl sm:text-3xl lg:text-4xl m-1 p-1 font-domainemedium">{{ audio.title }}</h1>
+							<h1 class="text-4xl sm:text-3xl lg:text-4xl m-1 p-1 font-domaineextrabold">{{ audio.title }}</h1>
 							<h1 class="text-lg m-1 p-1">{{ audio.subTitle }}</h1>
 						</div>
 						<div class="relative m-1 p-1 text-brand-grey">
-							<p class="h-auto text-md">
+							<p class="h-auto text-sm">
 								{{ audio.summaryDescription }}
 							</p>
 							<div class="flex flex-row items-center justify-between mt-4">
