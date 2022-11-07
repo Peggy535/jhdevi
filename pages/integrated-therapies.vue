@@ -42,7 +42,14 @@
 						Welcome to your journey to finding YOU through me as your supportive guide and my integrated therapies. Each person is as
 						unique as their own fingerprint that's why each individuals session is designed specifically for them by integrating the best
 						fit therapies for each individual. This could be a combination of relaxation hypnosis and EFT or meditation and EFT, all three
-						or talk therapy and a little yoga
+						or talk therapy and a little yogatherapy. The mix of integration is different depending on the needs of those who step forward
+						and seek guidance from me.
+					</p>
+				</div>
+				<div class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto text-xl sm:text-2xl">
+					<p class="m-2 p-2">
+						Put simply, because you're unique so too is your journey with me and my work because no two people are the same. I'm extremely
+						happy that your intuition has brought you to my platform. Welcome and blessings. JH x
 					</p>
 				</div>
 			</section>
