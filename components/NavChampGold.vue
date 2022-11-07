@@ -1,7 +1,6 @@
 <script setup>
 	import { gsap } from "gsap";
 	import { CSSPlugin } from "gsap/CSSPlugin";
-	import MenuIcon from "./icons/menuIcon.vue";
 
 	onMounted(() => {
 		gsap.registerPlugin(CSSPlugin);
@@ -66,13 +65,15 @@
 						JH Shop
 					</li>
 				</NuxtLink> -->
-
 			</ul>
 		</div>
 	</div>
 
 	<div class="fixed w-full flex flex-row place-content-between items-center z-30 font-domainemedium">
-		<MenuIcon class="fill-brand-champagne-gold w-16 sm:w-18 md:w-20 transition delay-75 duration-500 hover:scale-110" @click="openMenu" />
+		<IconsMenu
+			class="fill-brand-champagne-gold w-10 sm:w-12 md:w-14 transition delay-75 duration-500 hover:rotate-45 hover:sacle-110 m-1 p-1"
+			@click="openMenu"
+		/>
 		<span class="m-1"
 			><NuxtLink to="/bookings">
 				<button
