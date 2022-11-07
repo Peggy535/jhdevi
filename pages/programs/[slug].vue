@@ -65,7 +65,9 @@
 				<h2 class="font-domainebold m-1 p-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
 					Detail about the program:
 				</h2>
-				<div class="prose prose-sm lg:prose-lg xl:prose-xl 2xl:prose-2xl m-1 p-1 text-white mb-6 mx-auto">
+				<div
+					class="prose prose-sm lg:prose-lg xl:prose-xl 2xl:prose-2xl prose-strong:text-white prose-headings:text-white m-1 p-1 text-white mb-6 mx-auto"
+				>
 					<SanityContent :blocks="program.indProgram[0].body" />
 				</div>
 			</section>
