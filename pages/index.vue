@@ -1,11 +1,12 @@
-<script setup>
-	definePageMeta({
-		layout: "default",
-	});
-</script>
-
 <template>
 	<div>
+		<Nav
+			textColour="text-brand-rose-gold"
+			fillColour="fill-brand-rose-gold"
+			afterLineColour="after:bg-brand-rose-gold"
+			borderColour="border-brand-rose-gold"
+			cartBorderColour="border-white"
+		></Nav>
 		<div class="overflow-hidden font-objectSans">
 			<!-- Video section -->
 			<section class="h-screen w-screen fixed">
@@ -22,6 +23,7 @@
 			</section>
 			<!-- Landing title -->
 			<main class="relative h-auto w-screen z-20 bg-rose-200 bg-opacity-60">
+				<!-- <Nav parent-props-class="ClassNameFromParent" ></Nav> -->
 				<section class="relative flex flex-col h-screen w-screen justify-end">
 					<div class="text-white text-6xl sm:text-7xl md:text-7xl xl:text-9xl m-2 p-2 mb-20 font-domainemedium">
 						<h1>JH Devi</h1>

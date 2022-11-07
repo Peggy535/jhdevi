@@ -1,10 +1,12 @@
-<script setup>
-	definePageMeta({
-		layout: "default",
-	});
-</script>
 <template>
 	<div>
+		<Nav
+			textColour="text-brand-rose-gold"
+			fillColour="fill-brand-rose-gold"
+			afterLineColour="after:bg-brand-rose-gold"
+			borderColour="border-brand-rose-gold"
+			cartBorderColour="border-brand-rose-gold"
+		></Nav>
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala2 class="fill-brand-rose-gold opacity-20" style="width: 150%" />
 		</section>

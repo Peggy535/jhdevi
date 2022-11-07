@@ -2,14 +2,17 @@
 	const query = groq`*[_type == "audioStore"] | order(_id) {_id, title, subTitle, summaryDescription, price, productId, slug}`;
 	const { data: audios } = useSanityQuery(query);
 	refreshNuxtData();
-
-	definePageMeta({
-		layout: "goldnav",
-	});
 </script>
 
 <template>
 	<div>
+		<Nav
+			textColour="text-brand-champagne-dark"
+			fillColour="fill-brand-champagne-dark"
+			afterLineColour="after:bg-brand-champagne-dark"
+			borderColour="border-brand-champagne-dark"
+			cartBorderColour="border-brand-champagne-dark"
+		></Nav>
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala5 class="fill-brand-champagne-gold opacity-20" style="width: 150%" />
 		</section>

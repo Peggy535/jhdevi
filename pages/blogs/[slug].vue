@@ -15,14 +15,17 @@
 		{ initialCache: false }
 	);
 	refresh();
-
-	definePageMeta({
-		layout: "goldnav",
-	});
 </script>
 
 <template>
 	<div>
+		<Nav
+			textColour="text-brand-champagne-gold"
+			fillColour="fill-brand-champagne-gold"
+			afterLineColour="after:bg-brand-champagne-gold"
+			borderColour="border-brand-champagne-gold"
+			cartBorderColour="border-brand-champagne-gold"
+		></Nav>
 		<div class="flex flex-col h-auto w-screen overflow-hidden font-objectSans">
 			<div class="flex w-full md:flex-row md:items-center mt-20">
 				<h1

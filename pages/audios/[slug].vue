@@ -17,14 +17,17 @@
 		}
 	);
 	refresh();
-
-	definePageMeta({
-		layout: "goldnav",
-	});
 </script>
 
 <template>
 	<div>
+		<Nav
+			textColour="text-brand-champagne-dark"
+			fillColour="fill-white"
+			afterLineColour="after:bg-brand-champagne-dark"
+			borderColour="border-brand-champagne-dark"
+			cartBorderColour="border-white"
+		></Nav>
 		<section class="h-screen w-screen bg-brand-champagne-dark fixed z-10">
 			<IconsMandala1 class="fill-white opacity-10" style="width: 150%" />
 		</section>

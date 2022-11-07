@@ -2,14 +2,17 @@
 	const query = groq`*[_type == "programStore"] | order(_id) {_id, title, summaryDescription,price, snipcartGuid, "image":programImage.asset->url, productId, body, slug}`;
 	const { data: programs } = useSanityQuery(query);
 	refreshNuxtData();
-
-	definePageMeta({
-		layout: "goldnav",
-	});
 </script>
 
 <template>
 	<div>
+		<Nav
+			textColour="text-brand-rose-gold"
+			fillColour="fill-brand-rose-gold"
+			afterLineColour="after:bg-brand-rose-gold"
+			borderColour="border-brand-rose-gold"
+			cartBorderColour="border-brand-rose-gold"
+		></Nav>
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala7 class="fill-brand-rose-dark opacity-20" style="width: 200%" />
 		</section>
