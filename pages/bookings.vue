@@ -42,6 +42,7 @@
 			afterLineColour="after:bg-brand-rose-gold"
 			borderColour="border-brand-rose-gold"
 			cartBorderColour="border-brand-rose-gold"
+			cartInfoColour="text-brand-rose-gold"
 		></Nav>
 		<section class="h-screen w-screen fixed z-10">
 			<IconsPentagram class="fill-brand-rose-gold opacity-20 absolute -top-52" style="width: 125%" />

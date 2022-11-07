@@ -8,6 +8,7 @@
 		afterLineColour: String,
 		borderColour: String,
 		cartBorderColour: String,
+		cartInfoColour: String,
 	});
 	onMounted(() => {
 		gsap.registerPlugin(CSSPlugin);
@@ -94,16 +95,16 @@
 		</div>
 	</div>
 
-	<div class="fixed w-full flex flex-row place-content-between items-center z-30 font-domainemedium" :class="textColour">
+	<div class="fixed w-full flex flex-row place-content-between items-center z-30 font-objectSams" :class="textColour">
 		<IconsMenu
 			class="w-10 sm:w-12 md:w-14 transition delay-75 duration-500 hover:rotate-45 hover:sacle-110 m-1 p-1"
 			:class="fillColour"
 			@click="openMenu"
 		/>
-		<span class="m-1 border rounded-2xl" :class="cartBorderColour"
-			><NuxtLink to="#">
-				<IconsShoppingCart class="w-10 sm:w-12 md:w-14 m-1 p-1" :class="fillColour" />
-			</NuxtLink>
-		</span>
+		<button class="snipcart-checkout m-1 p-1 border rounded-2xl" :class="cartBorderColour">
+			<IconsShoppingCart class="w-10 sm:w-12 md:w-14 m-2 p-2" :class="fillColour" />
+			<span class="snipcart-items-count absolute top-4 right-4 text-xs" :class="cartInfoColour"></span>
+			<span class="snipcart-total-price absolute bottom-2 right-4 text-xs" :class="cartInfoColour"></span>
+		</button>
 	</div>
 </template>

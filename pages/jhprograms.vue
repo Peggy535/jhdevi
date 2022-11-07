@@ -12,6 +12,7 @@
 			afterLineColour="after:bg-brand-rose-gold"
 			borderColour="border-brand-rose-gold"
 			cartBorderColour="border-brand-rose-gold"
+			cartInfoColour="text-brand-rose-gold"
 		></Nav>
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala7 class="fill-brand-rose-dark opacity-20" style="width: 200%" />

@@ -6,6 +6,7 @@
 			afterLineColour="after:bg-brand-rose-gold"
 			borderColour="border-brand-rose-gold"
 			cartBorderColour="border-white"
+			cartInfoColour="text-white"
 		></Nav>
 		<div class="overflow-hidden font-objectSans">
 			<!-- Video section -->

@@ -27,6 +27,7 @@
 			afterLineColour="after:bg-brand-rose-dark"
 			borderColour="border-brand-rose-dark"
 			cartBorderColour="border-white"
+			cartInfoColour="text-white"
 		></Nav>
 		<section class="h-screen w-screen bg-brand-rose-dark fixed z-10">
 			<IconsMandala8 class="fill-white opacity-10" style="width: 150%" />
@@ -39,8 +40,8 @@
 					</h1>
 					<NuxtLink to="/jhprograms">
 						<div class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10">
-							<IconsArrowleft class="fill-white w-10 inline-block" />
-							<p class="m-1 p-1 text-xs">Go back</p>
+							<IconsArrowleft class="fill-white w-10 sm:w-12 md:w-14 lg:w-16 inline-block" />
+							<p class="m-1 p-1 text-xs lg:text-sm">Go back</p>
 						</div>
 					</NuxtLink>
 				</div>
