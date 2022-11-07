@@ -102,7 +102,7 @@
 		/>
 		<span class="m-1 border rounded-2xl" :class="cartBorderColour"
 			><NuxtLink to="#">
-				<IconsShoppingCart class="w-14 m-1 p-1" :class="fillColour" />
+				<IconsShoppingCart class="w-10 sm:w-12 md:w-14 m-1 p-1" :class="fillColour" />
 			</NuxtLink>
 		</span>
 	</div>
