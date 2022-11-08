@@ -11,11 +11,11 @@
 			fillColour="fill-brand-rose-gold"
 			afterLineColour="after:bg-brand-rose-gold"
 			borderColour="border-brand-rose-gold"
-			cartBorderColour="border-brand-rose-gold"
-			cartInfoColour="text-brand-rose-gold"
+			bgCartInfo="bg-brand-rose-gold"
+			cartInfoColour="text-white"
 		></Nav>
 		<section class="h-screen w-screen fixed z-10">
-			<IconsMandala7 class="fill-brand-rose-dark opacity-20" style="width: 200%" />
+			<IconsMandala7 class="fill-brand-rose-dark opacity-20" style="width: 150%" />
 		</section>
 		<div class="relative flex flex-col h-screen w-screen overflow-hidden text-brand-rose-dark place-content-end">
 			<h1 class="font-domainemedium text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 p-1">JH Programs</h1>

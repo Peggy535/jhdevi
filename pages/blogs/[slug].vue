@@ -24,8 +24,8 @@
 			fillColour="fill-brand-champagne-gold"
 			afterLineColour="after:bg-brand-champagne-gold"
 			borderColour="border-brand-champagne-gold"
-			cartBorderColour="border-brand-champagne-gold"
-			cartInfoColour="text-brand-champagne-gold"
+			bgCartInfo="bg-brand-champagne-gold"
+			cartInfoColour="text-white"
 		></Nav>
 		<div class="flex flex-col h-auto w-screen overflow-hidden font-objectSans">
 			<div class="flex w-full md:flex-row md:items-center mt-20">

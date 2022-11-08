@@ -26,8 +26,8 @@
 			fillColour="fill-white"
 			afterLineColour="after:bg-brand-rose-dark"
 			borderColour="border-brand-rose-dark"
-			cartBorderColour="border-white"
-			cartInfoColour="text-white"
+			bgCartInfo="bg-white"
+			cartInfoColour="text-brand-rose-dark"
 		></Nav>
 		<section class="h-screen w-screen bg-brand-rose-dark fixed z-10">
 			<IconsMandala8 class="fill-white opacity-10" style="width: 150%" />
@@ -48,7 +48,9 @@
 
 				<h2 class="font-domainebold m-1 p-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">Description:</h2>
 				<p class="m-1 p-1 text-lg lg:text-xl">{{ program.indProgram[0].summaryDescription }}</p>
-				<div class="flex flex-row items-center justify-between border-4 border-brand-rose-light rounded-2xl m-2 bg-white my-6 lg:my-10 xl:my-14">
+				<div
+					class="flex flex-row items-center justify-between border-4 border-brand-rose-light rounded-2xl m-2 bg-white my-6 lg:my-10 xl:my-14"
+				>
 					<p class="m-2 p-2 text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-brand-rose-dark">Price £{{ program.indProgram[0].price }}</p>
 					<button
 						class="snipcart-add-item inline-block border border-brand-rose-dark text-brand-rose-dark m-2 p-2 rounded-2xl md:text-xl"

@@ -11,8 +11,8 @@
 			fillColour="fill-brand-champagne-dark"
 			afterLineColour="after:bg-brand-champagne-dark"
 			borderColour="border-brand-champagne-dark"
-			cartBorderColour="border-brand-champagne-dark"
-			cartInfoColour="text-brand-champagne-dark"
+			bgCartInfo="bg-brand-champagne-dark"
+			cartInfoColour="text-white"
 		></Nav>
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala5 class="fill-brand-champagne-gold opacity-20" style="width: 150%" />

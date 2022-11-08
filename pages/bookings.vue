@@ -41,11 +41,11 @@
 			fillColour="fill-brand-rose-gold"
 			afterLineColour="after:bg-brand-rose-gold"
 			borderColour="border-brand-rose-gold"
-			cartBorderColour="border-brand-rose-gold"
-			cartInfoColour="text-brand-rose-gold"
+			bgCartInfo="bg-brand-rose-gold"
+			cartInfoColour="text-white"
 		></Nav>
 		<section class="h-screen w-screen fixed z-10">
-			<IconsPentagram class="fill-brand-rose-gold opacity-20 absolute -top-52" style="width: 125%" />
+			<IconsPentagram class="fill-brand-rose-gold opacity-20" style="width: 150%" />
 		</section>
 		<div class="relative overflow-hidden font-objectSans text-brand-grey z-20">
 			<section class="relative h-auto w-screen flex flex-col bg-opacity-60 px-2">

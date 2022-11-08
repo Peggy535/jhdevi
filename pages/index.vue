@@ -5,7 +5,7 @@
 			fillColour="fill-brand-rose-gold"
 			afterLineColour="after:bg-brand-rose-gold"
 			borderColour="border-brand-rose-gold"
-			cartBorderColour="border-white"
+			bgCartInfo="bg-brand-rose-gold"
 			cartInfoColour="text-white"
 		></Nav>
 		<div class="overflow-hidden font-objectSans">
