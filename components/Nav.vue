@@ -91,6 +91,14 @@
 						JH Programs
 					</li>
 				</NuxtLink>
+				<NuxtLink to="/jhevents" @click="closeMenu">
+					<li
+						class="m-2 p-2 transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+						:class="afterLineColour"
+					>
+						JH Events
+					</li>
+				</NuxtLink>
 			</ul>
 		</div>
 	</div>
@@ -103,7 +111,10 @@
 		/>
 		<button class="snipcart-checkout m-1 p-1">
 			<IconsShoppingCart class="w-12 sm:w-14 md:w-16 lg:w-18 m-1 p-1" :class="fillColour" />
-			<span class="w-6 h-6 snipcart-items-count absolute top-1 right-1 m-1 p-1 text-xs rounded-full" :class="cartInfoColour+' '+bgCartInfo"></span>
+			<span
+				class="w-6 h-6 snipcart-items-count absolute top-1 right-1 m-1 p-1 text-xs rounded-full"
+				:class="cartInfoColour + ' ' + bgCartInfo"
+			></span>
 		</button>
 	</div>
 </template>
