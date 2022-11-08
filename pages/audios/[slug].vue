@@ -41,8 +41,8 @@
 					<h3 class="text-xl lg:text-2xl xl:text-3xl m-1 p-1">{{ audio.indAudio[0].subTitle }}</h3>
 					<NuxtLink to="/jhaudios">
 						<div class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10">
-							<IconsArrowleft class="fill-white w-10 inline-block" />
-							<p class="m-1 p-1 text-xs">Go back</p>
+							<IconsArrowleft class="fill-white w-10 sm:w-12 md:w-14 lg:w-16 inline-block" />
+							<p class="m-1 p-1 text-xs lg:text-sm">Go back</p>
 						</div>
 					</NuxtLink>
 				</div>
@@ -50,11 +50,13 @@
 				<p class="font-domainebold m-1 p-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">Description:</p>
 				<p class="m-1 p-1 text-lg lg:text-xl">{{ audio.indAudio[0].summaryDescription }}</p>
 				<div
-					class="flex flex-row items-center justify-between border border-white rounded-2xl m-2 bg-brand-champagne-gold my-6 lg:my-10 xl:my-14"
+					class="flex flex-row items-center justify-between border-4 border-brand-champagne-light rounded-2xl m-2 bg-white my-6 lg:my-10 xl:my-14"
 				>
-					<p class="m-2 p-2 text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">Price £{{ audio.indAudio[0].price }}</p>
+					<p class="m-2 p-2 text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-brand-champagne-dark">
+						Price £{{ audio.indAudio[0].price }}
+					</p>
 					<button
-						class="snipcart-add-item inline-block border border-white m-2 p-2 rounded-2xl md:text-xl"
+						class="snipcart-add-item inline-block border border-brand-champagne-dark text-brand-champagne-dark m-2 p-2 rounded-2xl md:text-xl"
 						:data-item-id="`${audio.indAudio[0].productId}`"
 						:data-item-price="audio.indAudio[0].price"
 						:data-item-description="`${audio.indAudio[0].summaryDescription}`"
@@ -65,8 +67,10 @@
 						Add to cart
 					</button>
 				</div>
-				<IconsAudioInfo class="w-16 fill-white m-1 p-1" />
-				<div class="prose prose-sm m-1 p-1 text-white mb-6">
+				<IconsAudioInfo class="w-16 fill-white" />
+				<div
+					class="prose prose-sm lg:prose-lg xl:prose-xl 2xl:prose-2xl prose-strong:text-white prose-headings:text-white m-1 p-2 text-white mb-6 mx-auto"
+				>
 					<SanityContent :blocks="audio.indAudio[0].listOfConditions" />
 				</div>
 			</section>

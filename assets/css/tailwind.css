@@ -27,11 +27,6 @@
 	font-display: swap;
 }
 @font-face {
-	font-family: "helvetica";
-	src: local(helvetica), local("helvetica"), url("assets/fonts/helvetica.woff") format("woff"), url("assets/fonts/helvetica.woff2") format("woff2");
-	font-display: swap;
-}
-@font-face {
 	font-family: "objectSans";
 	src: local(objectSans), local("objectSans"), url("assets/fonts/objectSans.woff") format("woff"),
 		url("assets/fonts/objectSans.woff2") format("woff2");

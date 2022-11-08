@@ -48,10 +48,10 @@
 
 				<h2 class="font-domainebold m-1 p-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">Description:</h2>
 				<p class="m-1 p-1 text-lg lg:text-xl">{{ program.indProgram[0].summaryDescription }}</p>
-				<div class="flex flex-row items-center justify-between border border-white rounded-2xl m-2 bg-brand-rose-gold my-6 lg:my-10 xl:my-14">
-					<p class="m-2 p-2 text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">Price £{{ program.indProgram[0].price }}</p>
+				<div class="flex flex-row items-center justify-between border-4 border-brand-rose-light rounded-2xl m-2 bg-white my-6 lg:my-10 xl:my-14">
+					<p class="m-2 p-2 text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-brand-rose-dark">Price £{{ program.indProgram[0].price }}</p>
 					<button
-						class="snipcart-add-item inline-block border border-white m-2 p-2 rounded-2xl md:text-xl"
+						class="snipcart-add-item inline-block border border-brand-rose-dark text-brand-rose-dark m-2 p-2 rounded-2xl md:text-xl"
 						:data-item-id="`${program.indProgram[0].productId}`"
 						:data-item-price="program.indProgram[0].price"
 						:data-item-description="`${program.indProgram[0].summaryDescription}`"
