@@ -41,7 +41,7 @@
 							</p>
 							<div class="flex flex-row items-center justify-between mt-4">
 								<p class="text-3xl inline-block m-1 p-1">£{{ event.price }}</p>
-								<NuxtLink :to="`/programs/${event.slug.current}`">
+								<NuxtLink :to="`/events/${event.slug.current}`">
 									<button class="border border-brand-sage rounded-2xl m-1 p-1">
 										<p class="text-sm p-1">Read more</p>
 									</button>
