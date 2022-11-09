@@ -10,7 +10,7 @@
 		"indBlogArticle",
 		() =>
 			sanity.fetch(
-				groq`{"indBlogArticle": *[_type == "blogArticle" && slug.current == "${route.params.slug}"]{title, publishedDate, minRead, "blogImage":articleImage.asset->url, slug, body, myTags}}`
+				groq`{"indBlogArticle": *[_type == "blogArticle" && slug.current == "${route.params.slug}"]{title, publishedDate, minRead, "blogImage":articleImage.asset->url, slug, summaryDescripion, body, myTags}}`
 			),
 		{ initialCache: false }
 	);
@@ -19,6 +19,27 @@
 
 <template>
 	<div>
+		<Head>
+			<Title>{{ article.indBlogArticle[0].title }}</Title>
+			<Meta name="og:type" content="article" />
+			<Meta name="og:title" :content="`${article.indBlogArticle[0].title}`" />
+			<Meta name="og:description" :content="`${article.indBlogArticle[0].summaryDescription}`" />
+			<Meta name="og:url" :content="`https://www.jhdevi.com${route.fullPath}`" />
+			<Meta name="og:site_name" content="JH Devi Integrated Therapies" />
+			<Meta name="og:image" :content="`${article.indBlogArticle[0].image}`" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
+
+			<SchemaOrgArticle
+				:headline="`${article.indBlogArticle[0].title}`"
+				:image="`${article.indBlogArticle[0].image}`"
+				:url="`https://jhdevi.com${route.fullPath}`"
+				:datePublished="`${new Date(article.indBlogArticle[0].publishedDate).toLocaleDateString()}`"
+				:about="`${article.indBlogArticle[0].summaryDescription}`"
+			/>
+			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
+			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
+			<SchemaOrgWebPage />
+		</Head>
 		<Nav
 			textColour="text-brand-champagne-gold"
 			fillColour="fill-brand-champagne-gold"
