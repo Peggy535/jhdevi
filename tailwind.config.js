@@ -34,6 +34,7 @@ module.exports = {
 				"brand-sage": "#97a288",
 			},
 			fontSize: {
+				'xxs': '0.5rem',
 				"10xl": "10rem",
 				"11xl": "11rem",
 				"12xl": "12rem",

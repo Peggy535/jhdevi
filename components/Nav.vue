@@ -33,7 +33,7 @@
 			<h1 class="text-xl transition duration-500 delay-75 ease-in-out hover:scale-125">Close</h1>
 		</span>
 		<div class="flex pl-2 sm:pl-4 md:pl-6 lg:pl-8 xl:pl-10 mx-auto border-l" :class="borderColour">
-			<ul class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+			<ul class="text-3xl sm:text-4xl md:text-5xl">
 				<NuxtLink to="/" @click="closeMenu">
 					<li
 						class="m-2 p-2 transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
@@ -99,6 +99,14 @@
 						JH Events
 					</li>
 				</NuxtLink>
+				<NuxtLink to="/testimonials" @click="closeMenu">
+					<li
+						class="m-2 p-2 transition delay-75 ease-in-out duration-700 hover:scale-110 after:origin-left after:block after:absolute after:w-full after:scale-0 after:h-[1px] after:bottom-0 after:z-20 after:hover:transition after:hover:ease-in-out after:hover:duration-1000 after:hover:delay-75 after:hover:scale-100"
+						:class="afterLineColour"
+					>
+						Testimonials
+					</li>
+				</NuxtLink>
 			</ul>
 		</div>
 	</div>
@@ -112,7 +120,7 @@
 		<button class="snipcart-checkout m-1 p-1">
 			<IconsShoppingCart class="w-12 sm:w-14 md:w-16 lg:w-18 m-1 p-1" :class="fillColour" />
 			<span
-				class="w-6 h-6 snipcart-items-count absolute top-1 right-1 m-1 p-1 text-xs rounded-full"
+				class="w-5 h-5 snipcart-items-count absolute top-1 right-1 p-1 text-xxs rounded-full"
 				:class="cartInfoColour + ' ' + bgCartInfo"
 			></span>
 		</button>
