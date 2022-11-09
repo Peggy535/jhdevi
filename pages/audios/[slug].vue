@@ -21,6 +21,31 @@
 
 <template>
 	<div>
+		<Head>
+			<Title>{{ audio.indAudio[0].title }}</Title>
+			<Meta name="og:type" content="product" />
+			<Meta name="og:title" :content="`${audio.indAudio[0].title}`" />
+			<Meta name="og:description" :content="`${audio.indAudio[0].summaryDescription}`" />
+			<Meta name="og:url" :content="`https://www.jhdevi.com${route.fullPath}`" />
+			<Meta name="og:site_name" content="JH Devi Integrated Therapies" />
+			<Meta name="product:price:amount" :content="`${audio.indAudio[0].price}`" />
+			<Meta name="product:price:currency" content="GBP" />
+			<Meta name="og:availability" content="instock" />
+			<Meta name="og:image" :content="`${audio.indAudio[0].image}`" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
+			<SchemaOrgProduct
+				:name="`${audio.indAudio[0].title}`"
+				brand="JH Devi"
+				countryOfOrigin="United Kingdom"
+				description="audio.indAudio[0].summaryDescription"
+				:sku="`${audio.indAudio[0].productId}`"
+				:image="`${audio.indAudio[0].image}`"
+				:url="`https://jhdevi.com${route.fullPath}`"
+			/>
+			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
+			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
+			<SchemaOrgWebPage />
+		</Head>
 		<Nav
 			textColour="text-brand-champagne-dark"
 			fillColour="fill-white"

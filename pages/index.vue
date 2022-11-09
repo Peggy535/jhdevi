@@ -1,4 +1,8 @@
 <script setup>
+	const title = ref("JH Devi Integrated Therapies");
+	const description = ref(
+		"An integrated approach to therapy using the best of Hypnotherapy, CBT, EFT to assist in opening up your very own unique gateway to understanding your true self. Your souls fingerprint, it's very own navigation system buried deep within your energetic systems."
+	);
 	useHead({
 		script: [
 			{
@@ -12,6 +16,17 @@
 </script>
 <template>
 	<div>
+		<Head>
+			<Meta name="og:title" :content="title" />
+			<Meta name="og:description" :content="description" />
+			<Meta name="og:url" content="https://www.jhdevi.com" />
+			<Meta name="og:site_name" content="JH Devi Integrated Therapies" />
+			<Meta name="og:image" content="https://www.jhdevi.com/icon.png" />
+			<Meta name="og:locale" content="en_GB" />
+			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
+			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
+			<SchemaOrgWebPage />
+		</Head>
 		<Nav
 			textColour="text-brand-rose-gold"
 			fillColour="fill-brand-rose-gold"

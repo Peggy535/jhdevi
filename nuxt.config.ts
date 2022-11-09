@@ -1,10 +1,12 @@
 export default {
+	ssr: false,
 	modules: [
 		"@nuxt/image-edge",
 		"@nuxtjs/sanity",
 		"@nuxtjs/tailwindcss",
 		"@kevinmarrec/nuxt-pwa",
 		["@nuxtjs/robots", { UserAgent: "Googlebot", Allow: "/", Sitemap: "https://www.jhdev.com/sitemap.xml" }],
+		"nuxt-schema-org",
 	],
 	image: {
 		cloudinary: {
@@ -25,6 +27,11 @@ export default {
 	css: ["@/assets/css/styles.css"],
 	build: {
 		transpile: ["gsap"],
+	},
+	schemaOrg: {
+		canonicalHost: "https://www.jhdevi.com",
+		defaultLanguage: "en_GB",
+		defaultCurrency: "GBP",
 	},
 	pwa: {
 		icon: {

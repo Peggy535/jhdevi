@@ -1,5 +1,21 @@
+<script setup>
+	const title = ref("JH Devi Integrated Therapies");
+	const description = ref("A detailed look at Hypnotherapy, CBT & EFT. What they are and how they can help you.");
+</script>
+
 <template>
 	<div>
+		<Head>
+			<Meta name="og:title" :content="title" />
+			<Meta name="og:description" :content="description" />
+			<Meta name="og:url" content="https://www.jhdevi.com" />
+			<Meta name="og:site_name" content="JH Devi Integrated Therapies" />
+			<Meta name="og:image" content="https://www.jhdevi.com/icon.png" />
+			<Meta name="og:locale" content="en_GB" />
+			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
+			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
+			<SchemaOrgWebPage />
+		</Head>
 		<Nav
 			textColour="text-brand-rose-gold"
 			fillColour="fill-brand-rose-gold"
