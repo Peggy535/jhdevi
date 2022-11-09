@@ -2,7 +2,7 @@
 	useHead({
 		script: [
 			{
-				src: "//embed.typeform.com/next/embed.js",
+				src: "https://embed.typeform.com/next/embed.js",
 				type: "text/javascript",
 				async: true,
 				defer: true,

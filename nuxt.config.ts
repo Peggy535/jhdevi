@@ -1,5 +1,11 @@
 export default {
-	modules: ["@nuxt/image-edge", "@nuxtjs/sanity", "@nuxtjs/tailwindcss", "@kevinmarrec/nuxt-pwa"],
+	modules: [
+		"@nuxt/image-edge",
+		"@nuxtjs/sanity",
+		"@nuxtjs/tailwindcss",
+		"@kevinmarrec/nuxt-pwa",
+		["@nuxtjs/robots", { UserAgent: "Googlebot", Allow: "/", Sitemap: "https://www.jhdev.com/sitemap.xml" }],
+	],
 	image: {
 		cloudinary: {
 			baseURL: "https://res.cloudinary.com/peggy-co/image/upload/v1596638480/Well%20Being",
@@ -9,7 +15,12 @@ export default {
 		projectId: "z3tzp1p0",
 	},
 	tailwind: {
-		cssPath: "@/assets/css/tailwind.css",
+		cssPath: "~/assets/css/tailwind.css",
+		configPath: "/tailwind.config.js",
+		exposeConfig: false,
+		config: {},
+		injectPosition: 0,
+		viewer: true,
 	},
 	css: ["@/assets/css/styles.css"],
 	build: {
@@ -37,11 +48,11 @@ export default {
 			lang: "en-gb",
 		},
 	},
-	runtimeConfig: {
+	/* runtimeConfig: {
 		public: {
 			EMAILJS_TEMPLATE_ID: process.env.EMAILJS_TEMPLATE_ID,
 			EMAILJS_PUBLIC_KEY: process.env.EMAILJS_PUBLIC_KEY,
 			EMAILJS_SERVICE_ID: process.env.EMAILJS_SERVICE_ID,
 		},
-	},
+	}, */
 };
