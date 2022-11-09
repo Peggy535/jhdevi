@@ -1,3 +1,15 @@
+<script setup>
+	useHead({
+		script: [
+			{
+				src: "//embed.typeform.com/next/embed.js",
+				type: "text/javascript",
+				async: true,
+				defer: true,
+			},
+		],
+	});
+</script>
 <template>
 	<div>
 		<Nav
@@ -22,6 +34,16 @@
 					poster="https://res.cloudinary.com/peggy-co/video/upload/c_scale,q_auto,w_640/v1595960724/Well%20Being/wellbeing_1_xxiym7.jpg"
 				></video>
 			</section>
+			<div
+				data-tf-sidetab="UyVgJeyh"
+				data-tf-width="320"
+				data-tf-height="400"
+				data-tf-button-color="#d09fa7"
+				data-tf-button-text="Launch me"
+				data-tf-iframe-props="title=JH Devi - Chat"
+				data-tf-medium="snippet"
+				style="all: unset"
+			></div>
 			<!-- Landing title -->
 			<main class="relative h-auto w-screen z-20 bg-rose-200 bg-opacity-60">
 				<!-- <Nav parent-props-class="ClassNameFromParent" ></Nav> -->
@@ -48,15 +70,11 @@
 						<div class="w-full h-fit">
 							<IconsQuoteDivider class="w-4/5 fill-brand-rose-light mx-auto" />
 						</div>
-						<div>
-							<span
-								class="float-left text-brand-rose-gold font-domainemedium text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl"
-								>Y</span
-							>
-							<h2 class="text-brand-grey font-domainemedium text-6xl sm:text-7xl md:text-8xl lg:text-9xl m-1 p-1">
-								ou are beautiful, unique and deserving of all good things.
+						<div class="text-center">
+							<h2 class="text-brand-rose-gold font-domainemedium text-7xl sm:text-8xl md:text-8xl lg:text-9xl">
+								You are beautiful, unique and deserving of all good things.
 							</h2>
-							<cite class="m-1 p-1 text-brand-rose-gold font-domainemedium">- Justine Hodgson</cite>
+							<p class="m-2 p-2 mt-6 text-brand-rose-gold font-domainemedium text-lg">- Justine Hodgson</p>
 						</div>
 						<div class="w-full h-fit">
 							<IconsQuoteDivider2 class="w-4/5 fill-brand-rose-light mx-auto" />
