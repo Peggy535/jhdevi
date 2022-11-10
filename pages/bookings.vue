@@ -41,8 +41,8 @@
 			fillColour="fill-brand-rose-gold"
 			afterLineColour="after:bg-brand-rose-gold"
 			borderColour="border-brand-rose-gold"
-			bgCartInfo="bg-brand-rose-gold"
-			cartInfoColour="text-white"
+			btnBgColour="bg-brand-rose-gold"
+			cartInfoColour="text-brand-rose-dark"
 		></Nav>
 		<section class="h-screen w-screen fixed z-10">
 			<IconsPentagram class="fill-brand-rose-gold opacity-20" style="width: 150%" />

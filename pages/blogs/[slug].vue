@@ -42,11 +42,11 @@
 		</Head>
 		<Nav
 			textColour="text-brand-champagne-gold"
-			fillColour="fill-brand-champagne-gold"
+			fillColour="fill-brand-champagne-dark"
 			afterLineColour="after:bg-brand-champagne-gold"
 			borderColour="border-brand-champagne-gold"
-			bgCartInfo="bg-brand-champagne-gold"
-			cartInfoColour="text-white"
+			btnBgColour="bg-brand-champagne-gold"
+			cartInfoColour="text-brand-champagne-dark"
 		></Nav>
 		<div class="flex flex-col h-auto w-screen overflow-hidden font-objectSans">
 			<div class="flex w-full md:flex-row md:items-center mt-20">
@@ -95,6 +95,12 @@
 			>
 				<SanityContent :blocks="article.indBlogArticle[0].body" />
 			</div>
+			<NuxtLink to="/jhblog">
+				<div class="relative flex flex-row w-fit h-fit border-2 border-brand-champagne-dark rounded-2xl items-center mt-10 m-1 p-1">
+					<IconsArrowleft class="fill-brand-champagne-dark w-12 sm:w-14 md:w-16 inline-block" />
+					<p class="m-1 p-1 text-xs lg:text-sm">Go back</p>
+				</div>
+			</NuxtLink>
 		</div>
 	</div>
 </template>

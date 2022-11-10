@@ -32,8 +32,8 @@
 			fillColour="fill-brand-rose-gold"
 			afterLineColour="after:bg-brand-rose-gold"
 			borderColour="border-brand-rose-gold"
-			bgCartInfo="bg-brand-rose-gold"
-			cartInfoColour="text-white"
+			btnBgColour="bg-white"
+			cartInfoColour="text-brand-rose-gold"
 		></Nav>
 		<div class="overflow-hidden font-objectSans">
 			<!-- Video section -->

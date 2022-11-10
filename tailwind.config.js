@@ -30,8 +30,8 @@ module.exports = {
 				"brand-grey": "#474954",
 				"brand-grey-light": "#676a79",
 				"brand-grey-dark": "#2f3037",
-				"brand-light-cream": "#fcfcf0",
 				"brand-sage": "#97a288",
+				"brand-sage-dark": "#567572",
 			},
 			fontSize: {
 				xxs: "0.5rem",
