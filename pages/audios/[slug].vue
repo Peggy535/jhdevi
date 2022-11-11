@@ -52,7 +52,7 @@
 			afterLineColour="after:bg-brand-champagne-dark"
 			borderColour="border-brand-champagne-dark"
 			bgCartInfo="bg-white"
-			cartInfoColour="text-brand-champagne-dark"
+			cartInfoColour="text-white"
 		></Nav>
 		<section class="h-screen w-screen bg-brand-champagne-dark fixed z-10">
 			<IconsMandala1 class="fill-white opacity-10" style="width: 150%" />

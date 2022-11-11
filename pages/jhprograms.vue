@@ -11,8 +11,8 @@
 			fillColour="fill-brand-rose-gold"
 			afterLineColour="after:bg-brand-rose-gold"
 			borderColour="border-brand-rose-gold"
-			bgCartInfo="bg-brand-rose-gold"
-			cartInfoColour="text-white"
+			btnBgColour="bg-brand-rose-gold"
+			cartInfoColour="text-brand-rose-gold"
 		></Nav>
 		<section class="h-screen w-screen fixed z-10">
 			<IconsMandala7 class="fill-brand-rose-dark opacity-20" style="width: 150%" />

@@ -47,12 +47,12 @@
 			<SchemaOrgWebPage />
 		</Head>
 		<Nav
-			textColour="text-brand-rose-dark"
+			textColour="text-brand-rose-gold"
 			fillColour="fill-white"
-			afterLineColour="after:bg-brand-rose-dark"
-			borderColour="border-brand-rose-dark"
-			bgCartInfo="bg-white"
-			cartInfoColour="text-brand-rose-dark"
+			afterLineColour="after:bg-brand-rose-gold"
+			borderColour="border-brand-rose-gold"
+			btnBgColour="bg-white"
+			cartInfoColour="text-white"
 		></Nav>
 		<section class="h-screen w-screen bg-brand-rose-dark fixed z-10">
 			<IconsMandala8 class="fill-white opacity-10" style="width: 150%" />

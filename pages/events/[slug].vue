@@ -51,8 +51,8 @@
 			fillColour="fill-white"
 			afterLineColour="after:bg-brand-sage"
 			borderColour="border-brand-sage"
-			bgCartInfo="bg-white"
-			cartInfoColour="text-brand-sage"
+			btnBgColour="bg-white"
+			cartInfoColour="text-white"
 		></Nav>
 		<section class="h-screen w-screen bg-brand-sage fixed z-10">
 			<IconsMandala8 class="fill-white opacity-10" style="width: 150%" />
