@@ -2,10 +2,30 @@
 	const query = groq`*[_type == "eventStore"] | order(_id) {_id, title, summaryDescription,price, snipcartGuid, "image":programImage.asset->url, productId, body, slug}`;
 	const { data: events } = useSanityQuery(query);
 	refreshNuxtData();
+	const title = ref("JH Devi | JH Programs");
+	const description = ref(
+		"Buy an individual program track to help you with a specific issue, choose one of my revolutionary programs or join me and others for tapping circle!"
+	);
 </script>
 
 <template>
 	<div>
+		<Head>
+			<Meta name="og:title" :content="title" />
+			<Meta name="og:description" :content="description" />
+			<Meta name="og:url" content="https://www.jhdevi.com/jhevents" />
+			<Meta name="og:site_name" content="JH Devi Integrated Therapies" />
+			<Meta name="og:image" content="https://www.jhdevi.com/icon.png" />
+			<Meta name="og:locale" content="en_GB" />
+			<Meta name="twitter:card" content="summary" />
+			<Meta name="twitter:site" content="@hodgson_justine" />
+			<Meta name="twitter:title" content="title" />
+			<Meta name="twitter:description" content="description" />
+			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
+			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
+			<SchemaOrgWebPage />
+		</Head>
 		<Nav
 			textColour="text-brand-sage"
 			fillColour="fill-brand-sage"

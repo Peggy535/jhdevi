@@ -7,18 +7,8 @@
 	const submitted = ref(false);
 	const inputFieldReset = ref(null);
 
-	const title = ref("Sugar Loaf | Booking & Pricing");
-	const description = ref("The description goes here");
-
-	useHead({
-		title,
-		meta: [
-			{
-				name: "description",
-				content: description,
-			},
-		],
-	});
+	const title = ref("JH Devi | Bookings & Pricing");
+	const description = ref("Learn how to book your first session or on-going sessions and email me directly from my website.");
 
 	const submitHandler = () => {
 		submitting.value = true;
@@ -36,6 +26,22 @@
 </script>
 <template>
 	<div>
+		<Head>
+			<Meta name="og:title" :content="title" />
+			<Meta name="og:description" :content="description" />
+			<Meta name="og:url" content="https://www.jhdevi.com/bookings" />
+			<Meta name="og:site_name" content="JH Devi Integrated Therapies" />
+			<Meta name="og:image" content="https://www.jhdevi.com/icon.png" />
+			<Meta name="og:locale" content="en_GB" />
+			<Meta name="twitter:card" content="summary" />
+			<Meta name="twitter:site" content="@hodgson_justine" />
+			<Meta name="twitter:title" content="title" />
+			<Meta name="twitter:description" content="description" />
+			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
+			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
+			<SchemaOrgWebPage />
+		</Head>
 		<Nav
 			textColour="text-brand-rose-gold"
 			fillColour="fill-brand-rose-gold"

@@ -1,5 +1,5 @@
 <script setup>
-	const title = ref("JH Devi Integrated Therapies");
+	const title = ref("JH Devi | Integrated Therapies");
 	const description = ref("A detailed look at Hypnotherapy, CBT & EFT. What they are and how they can help you.");
 </script>
 
@@ -8,10 +8,15 @@
 		<Head>
 			<Meta name="og:title" :content="title" />
 			<Meta name="og:description" :content="description" />
-			<Meta name="og:url" content="https://www.jhdevi.com" />
+			<Meta name="og:url" content="https://www.jhdevi.com/integrated-therapies" />
 			<Meta name="og:site_name" content="JH Devi Integrated Therapies" />
 			<Meta name="og:image" content="https://www.jhdevi.com/icon.png" />
 			<Meta name="og:locale" content="en_GB" />
+			<Meta name="twitter:card" content="summary" />
+			<Meta name="twitter:site" content="@hodgson_justine" />
+			<Meta name="twitter:title" content="title" />
+			<Meta name="twitter:description" content="description" />
+			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
 			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
 			<SchemaOrgWebPage />
