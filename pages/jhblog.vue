@@ -53,12 +53,12 @@
 					</span>
 					<span class="relative h-64 sm:h-60 rounded-2xl">
 						<p class="m-1 p-1 text-xs lg:text-sm">{{ new Date(blog.publishedDate).toLocaleDateString() }}</p>
-						<p class="text-sm lg:text-lg m-1 p-1">
+						<p class="text-sm lg:text-md m-1 p-1">
 							{{ blog.summaryDescription }}
 						</p>
 						<NuxtLink :to="`/blogs/${blog.slug.current}`">
 							<button
-								class="absolute bottom-2 left-2 border border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-brand-light-cream"
+								class="absolute bottom-2 left-2 border border-brand-champagne-gold text-brand-champagne-gold rounded-3xl text-lg transition duration-700 ease-in-out hover:bg-brand-champagne-gold hover:text-white"
 							>
 								<p class="text-sm m-1 p-1">Read now</p>
 							</button>

@@ -64,7 +64,9 @@
 						{{ event.indEvent[0].title }}
 					</h1>
 					<NuxtLink to="/jhEvents">
-						<div class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10">
+						<div
+							class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10 transition duration-700 ease-in-out hover:scale-110"
+						>
 							<IconsArrowleft class="fill-white w-10 sm:w-12 md:w-14 lg:w-16 inline-block" />
 							<p class="m-1 p-1 text-xs lg:text-sm">Go back</p>
 						</div>

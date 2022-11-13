@@ -34,7 +34,7 @@ module.exports = {
 				"brand-sage-dark": "#567572",
 			},
 			fontSize: {
-				xxs: "0.5rem",
+				xxs: "0.25rem",
 				"10xl": "10rem",
 				"11xl": "11rem",
 				"12xl": "12rem",

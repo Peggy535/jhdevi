@@ -1,13 +1,14 @@
 <script setup>
+	const runtime = useRuntimeConfig();
 	useHead({
 		script: [
 			{
 				hid: "gtm",
 				children: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-							new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-							j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-							'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-							})(window,document,'script','dataLayer','GTM-KHJLFMD');`,
+								new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+								j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+								'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+								})(window,document,'script','dataLayer','GTM-KHJLFMD');`,
 				type: "text/javascript",
 				async: true,
 				defer: true,
@@ -16,7 +17,7 @@
 		noscript: [
 			{
 				children: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHJLFMD"
-							height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+								height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
 			},
 		],
 		meta: {
@@ -31,7 +32,7 @@
 
 	onMounted(() => {
 		window.SnipcartSettings = {
-			publicApiKey: "ODU1YjNjZTQtM2QyMS00MTViLWIzNGQtNzVmZTgxMWQ3ZDk2NjM4MDE0MjQwMzQ0NDA3NDg2",
+			publicApiKey: runtime.SNIPCART_KEY,
 			loadStrategy: "on-user-interaction",
 			version: "3.4.1",
 			modalStyle: "side",

@@ -54,7 +54,7 @@
 				<div class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto mt-10 sm:mt-14:">
 					<p class="m-2 p-2 text-xl sm:text-2xl">DEVI is an all embracing Mother Goddess. Heavenly Divine, anything of Excellence.</p>
 					<p class="m-2 p-2 text-xl sm:text-2xl">
-						A piece of DEVI is within us all, you just need to clear the ruble, the burdens you've collected and bring your magick closer
+						A piece of DEVI is within us all, you just need to clear the rubble, the burdens you've collected and bring your magick closer
 						to the surface in order to shine brighter and lighter.
 					</p>
 				</div>

@@ -65,7 +65,7 @@
 					</h1>
 					<h3 class="text-xl lg:text-2xl xl:text-3xl m-1 p-1">{{ audio.indAudio[0].subTitle }}</h3>
 					<NuxtLink to="/jhaudios">
-						<div class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10">
+						<div class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10 transition duration-700 ease-in-out hover:scale-110">
 							<IconsArrowleft class="fill-white w-10 sm:w-12 md:w-14 lg:w-16 inline-block" />
 							<p class="m-1 p-1 text-xs lg:text-sm">Go back</p>
 						</div>

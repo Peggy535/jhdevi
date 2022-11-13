@@ -96,7 +96,9 @@
 				<SanityContent :blocks="article.indBlogArticle[0].body" />
 			</div>
 			<NuxtLink to="/jhblog">
-				<div class="relative flex flex-row w-fit h-fit border-2 border-brand-champagne-dark rounded-2xl items-center mt-10 m-1 p-1">
+				<div
+					class="relative flex flex-row w-fit h-fit border-2 border-brand-champagne-dark rounded-2xl items-center mt-10 m-2 p-2 transition duration-500 ease-in-out hover:scale-110"
+				>
 					<IconsArrowleft class="fill-brand-champagne-dark w-12 sm:w-14 md:w-16 inline-block" />
 					<p class="m-1 p-1 text-xs lg:text-sm">Go back</p>
 				</div>

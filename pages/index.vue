@@ -108,16 +108,13 @@
 							poster="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1666692181/Well%20Being/slow_promo_DEVI_kphuws.jpg"
 						></video>
 						<div
-							class="relative h-auto w-fit flex flex-row z-30 items-center float-right border border-brand-rose-gold rounded-2xl m-1 p-1 mb-10"
+							class="relative h-auto w-fit flex flex-row z-30 items-center float-right m-2 p-2 mb-10"
 						>
 							<NuxtLink to="/integrated-therapies">
-								<span class="m-1 p-1 inline-block">
-									<p class="text-sm text-brand-grey">JH Intergrated Therapies</p>
-								</span>
-
-								<IconsArrowright
-									class="inline-block mr-4 w-10 fill-brand-rose-gold hover:fill-brand-rose-dark hover:border-brand-rose-gold hover:scale-110 transition duration-700 ease-in-out"
-								/>
+								<button class="m-1 p-1 inline-bloc border border-brand-rose-gold rounded-2xl transition duration-500 ease-in-out hover:scale-110">
+									<p class="inline-block text-sm text-brand-grey">JH Intergrated Therapies</p>
+									<IconsArrowright class="inline-block mr-4 w-10 fill-brand-rose-gold" />
+								</button>
 							</NuxtLink>
 						</div>
 					</blockquote>

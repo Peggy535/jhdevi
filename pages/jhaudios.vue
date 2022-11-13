@@ -40,7 +40,7 @@
 		<div class="relative flex flex-col h-screen w-screen text-brand-champagne-dark place-content-end">
 			<h1 class="font-domainemedium text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 p-1">JH Audios</h1>
 			<h2 class="font-objectSans text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl m-1 p-1 mb-10">
-				Buy an individual audio track to help you with a specific issue, choose one of my revolutionary programs or join me and others for a
+				Buy an individual audio track to help you with a specific issue, choose one of my revolutionary programmes or join me and others for a
 				tapping circle!
 			</h2>
 		</div>
@@ -61,7 +61,9 @@
 							<div class="flex flex-row items-center justify-between mt-4">
 								<p class="text-3xl inline-block m-1 p-1">£{{ audio.price }}</p>
 								<NuxtLink :to="`/audios/${audio.slug.current}`">
-									<button class="border border-brand-champagne-dark rounded-2xl m-1 p-1">
+									<button
+										class="border border-brand-champagne-dark text-brand-champagne-dark rounded-2xl m-1 p-1 transition duration-700 ease-in-out hover:bg-brand-champagne-dark hover:border-brand-champagne-light hover:text-white"
+									>
 										<p class="text-sm p-1">Read more</p>
 									</button>
 								</NuxtLink>

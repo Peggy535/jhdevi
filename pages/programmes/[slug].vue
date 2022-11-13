@@ -64,7 +64,9 @@
 						{{ program.indProgram[0].title }}
 					</h1>
 					<NuxtLink to="/jhprograms">
-						<div class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10">
+						<div
+							class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10 transition duration-700 ease-in-out hover:scale-110"
+						>
 							<IconsArrowleft class="fill-white w-10 sm:w-12 md:w-14 lg:w-16 inline-block" />
 							<p class="m-1 p-1 text-xs lg:text-sm">Go back</p>
 						</div>
@@ -73,12 +75,18 @@
 
 				<h2 class="font-domainebold m-1 p-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">Description:</h2>
 				<p class="m-1 p-1 text-lg lg:text-xl">{{ program.indProgram[0].summaryDescription }}</p>
-				<div
-					class="flex flex-row items-center justify-between border-4 border-brand-rose-light rounded-2xl m-2 bg-white my-6 lg:my-10 xl:my-14"
-				>
-					<p class="m-2 p-2 text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-brand-rose-dark">Price £{{ program.indProgram[0].price }}</p>
+				<div class="flex flex-col items-center text-center border-4 border-brand-rose-light rounded-2xl m-2 bg-white my-6 lg:my-10 xl:my-14">
+					<h2 class="m-2 p-2 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-brand-rose-dark text-center">
+						Black Friday Programme Launch
+					</h2>
+					<h2 class="m-2 p-2 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-brand-rose-dark text-center">
+						Normally<span class="line-through decoration-brand-grey decoration-1">£159.00</span>
+					</h2>
+					<p class="m-2 p-2 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-brand-rose-dark underline decoration-3">
+						Todays Price £{{ program.indProgram[0].price }}
+					</p>
 					<button
-						class="snipcart-add-item inline-block border border-brand-rose-dark text-brand-rose-dark m-2 p-2 rounded-2xl md:text-xl"
+						class="snipcart-add-item inline-block border border-brand-rose-dark text-brand-rose-dark m-2 p-2 rounded-2xl md:text-xl transition duration-500 ease-in-out hover:bg-brand-rose-dark hover:text-white hover:scale-110"
 						:data-item-id="`${program.indProgram[0].productId}`"
 						:data-item-price="program.indProgram[0].price"
 						:data-item-description="`${program.indProgram[0].summaryDescription}`"
