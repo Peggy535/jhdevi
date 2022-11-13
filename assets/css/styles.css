@@ -3,13 +3,20 @@
 	background-color: "#b76e79";
 	font-weight: bold;
 }
-
+.snipcart-cart-header {
+	z-index: 50 !important;
+}
 .snipcart-cart__footer-buttons {
 	background-color: #b76e79;
 }
 
 .snipcart-button-primary {
 	background-color: #b76e79;
+	color: antiquewhite;
+}
+.snipcart-button-primary:hover {
+	background-color: #cab37d;
+	color: antiquewhite;
 }
 .snipcart {
 	background-color: #b76e79;
