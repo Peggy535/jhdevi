@@ -3,8 +3,9 @@
 	background-color: "#b76e79";
 	font-weight: bold;
 }
+.snipcart-modal__container,
 .snipcart-cart-header {
-	z-index: 50 !important;
+	z-index: 50;
 }
 .snipcart-cart__footer-buttons {
 	background-color: #b76e79;
