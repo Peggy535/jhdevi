@@ -1,4 +1,5 @@
 <script setup>
+	const route = useRoute();
 	const title = ref("JH Devi | JH Shop");
 	const description = ref("Discover more and purchase individually tailored items from JH Audios, JH Programs or JH Events");
 </script>
@@ -17,6 +18,7 @@
 			<Meta name="twitter:title" content="title" />
 			<Meta name="twitter:description" content="description" />
 			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
 			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
 			<SchemaOrgWebPage />

@@ -26,12 +26,16 @@
 			<Meta name="og:description" :content="`${article.indBlogArticle[0].summaryDescription}`" />
 			<Meta name="og:url" :content="`https://www.jhdevi.com${route.fullPath}`" />
 			<Meta name="og:site_name" content="JH Devi Integrated Therapies" />
-			<Meta name="og:image" :content="`${article.indBlogArticle[0].image}`" />
+			<Meta name="og:image" :content="`${article.indBlogArticle[0].image}?h=1000&w=1000&auto=format&fit=min`" />
 			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
-
+			<Meta name="twitter:card" content="summary" />
+			<Meta name="twitter:site" content="@hodgson_justine" />
+			<Meta name="twitter:title" :content="`${article.indBlogArticle[0].title}`" />
+			<Meta name="twitter:description" :content="`${article.indBlogArticle[0].summaryDescription}`" />
+			<Meta name="twitter:image" :content="`${article.indBlogArticle[0].image}?h=1000&w=1000&auto=format&fit=min`" />
 			<SchemaOrgArticle
 				:headline="`${article.indBlogArticle[0].title}`"
-				:image="`${article.indBlogArticle[0].image}`"
+				:image="`${article.indBlogArticle[0].image}?h=1000&w=1000&auto=format&fit=min`"
 				:url="`https://jhdevi.com${route.fullPath}`"
 				:datePublished="`${new Date(article.indBlogArticle[0].publishedDate).toLocaleDateString()}`"
 				:about="`${article.indBlogArticle[0].summaryDescription}`"

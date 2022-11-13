@@ -2,9 +2,10 @@
 	const query = groq`*[_type == "audioStore"] | order(_id) {_id, title, subTitle, summaryDescription, price, productId, slug}`;
 	const { data: audios } = useSanityQuery(query);
 	refreshNuxtData();
+	const route = useRoute();
 	const title = ref("JH Devi | JH Audios");
 	const description = ref(
-		"Buy your very own JH Audio therapy file at affordable prices - to help you on your journey to overcome whatever issue lays before you."
+		"Buy your very own JH Audio therapy file at affordable prices - to help you on your journey to overcome whatever issue is before you."
 	);
 </script>
 
@@ -22,6 +23,7 @@
 			<Meta name="twitter:title" content="title" />
 			<Meta name="twitter:description" content="description" />
 			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
 			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
 			<SchemaOrgWebPage />

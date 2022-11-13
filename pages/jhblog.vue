@@ -2,6 +2,7 @@
 	const query = groq`*[_type == "blogArticle"] | order(publishedDate desc) {_id, title, publishedDate, summaryDescription, body, "image":articleImage.asset->url, slug, myTags, minRead}`;
 	const { data: blogs } = useSanityQuery(query);
 	refreshNuxtData();
+	const route = useRoute();
 	const title = ref("JH Devi | Blog articles");
 	const description = ref("Discover a vast range of blog articles written by me covering many different aspects of life, therapy and opinion.");
 </script>
@@ -20,6 +21,7 @@
 			<Meta name="twitter:title" content="title" />
 			<Meta name="twitter:description" content="description" />
 			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
 			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
 			<SchemaOrgWebPage />

@@ -31,7 +31,12 @@
 			<Meta name="product:price:amount" :content="`${event.indEvent[0].price}`" />
 			<Meta name="product:price:currency" content="GBP" />
 			<Meta name="og:availability" content="instock" />
-			<Meta name="og:image" :content="`${event.indEvent[0].image}`" />
+			<Meta name="og:image" :content="`${event.indEvent[0].image}?h=1000&w=1000&auto=format&fit=min`" />
+			<Meta name="twitter:card" content="summary" />
+			<Meta name="twitter:site" content="@hodgson_justine" />
+			<Meta name="twitter:title" :content="`${event.indEvent[0].title}`" />
+			<Meta name="twitter:description" :content="`${event.indEvent[0].summaryDescription}`" />
+			<Meta name="twitter:image" :content="`${event.indEvent[0].image}?h=1000&w=1000&auto=format&fit=min`" />
 			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgProduct
 				:name="`${event.indEvent[0].title}`"
@@ -39,7 +44,7 @@
 				countryOfOrigin="United Kingdom"
 				description="event.indEvent[0].summaryDescription"
 				:sku="`${event.indEvent[0].productId}`"
-				:image="`${event.indEvent[0].image}`"
+				:image="`${event.indEvent[0].image}?h=1000&w=1000&auto=format&fit=min`"
 				:url="`https://jhdevi.com${route.fullPath}`"
 			/>
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
@@ -82,7 +87,7 @@
 						:data-item-id="`${event.indEvent[0].productId}`"
 						:data-item-price="event.indEvent[0].price"
 						:data-item-description="`${event.indEvent[0].summaryDescription}`"
-						:data-item-image="`${event.indEvent[0].image}`"
+						:data-item-image="`${event.indEvent[0].image}?h=1000&w=1000&auto=format&fit=min`"
 						:data-item-name="`${event.indEvent[0].title}`"
 						:data-item-file-guid="`${event.indEvent[0].snipcartGuid}`"
 					>

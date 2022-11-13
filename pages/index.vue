@@ -1,4 +1,5 @@
 <script setup>
+	const route = useRoute();
 	const title = ref("JH Devi Integrated Therapies");
 	const description = ref(
 		"An integrated approach to therapy using the best of Hypnotherapy, CBT, EFT to assist in opening up your very own unique gateway to understanding your true self. Your souls fingerprint, it's very own navigation system buried deep within your energetic systems."
@@ -28,6 +29,7 @@
 			<Meta name="twitter:title" content="title" />
 			<Meta name="twitter:description" content="description" />
 			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
 			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
 			<SchemaOrgWebPage />
@@ -107,11 +109,11 @@
 							preload="true"
 							poster="https://res.cloudinary.com/peggy-co/video/upload/q_auto/v1666692181/Well%20Being/slow_promo_DEVI_kphuws.jpg"
 						></video>
-						<div
-							class="relative h-auto w-fit flex flex-row z-30 items-center float-right m-2 p-2 mb-10"
-						>
+						<div class="relative h-auto w-fit flex flex-row z-30 items-center float-right m-2 p-2 mb-10">
 							<NuxtLink to="/integrated-therapies">
-								<button class="m-1 p-1 inline-bloc border border-brand-rose-gold rounded-2xl transition duration-500 ease-in-out hover:scale-110">
+								<button
+									class="m-1 p-1 inline-bloc border border-brand-rose-gold rounded-2xl transition duration-500 ease-in-out hover:scale-110"
+								>
 									<p class="inline-block text-sm text-brand-grey">JH Intergrated Therapies</p>
 									<IconsArrowright class="inline-block mr-4 w-10 fill-brand-rose-gold" />
 								</button>

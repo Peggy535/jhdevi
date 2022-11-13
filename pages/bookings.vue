@@ -1,6 +1,7 @@
 <script setup>
 	import emailjs from "@emailjs/browser";
 
+	const route = useRoute();
 	const config = useRuntimeConfig();
 	const form = ref(null);
 	const submitting = ref(false);
@@ -38,6 +39,7 @@
 			<Meta name="twitter:title" content="title" />
 			<Meta name="twitter:description" content="description" />
 			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
 			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
 			<SchemaOrgWebPage />

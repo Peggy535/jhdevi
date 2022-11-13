@@ -2,6 +2,7 @@
 	const query = groq`*[_type == "eventStore"] | order(_id) {_id, title, summaryDescription,price, snipcartGuid, "image":programmeImage.asset->url, productId, body, slug}`;
 	const { data: events } = useSanityQuery(query);
 	refreshNuxtData();
+	const route = useRoute();
 	const title = ref("JH Devi | JH Programs");
 	const description = ref(
 		"Buy an individual program track to help you with a specific issue, choose one of my revolutionary programs or join me and others for tapping circle!"
@@ -22,6 +23,7 @@
 			<Meta name="twitter:title" content="title" />
 			<Meta name="twitter:description" content="description" />
 			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
 			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
 			<SchemaOrgWebPage />
@@ -40,8 +42,8 @@
 		<div class="relative flex flex-col h-screen w-screen overflow-hidden text-brand-sage place-content-end">
 			<h1 class="font-domainemedium text-7xl sm:text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl m-1 p-1">JH Events</h1>
 			<h2 class="font-objectSans text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl m-1 p-1 mb-10">
-				Buy an individual programme track to help you with a specific issue, choose one of my revolutionary programmes or join me and others for a
-				tapping circle!
+				Buy an individual programme track to help you with a specific issue, choose one of my revolutionary programmes or join me and others
+				for a tapping circle!
 			</h2>
 		</div>
 		<div

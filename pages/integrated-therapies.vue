@@ -1,4 +1,5 @@
 <script setup>
+	const route = useRoute();
 	const title = ref("JH Devi | Integrated Therapies");
 	const description = ref("A detailed look at Hypnotherapy, CBT & EFT. What they are and how they can help you.");
 </script>
@@ -17,6 +18,7 @@
 			<Meta name="twitter:title" content="title" />
 			<Meta name="twitter:description" content="description" />
 			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
 			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
 			<SchemaOrgWebPage />

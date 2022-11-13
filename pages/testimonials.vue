@@ -2,10 +2,17 @@
 	const query = groq`*[_type == "testimonials"] | order(_id) {_id, title, testimonialDate, testimonial, slug}`;
 	const { data: testimonials } = useSanityQuery(query);
 	refreshNuxtData();
+	const route = useRoute();
 </script>
 
 <template>
 	<div>
+		<Head>
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
+			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
+			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
+			<SchemaOrgWebPage />
+		</Head>
 		<Nav
 			textColour="text-brand-sage"
 			fillColour="fill-brand-sage"

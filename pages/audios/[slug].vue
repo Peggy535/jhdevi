@@ -31,15 +31,20 @@
 			<Meta name="product:price:amount" :content="`${audio.indAudio[0].price}`" />
 			<Meta name="product:price:currency" content="GBP" />
 			<Meta name="og:availability" content="instock" />
-			<Meta name="og:image" :content="`${audio.indAudio[0].image}`" />
+			<Meta name="og:image" :content="`${audio.indAudio[0].image}?h=1000&w=1000&auto=format&fit=min`" />
 			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
+			<Meta name="twitter:card" content="summary" />
+			<Meta name="twitter:site" content="@hodgson_justine" />
+			<Meta name="twitter:title" :content="`${audio.indAudio[0].title}`" />
+			<Meta name="twitter:description" :content="`${audio.indAudio[0].summaryDescription}`" />
+			<Meta name="twitter:image" :content="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgProduct
 				:name="`${audio.indAudio[0].title}`"
 				brand="JH Devi"
 				countryOfOrigin="United Kingdom"
 				description="audio.indAudio[0].summaryDescription"
 				:sku="`${audio.indAudio[0].productId}`"
-				:image="`${audio.indAudio[0].image}`"
+				:image="`${audio.indAudio[0].image}?h=1000&w=1000&auto=format&fit=min`"
 				:url="`https://jhdevi.com${route.fullPath}`"
 			/>
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
@@ -65,7 +70,9 @@
 					</h1>
 					<h3 class="text-xl lg:text-2xl xl:text-3xl m-1 p-1">{{ audio.indAudio[0].subTitle }}</h3>
 					<NuxtLink to="/jhaudios">
-						<div class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10 transition duration-700 ease-in-out hover:scale-110">
+						<div
+							class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10 transition duration-700 ease-in-out hover:scale-110"
+						>
 							<IconsArrowleft class="fill-white w-10 sm:w-12 md:w-14 lg:w-16 inline-block" />
 							<p class="m-1 p-1 text-xs lg:text-sm">Go back</p>
 						</div>
@@ -85,7 +92,7 @@
 						:data-item-id="`${audio.indAudio[0].productId}`"
 						:data-item-price="audio.indAudio[0].price"
 						:data-item-description="`${audio.indAudio[0].summaryDescription}`"
-						:data-item-image="`${audio.indAudio[0].image}`"
+						:data-item-image="`${audio.indAudio[0].image}?h=1000&w=1000&auto=format&fit=min`"
 						:data-item-name="`${audio.indAudio[0].subTitle}`"
 						:data-item-file-guid="`${audio.indAudio[0].snipcartGuid}`"
 					>

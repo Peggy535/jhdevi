@@ -2,6 +2,7 @@
 	const query = groq`*[_type == "programStore"] | order(_id) {_id, title, summaryDescription,price, snipcartGuid, "image":programImage.asset->url, productId, body, slug}`;
 	const { data: programmes } = useSanityQuery(query);
 	refreshNuxtData();
+	const route = useRoute();
 	const title = ref("JH Devi | JH Programmes");
 	const description = ref(
 		"A refreshing and unique approach to therapy. JH programmes complement my integrated-therapies or can be used as a standalone concept to help you in so many ways."
@@ -11,7 +12,7 @@
 <template>
 	<div>
 		<Head>
-			<Title>{{title}}</Title>
+			<Title>{{ title }}</Title>
 			<Meta name="og:title" :content="title" />
 			<Meta name="og:description" :content="description" />
 			<Meta name="og:url" content="https://www.jhdevi.com/jhprogrammes" />
@@ -23,6 +24,7 @@
 			<Meta name="twitter:title" content="title" />
 			<Meta name="twitter:description" content="description" />
 			<Meta name="twitter:image" content="https://www.jhdevi.com/icon.png" />
+			<Link rel="canonical" :href="`https://www.jhdevi.com${route.fullPath}`" />
 			<SchemaOrgOrganization name="JH Devi Integrated Therapies" logo="/icon.png" />
 			<SchemaOrgWebSite name="JH Devi Integrated Therapies" />
 			<SchemaOrgWebPage />
