@@ -47,7 +47,7 @@
 			</h2>
 		</div>
 		<div
-			class="relative grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 lg:gap-20 xl:gap-16 w-screen h-auto mb-5 font-objectSans px-2 md:px-4 lg:px-8 z-20 text-brand-grey"
+			class="relative grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 lg:gap-20 xl:gap-16 w-screen h-auto mb-10 font-objectSans px-2 md:px-4 lg:px-8 z-20 text-brand-grey"
 		>
 			<div v-for="event in events" :key="event._id">
 				<div class="grid col-span-1">
@@ -74,5 +74,6 @@
 				</div>
 			</div>
 		</div>
+		<Footer footerBgColour="bg-brand-sage"></Footer>
 	</div>
 </template>

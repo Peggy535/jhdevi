@@ -104,5 +104,6 @@
 				</div>
 			</section>
 		</div>
+		<Footer footerBgColour="bg-brand-sage"></Footer>
 	</div>
 </template>

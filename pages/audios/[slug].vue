@@ -107,5 +107,6 @@
 				</div>
 			</section>
 		</div>
+		<Footer footerBgColour="bg-brand-champagne-dark"></Footer>
 	</div>
 </template>

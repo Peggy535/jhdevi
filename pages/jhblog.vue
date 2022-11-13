@@ -69,5 +69,6 @@
 				</article>
 			</div>
 		</div>
+		<Footer footerBgColour="bg-brand-champagne-gold"></Footer>
 	</div>
 </template>

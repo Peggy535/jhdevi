@@ -68,7 +68,7 @@
 					<h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-10xl font-domainebold m-1 p-1">
 						{{ program.indProgram[0].title }}
 					</h1>
-					<NuxtLink to="/jhprograms">
+					<NuxtLink to="/jhprogrammes">
 						<div
 							class="relative flex flex-row w-fit h-fit border border-white rounded-2xl items-center mt-10 transition duration-700 ease-in-out hover:scale-110"
 						>
@@ -112,5 +112,6 @@
 				</div>
 			</section>
 		</div>
+		<Footer footerBgColour="bg-brand-rose-dark"></Footer>
 	</div>
 </template>

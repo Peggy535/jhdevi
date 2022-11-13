@@ -178,6 +178,7 @@
 					/>
 				</NuxtLink>
 			</div>
+			<Footer footerBgColour="bg-brand-rose-gold"></Footer>
 		</div>
 	</div>
 </template>

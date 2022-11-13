@@ -103,5 +103,6 @@
 				</article>
 			</div>
 		</div>
+		<Footer footerBgColour="bg-brand-rose-light"></Footer>
 	</div>
 </template>

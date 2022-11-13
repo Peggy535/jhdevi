@@ -79,7 +79,7 @@
 
 				<!-- Personal message -->
 				<section class="relative flex flex-col h-auto w-screen justify-evenly items-center p-1">
-					<blockquote class="w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5 rounded-xl border-2 border-brand-rose-dark bg-rose-50">
+					<blockquote class="w-full sm:w-4/5 sm:mx-auto lg:w-2/3 xl:w-3/5 rounded-xl border-2 border-brand-rose-dark bg-rose-50 mb-10">
 						<span
 							class="float-left text-9xl sm:text-10xl md:text-11xl lg:text-12xl xl:text-13xl 2xl:text-14xl text-brand-rose-gold font-domainemedium"
 							>H</span
@@ -122,6 +122,7 @@
 					</blockquote>
 				</section>
 			</main>
+			<Footer footerBgColour="bg-brand-rose-gold"></Footer>
 		</div>
 	</div>
 </template>
