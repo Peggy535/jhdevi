@@ -13,7 +13,7 @@ export default {
 		},
 	},
 	sanity: {
-		projectId: "z3tzp1p0",
+		projectId: process.env.SANITY_ID,
 	},
 	tailwind: {
 		cssPath: "~/assets/css/tailwind.css",
@@ -57,6 +57,7 @@ export default {
 	runtimeConfig: {
 		public: {
 			SNIPCART_KEY: process.env.SNIPCART_KEY,
+			SANITY_ID: process.env.SANITY_ID,
 			EMAILJS_TEMPLATE_ID: process.env.EMAILJS_TEMPLATE_ID,
 			EMAILJS_PUBLIC_KEY: process.env.EMAILJS_PUBLIC_KEY,
 			EMAILJS_SERVICE_ID: process.env.EMAILJS_SERVICE_ID,

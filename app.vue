@@ -1,5 +1,5 @@
 <script setup>
-	const runtime = useRuntimeConfig();
+	const config = useRuntimeConfig();
 	useHead({
 		script: [
 			{
@@ -32,7 +32,7 @@
 
 	onMounted(() => {
 		window.SnipcartSettings = {
-			publicApiKey: runtime.SNIPCART_KEY,
+			publicApiKey: config.SNIPCART_KEY,
 			loadStrategy: "on-user-interaction",
 			version: "3.4.1",
 			modalStyle: "side",
