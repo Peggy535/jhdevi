@@ -4,7 +4,7 @@ export default {
 		"@nuxtjs/sanity",
 		"@nuxtjs/tailwindcss",
 		"@kevinmarrec/nuxt-pwa",
-		["@nuxtjs/robots", { UserAgent: "Googlebot", Allow: "/", Sitemap: "https://www.jhdevi.com/sitemap.xml" }],
+		/* ["@nuxtjs/robots", { UserAgent: "Googlebot", Allow: "/", Sitemap: "https://www.jhdevi.com/sitemap.xml" }], */
 		"nuxt-schema-org",
 	],
 	image: {
