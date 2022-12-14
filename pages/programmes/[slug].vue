@@ -81,14 +81,8 @@
 				<h2 class="font-domainebold m-1 p-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">Description:</h2>
 				<p class="m-1 p-1 text-lg lg:text-xl">{{ program.indProgram[0].summaryDescription }}</p>
 				<div class="flex flex-col items-center text-center border-4 border-brand-rose-light rounded-2xl m-2 bg-white my-6 lg:my-10 xl:my-14">
-					<h2 class="m-2 p-2 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-brand-rose-dark text-center">
-						Black Friday Programme Launch
-					</h2>
-					<h2 class="m-2 p-2 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-brand-rose-dark text-center">
-						Normally<span class="line-through decoration-brand-grey decoration-1">£159.00</span>
-					</h2>
 					<p class="m-2 p-2 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-brand-rose-dark underline decoration-3">
-						Todays Price £{{ program.indProgram[0].price }}
+						Price £{{ program.indProgram[0].price }}
 					</p>
 					<button
 						class="snipcart-add-item inline-block border border-brand-rose-dark text-brand-rose-dark m-2 p-2 rounded-2xl md:text-xl transition duration-500 ease-in-out hover:bg-brand-rose-dark hover:text-white hover:scale-110"
