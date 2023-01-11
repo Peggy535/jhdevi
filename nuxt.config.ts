@@ -6,7 +6,11 @@ export default {
 		"@kevinmarrec/nuxt-pwa",
 		/* ["@nuxtjs/robots", { UserAgent: "Googlebot", Allow: "/", Sitemap: "https://www.jhdevi.com/sitemap.xml" }], */
 		"nuxt-schema-org",
+		"nuxt-simple-robots",
 	],
+	routeRules:{
+		'/**': {index:true},
+	},
 	image: {
 		cloudinary: {
 			baseURL: "https://res.cloudinary.com/peggy-co/image/upload/v1596638480/Well%20Being",
