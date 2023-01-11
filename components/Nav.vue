@@ -28,7 +28,7 @@
 </script>
 
 <template>
-	<div class="fixed z-40 h-screen w-full bg-white flex flex-col place-content-center invisible menu font-domainebold p-4" :class="textColour">
+	<div class="fixed z-40 h-screen w-full bg-white flex flex-col place-content-center invisible menu font-domainemedium p-4" :class="textColour">
 		<span class="absolute top-5 left-5" @click="closeMenu">
 			<h1 class="text-xl transition duration-500 delay-75 ease-in-out hover:scale-125">Close</h1>
 		</span>

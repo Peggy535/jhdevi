@@ -78,7 +78,7 @@
 							<p class="text-lg lg:text-xl xl:text-2xl m-2 p-2">
 								If you are new to JH Devi book your first consulation & therapy session.
 							</p>
-							<h3 class="text-4xl xl:text-5xl m-2 p-2">£95</h3>
+							<h3 class="text-4xl xl:text-5xl m-2 p-2">£75</h3>
 							<p class="m-2 p-2 text-lg lg:text-xl xl:text-2xl">To book, please use the form below.</p>
 						</span>
 					</article>
@@ -89,7 +89,7 @@
 						</div>
 						<span class="relative h-58">
 							<p class="text-lg lg:text-xl xl:text-2xl m-2 p-2">For those who wish to book on-going Intergrated Therapy sessions.</p>
-							<h3 class="text-4xl xl:text-5xl m-2 p-2">£75</h3>
+							<h3 class="text-4xl xl:text-5xl m-2 p-2">£55</h3>
 							<p class="m-2 p-2 text-lg lg:text-xl xl:text-2xl">To book, please use the form below.</p>
 						</span>
 					</article>
